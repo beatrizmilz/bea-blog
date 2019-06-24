@@ -7,7 +7,7 @@ categories: [R-Ladies]
 tags: [R]
 ---
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
 ```
 
 Neste texto, gostaria de compartilhar um pouco sobre os primeiros seis meses de aprendizagem em programação, principalmente na linguagem R, e também agradecer a todos que participaram deste aprendizado.
@@ -21,8 +21,8 @@ Depois que conclui o mestrado, no segundo semestre de 2018, passei alguns meses 
 Eu e a Ana ficamos sabendo que iria acontecer o primeiro encontro do [R-Ladies de São Paulo](https://www.meetup.com/R-Ladies-Sao-Paulo), que é uma organização que promove a diversidade de gênero na comunidade da linguagem R. Fiquei super animada, porém como não sabia naaaada ainda, eu corri e fiz o curso introdutório de R, a tempo de participar do meetup. Eu e a Ana Lu participamos deste encontro e conhecemos outras mulheres que programam ou estavam interessadas em aprender a programar em R.
 
 **Primeiro Meetup do R-Ladies em São Paulo:**
-```{r}
-knitr::include_graphics("img/rladies-1-meetup.jpeg")
+```{r }
+knitr::include_graphics("https://beatrizmilz.github.io/img/rladies-1-meetup.jpeg")
 ```
 
 O primeiro meetup do R-Ladies foi muito especial para mim. Eu sabia tão pouco, e me senti em um ambiente super seguro e confortável para fazer as perguntas que tinha.O R-Ladies desde o começo foi um grupo onde me sentia confortável, segura, e havia uma troca muito grande de conhecimento. Considero que muito do que já aprendi sobre R eu quero agradecer à comunidade R-Ladies e todas as participantes do grupo de São Paulo. Então desde outubro de 2018 venho auxiliado na organização dos encontros, o que tem sido uma experiência super interessante, além de ser uma forma de retribuir o que eu tenho recebido!
@@ -43,7 +43,7 @@ Também tive a oportunidade de ensinar outras pessoas sobre R. Acredito que, mes
 R-Ladies no [CODATA](http://www.ictp-saifr.org/2018-codata-rda-school-of-research-data-science/), em São Paulo:
 
 ```{r}
-knitr::include_graphics("img/rladies_codata.jpg") 
+knitr::include_graphics("https://beatrizmilz.github.io/img/rladies_codata.jpg") 
 ```
 
 ## Conclusão
@@ -54,6 +54,6 @@ Gratidão à todos que contribuíram de alguma forma nessa caminhada em programa
 E para fechar o post, coloco uma foto de recordação que significa muito para mim e simboliza a minha evolução neste meio ano.
 
 Eu e a camiseta que recebi por ter participado da Hacktoberfest de 2018:
-```{r}
-knitr::include_graphics("img/hacktoberfest.jpg")
+```{r out.width="30%"}
+knitr::include_graphics("https://beatrizmilz.github.io/img/hacktoberfest.jpg")
 ```

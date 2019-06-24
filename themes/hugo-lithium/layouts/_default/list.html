@@ -1,11 +1,13 @@
 {{ partial "header.html" . }}
 
-<main class="content" role="main">
 
+<main class="content" role="main">
+  
+<h1 class="titulo">Beatriz Milz</h1>
   {{ if .Content }}
   <article class="article">
     {{ if .Title }}
-    <h1 class="article-title">{{ .Title }}</h1>
+    <h2 class="article-title">{{ .Title }}</h2>
     {{ end }}
     <div class="article-content">
       {{ .Content }}
@@ -25,6 +27,8 @@
     {{ end }}
     {{ end }}
   </div>
+  
+          <h6><center>“As opiniões, hipóteses e conclusões ou recomendações expressas neste material são de responsabilidade do(s) autor(es) e não necessariamente refletem a visão da FAPESP”</center></h6>
 
 </main>
 

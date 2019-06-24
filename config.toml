@@ -1,33 +1,41 @@
-baseurl = "/"
+# blogdown::hugo_build()
+
+baseurl = "https://beatrizmilz.github.io/"
 languageCode = "en-us"
 title = "Beatriz Milz"
 theme = "hugo-lithium"
 googleAnalytics = ""
-disqusShortname = ""
+disqusShortname = "beatriz_milz"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
+    pre = "fas fa-home"
+    name = ""
+    url = "https://beatrizmilz.github.io/"
+    weight = 1
+
+[[menu.main]]
     name = "Sobre/About"
     url = "/about/"
-    weight = 1
+    weight = 2
     
 [[menu.main]]
     name = "Apresentações/Presentations"
     url = "/slides/" 
-    weight = 2
+    weight = 3
     
 [[menu.main]]
     name = "Contato/Contact"
     url = "/contact/" 
-    weight = 3    
+    weight = 4    
     
 [[menu.main]]
     name = "CV/Resume"
     url = "https://beatrizmilz.github.io/resume/index.pdf"
-    weight = 4
+    weight = 5
 
 [params]
     description = "Página pessoal de Beatriz Milz"
@@ -42,7 +50,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     MathJaxVersion = "2.7.5"
 
     # path to the favicon, under "static"
-    favicon = "favicon.ico"
+   # favicon = "favicon.ico"
 
     [params.logo]
     url = "logo.png"
