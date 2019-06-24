@@ -14,7 +14,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [[menu.main]]
     pre = "fas fa-home"
     name = ""
-    url = "https://beatrizmilz.github.io/"
+    url = "/"
     weight = 1
 
 [[menu.main]]
