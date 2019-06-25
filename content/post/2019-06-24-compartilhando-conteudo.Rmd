@@ -1,5 +1,5 @@
 ---
-title: Compartilhando conteúdo utilizando R
+title: Compartilhando conteudo utilizando R
 author: Beatriz Milz
 date: '2019-06-24'
 slug: compartilhando-conteudo
