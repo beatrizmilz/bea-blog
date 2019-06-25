@@ -1,6 +1,6 @@
 # blogdown::hugo_build()
 
-baseurl = "https://beatrizmilz.github.io/"
+baseurl = "http://beatrizmilz.com"
 languageCode = "en-us"
 title = "Beatriz Milz"
 theme = "hugo-lithium"

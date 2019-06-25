@@ -6,10 +6,20 @@
     <description>Recent content in R-Ladies on Beatriz Milz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r-ladies/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Compartilhando conteúdo utilizando R</title>
+      <link>/2019/06/24/compartilhando-conteudo/</link>
+      <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/06/24/compartilhando-conteudo/</guid>
+      <description>Atualização da páginaNo último final de semana, utilizei algumas horas para reformular essa página. Eu utilizava o tema Academic, porém queria algo mais simples, então mudei para o Lithium. Além disso, também habilitei os comentários com o Disqus, habilitei o Google Analytics e também resolvi testar o Netlify (que aliás achei incrível).
+Durante esse processo, algumas dificuldades apareceram… Também lembrei da primeira vez que criei uma página com o blogdown, onde graças à muitos conteúdos online eu consegui colocar no ar depois de várias mensagens de erro.</description>
+    </item>
     
     <item>
       <title>Meio ano de aprendizagem de R!</title>
