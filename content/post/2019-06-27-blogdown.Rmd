@@ -1,0 +1,33 @@
+---
+title: Dicas para criar uma página pessoal com blogdown
+draft: TRUE
+author: Beatriz Milz
+date: '2019-06-27'
+slug: blogdown
+categories:
+  - blogdown
+  - RMarkdown
+tags:
+  - R
+  - blogdown
+---
+
+Temas para escrever:
+
+- Preparando com o git
+
+- Pacote blogdown
+
+- Temas (abordar lithium e academic)
+
+- Addins 
+
+- GiphyR (Addin)
+ 
+- Comentarios com o Disqus
+
+- Google Analytics
+
+- Hospedagem (netlify)
+
+- Materiais de referência 

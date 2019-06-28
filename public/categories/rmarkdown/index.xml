@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RMarkdown on Beatriz Milz</title>
+    <link>/categories/rmarkdown/</link>
+    <description>Recent content in RMarkdown on Beatriz Milz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dicas para criar uma página pessoal com blogdown</title>
+      <link>/2019/06/27/blogdown/</link>
+      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/06/27/blogdown/</guid>
+      <description>Temas para escrever:
+Pacote blogdown
+Temas (abordar lithium e academic)
+Addins
+GiphyR (Addin)
+Comentarios com o Disqus
+Google Analytics
+Hospedagem (netlify)
+Materiais de referência
+</description>
+    </item>
+    
+  </channel>
+</rss>
