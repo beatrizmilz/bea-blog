@@ -134,6 +134,22 @@ code {
   transition: background 150ms ease;
 }
 
+
+.content-homepage a {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  color: 	#4B0082;
+  background: transparent;
+  transition: background 150ms ease;
+}
+
+.content-homepage a:hover,
+.content-homepage a:focus {
+  font-family: 'Lato', sans-serif;
+  color: #C8A2C8;
+}
+
+
 .article-content a:hover,
 .article-content a:focus {
   background: #C8A2C8;
