@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.55.6" />
+
+
+<title>Ferramenta para Pesquisa de Periódicos - Beatriz Milz</title>
+<meta property="og:title" content="Ferramenta para Pesquisa de Periódicos - Beatriz Milz">
+
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+<script src="https://kit.fontawesome.com/1f72d6921a.js"></script>
+
+
+
+
+            
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="100"
+         height="100"
+         alt="Logo">
+  </a>
+  <ul class="nav-links">
+    
+    <li><a href="/"><i class="fas fa-home" aria-hidden="true"></i> </a></li>
+    
+    <li><a href="/about/"><i class="" aria-hidden="true"></i> Sobre/About</a></li>
+    
+    <li><a href="/slides/"><i class="" aria-hidden="true"></i> Apresentações/Presentations</a></li>
+    
+    <li><a href="/contact/"><i class="" aria-hidden="true"></i> Contato/Contact</a></li>
+    
+    <li><a href="https://beatrizmilz.github.io/resume/index.pdf"><i class="" aria-hidden="true"></i> CV/Resume</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">3 min read</span>
+    
+
+    <h1 class="article-title">Ferramenta para Pesquisa de Periódicos</h1>
+
+    
+    <span class="article-date">2019-07-04</span>
+    
+
+    <div class="article-content">
+      
+
+
+<p>No <a href="http://ser.uff.br/">IV SER - IV Internacional Seminar on Statistics with R</a>, o <a href="https://github.com/GustavoOPinto">Gustavo Oliveira Pinto</a> apresentou um trabalho com título <strong>“Como publicar artigos de acordo com a classificação de periódicos científicos da CAPES”</strong>. A ideia da ferramenta surgiu em uma conversa após o evento.</p>
+<p>O objetivo desta ferramenta é facilitar a pesquisa de periódicos para publicação, sendo útil principalmente em grupos de pesquisa multi e interdisciplinares.</p>
+<p>Os programas de pós-graduação são avaliados pela CAPES (Coordenação de Aperfeiçoamento de Pessoal de Nível Superior), a cada 4 anos, e recebem uma nota entre 1 e 7: esse processo é chamado de <strong>Avaliação Quadrienal</strong>. Caso o curso receba notas 1 e 2, ele deixa de ser recomendado pela CAPES. Para que um programa de pós graduação possa oferecer Doutorado, é preciso ter nota mínima de 4. Programas com nota 7 são considerados programas de excelência, sendo referência internacional.</p>
+<p>Mais informações sobre a avaliação quadrienal podem ser obtidas <a href="https://www.capes.gov.br/pt/acessoainformacao/perguntas-frequentes/avaliacao-da-pos-graduacao/7421-sobre-avaliacao-de-cursos">aqui</a>.</p>
+<p>Um quesito importante da avaliação quadrienal são os artigos publicados em periódicos com boa avaliação, vinculados ao programa de pós-graduação. A Capes avalia os Periódico e os divide nos seguintes estratos: A1, A2, B1, B2, B3, B4, B5 e C.
+Essa avaliação é conhecida como <a href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf"><strong>Qualis CAPES</strong></a>.</p>
+<p>Os periódicos/revistas são avaliadas conforme as áreas de concentração da CAPES. Isso significa que um periódico pode ser muito bem avaliado (ex. A1) em determinada área, mas não ter uma boa avaliação em outra área.</p>
+<p>Quando trabalhamos em equipes interdisciplinares (como por ex: <a href="https://bv.fapesp.br/pt/auxilios/97000/governanca-ambiental-da-macrometropole-paulista-face-a-variabilidade-climatica/">Projeto Macroamb</a> que faço parte), realizamos pesquisa e publicamos com cientistas de áreas distintas de concentração da CAPES (Ex. no caso do Macroamb, onde trabalhamos com pesquisadores das áreas de Ciências Ambientais, Planejamento Urbano e Regional/Demografia, Ciência Política e Relações Internacionais, Geociências, Saúde Coletiva, entre outros).</p>
+<p>Em pesquisas interdisciplinares, decidir em qual revista publicar é importante, pois conta posteriormente para o currículo dos pesquisadores e para a avaliação do programa de pós-graduação.</p>
+<p>Desenvolver pesquisas na área ambiental demanda atuação interdisciplinar, e encontrar um periódico que seja bem avaliado em todas as áreas as quais pertencem os pesquisadores co-autores de um manuscrito, pode ser um desafio, já que avaliação Qualis CAPES é relacionado com a área de concentração.</p>
+<p><strong>Assim surge a proposta dessa ferramenta</strong>: com ela é possível escolher as áreas de concentração dos co-autores do trabalho e escolher a nota do Qualis CAPES. <strong>A tabela resultará periódicos com avalição em comum nas áreas selecionada</strong>, conforme o exemplo abaixo.</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-1"></span>
+<img src="https://beatrizmilz.com/gif/periodicos_exemplo.gif" alt="Exemplo de uso - &lt;a href='https://beatriz-milz.shinyapps.io/pesquisa_periodicos/'&gt;Página para Pesquisa de Periódicos&lt;/a&gt;" width="100%" />
+<p class="caption">
+Figure 1: Exemplo de uso - <a href='https://beatriz-milz.shinyapps.io/pesquisa_periodicos/'>Página para Pesquisa de Periódicos</a>
+</p>
+</div>
+<p>Os dados foram obtidos no website da <a href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf">CAPES</a>. A página permite o download de uma tabela contendo o ISSN, título do periódico, área de avaliação e a nota na respectiva área. Utilizei os dados da avaliação mais recente (e vigente): 2013-2016.</p>
+<p><strong>Espero que essa ferramenta seja útil aos meus colegas pesquisadores</strong>, e está disponível <a href="https://beatriz-milz.shinyapps.io/pesquisa_periodicos/">neste link</a>!</p>
+<div id="agradecimentos" class="section level2">
+<h2>Agradecimentos</h2>
+<p>Desenvolvido por Beatriz Milz (Bolsista FAPESP - Processo Nº 18/23771-6).
+Pesquisadora no projeto FAPESP MacroAmb - Governança Ambiental da Macrometrópole Paulista face à variabilidade climática - Processo Nº 15/03804-9.</p>
+<p>Agradeço imensamente a equipe da <a href="https://www.curso-r.com/">Curso-R</a>, ao <a href="https://github.com/jtrecenti">Julio Trecenti</a> e ao <a href="https://github.com/williamorim">William Amorim</a>, que me ajudaram a solucionar o problema com o filtro dos dados!</p>
+<p>Agradeço a <a href="https://github.com/carolcichoski">Carol Chichoski</a>, por ter revisado o texto! ❤️</p>
+<p>Caso tenha interesse em saber como a ferramenta foi desenvolvida no Shiny App, esse conteuúdo será disponiblizado em breve em outro post.</p>
+</div>
+
+    </div>
+  </article>
+
+  
+<section id="comments">
+  <div id="disqus_thread"></div>
+  <script>
+  var disqus_config = function () {
+  
+  };
+  (function() {
+    var inIFrame = function() {
+      var iframe = true;
+      try { iframe = window.self !== window.top; } catch (e) {}
+      return iframe;
+    };
+    if (inIFrame()) return;
+    var d = document, s = d.createElement('script');
+    s.src = 'https://beatriz-milz.disqus.com/embed.js'; s.async = true;
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            Made with<a href="https://gohugo.io/" class="footer-links-kudos"><img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="25" height="25"></a>&<a href="https://github.com/rstudio/blogdown" class="footer-links-kudos"><img src="https://beatrizmilz.github.io/img/blogdown.png" alt="Img link to Blogdown website" width="22" height="25"></a>
+          </li>
+        </ul>
+
+
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-142617419-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+  </body>
+</html>
+

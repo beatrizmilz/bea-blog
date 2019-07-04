@@ -3,93 +3,104 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://beatrizmilz.com/</loc>
+    <loc>/</loc>
+    <lastmod>2019-07-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2019-07-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/2019/07/04/pesquisa-periodicos/</loc>
+    <lastmod>2019-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-07-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/r/</loc>
+    <lastmod>2019-07-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/shiny/</loc>
+    <lastmod>2019-07-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-07-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/2019/06/24/compartilhando-conteudo/</loc>
+    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
     <lastmod>2019-06-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/categories/</loc>
+    <loc>/categories/r-ladies/</loc>
     <lastmod>2019-06-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/2019/06/24/compartilhando-conteudo/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://beatrizmilz.com/post/</loc>
+    <loc>/tags/r-ladies/</loc>
     <lastmod>2019-06-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/categories/r/</loc>
+    <loc>/tags/blogdown/</loc>
     <lastmod>2019-06-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/tags/r/</loc>
+    <loc>/tags/pagedown/</loc>
     <lastmod>2019-06-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/categories/r-ladies/</loc>
+    <loc>/tags/xaringan/</loc>
     <lastmod>2019-06-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/tags/r-ladies/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://beatrizmilz.com/tags/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://beatrizmilz.com/tags/blogdown/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://beatrizmilz.com/tags/pagedown/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://beatrizmilz.com/tags/xaringan/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://beatrizmilz.com/slides/</loc>
+    <loc>/slides/</loc>
     <lastmod>2019-06-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2019-06-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/contact/</loc>
+    <loc>/contact/</loc>
     <lastmod>2019-06-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/2019/01/29/6-meses-de-r/</loc>
+    <loc>/2019/01/29/6-meses-de-r/</loc>
     <lastmod>2019-01-29T00:00:00+00:00</lastmod>
   </url>
   

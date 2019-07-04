@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shiny on Beatriz Milz</title>
+    <link>/tags/shiny/</link>
+    <description>Recent content in Shiny on Beatriz Milz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/shiny/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ferramenta para Pesquisa de Periódicos</title>
+      <link>/2019/07/04/pesquisa-periodicos/</link>
+      <pubDate>Thu, 04 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/07/04/pesquisa-periodicos/</guid>
+      <description>No IV SER - IV Internacional Seminar on Statistics with R, o Gustavo Oliveira Pinto apresentou um trabalho com título “Como publicar artigos de acordo com a classificação de periódicos científicos da CAPES”. A ideia da ferramenta surgiu em uma conversa após o evento.
+O objetivo desta ferramenta é facilitar a pesquisa de periódicos para publicação, sendo útil principalmente em grupos de pesquisa multi e interdisciplinares.
+Os programas de pós-graduação são avaliados pela CAPES (Coordenação de Aperfeiçoamento de Pessoal de Nível Superior), a cada 4 anos, e recebem uma nota entre 1 e 7: esse processo é chamado de Avaliação Quadrienal.</description>
+    </item>
+    
+  </channel>
+</rss>

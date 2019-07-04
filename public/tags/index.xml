@@ -2,57 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Beatriz Milz</title>
-    <link>http://beatrizmilz.com/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Beatriz Milz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://beatrizmilz.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Shiny</title>
+      <link>/tags/shiny/</link>
+      <pubDate>Thu, 04 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/shiny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R</title>
-      <link>http://beatrizmilz.com/tags/r/</link>
+      <link>/tags/r/</link>
       <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://beatrizmilz.com/tags/r/</guid>
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R-Ladies</title>
-      <link>http://beatrizmilz.com/tags/r-ladies/</link>
+      <link>/tags/r-ladies/</link>
       <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://beatrizmilz.com/tags/r-ladies/</guid>
+      <guid>/tags/r-ladies/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blogdown</title>
-      <link>http://beatrizmilz.com/tags/blogdown/</link>
+      <link>/tags/blogdown/</link>
       <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://beatrizmilz.com/tags/blogdown/</guid>
+      <guid>/tags/blogdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pagedown</title>
-      <link>http://beatrizmilz.com/tags/pagedown/</link>
+      <link>/tags/pagedown/</link>
       <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://beatrizmilz.com/tags/pagedown/</guid>
+      <guid>/tags/pagedown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>xaringan</title>
-      <link>http://beatrizmilz.com/tags/xaringan/</link>
+      <link>/tags/xaringan/</link>
       <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://beatrizmilz.com/tags/xaringan/</guid>
+      <guid>/tags/xaringan/</guid>
       <description></description>
     </item>
     

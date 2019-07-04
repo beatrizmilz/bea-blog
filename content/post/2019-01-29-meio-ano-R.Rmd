@@ -22,7 +22,7 @@ Eu e a Ana ficamos sabendo que iria acontecer o primeiro encontro do [R-Ladies d
 
 **Primeiro Meetup do R-Ladies em São Paulo:**
 ```{r }
-knitr::include_graphics("https://beatrizmilz.github.io/img/rladies-1-meetup.jpeg")
+knitr::include_graphics("https://beatrizmilz.com/img/rladies-1-meetup.jpeg")
 ```
 
 O primeiro meetup do R-Ladies foi muito especial para mim. Eu sabia tão pouco, e me senti em um ambiente super seguro e confortável para fazer as perguntas que tinha.O R-Ladies desde o começo foi um grupo onde me sentia confortável, segura, e havia uma troca muito grande de conhecimento. Considero que muito do que já aprendi sobre R eu quero agradecer à comunidade R-Ladies e todas as participantes do grupo de São Paulo. Então desde outubro de 2018 venho auxiliado na organização dos encontros, o que tem sido uma experiência super interessante, além de ser uma forma de retribuir o que eu tenho recebido!
@@ -43,7 +43,7 @@ Também tive a oportunidade de ensinar outras pessoas sobre R. Acredito que, mes
 R-Ladies no [CODATA](http://www.ictp-saifr.org/2018-codata-rda-school-of-research-data-science/), em São Paulo:
 
 ```{r}
-knitr::include_graphics("https://beatrizmilz.github.io/img/rladies_codata.jpg") 
+knitr::include_graphics("https://beatrizmilz.com/img/rladies_codata.jpg") 
 ```
 
 ## Conclusão
@@ -55,5 +55,5 @@ E para fechar o post, coloco uma foto de recordação que significa muito para m
 
 Eu e a camiseta que recebi por ter participado da Hacktoberfest de 2018:
 ```{r out.width="30%"}
-knitr::include_graphics("https://beatrizmilz.github.io/img/hacktoberfest.jpg")
+knitr::include_graphics("https://beatrizmilz.com/img/hacktoberfest.jpg")
 ```

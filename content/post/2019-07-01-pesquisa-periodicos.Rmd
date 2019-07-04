@@ -1,0 +1,59 @@
+---
+title: Ferramenta para Pesquisa de Periódicos
+author: Beatriz Milz
+date: '2019-07-04'
+slug: pesquisa-periodicos
+categories:
+  - R
+tags:
+  - Shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+No [IV SER - IV Internacional Seminar on Statistics with R](http://ser.uff.br/), o [Gustavo Oliveira Pinto](https://github.com/GustavoOPinto) apresentou um trabalho com título **"Como publicar artigos de acordo com a classificação de periódicos científicos da CAPES"**. A ideia da ferramenta surgiu em uma conversa após o evento. 
+
+
+O objetivo desta ferramenta é facilitar a pesquisa de periódicos para publicação, sendo útil principalmente em grupos de pesquisa multi e interdisciplinares. 
+
+
+Os programas de pós-graduação são avaliados pela CAPES (Coordenação de Aperfeiçoamento de Pessoal de Nível Superior), a cada 4 anos, e recebem uma nota entre 1 e 7: esse processo é chamado de **Avaliação Quadrienal**. Caso o curso receba notas 1 e 2, ele deixa de ser recomendado pela CAPES. Para que um programa de pós graduação possa oferecer Doutorado, é preciso ter nota mínima de 4. Programas com nota 7 são considerados programas de excelência, sendo referência internacional. 
+
+Mais informações sobre a avaliação quadrienal podem ser obtidas [aqui](https://www.capes.gov.br/pt/acessoainformacao/perguntas-frequentes/avaliacao-da-pos-graduacao/7421-sobre-avaliacao-de-cursos).
+
+Um quesito importante da avaliação quadrienal são os artigos publicados em periódicos com boa avaliação, vinculados ao programa de pós-graduação. A Capes avalia os Periódico e os divide nos seguintes estratos: A1, A2, B1, B2, B3, B4, B5 e C.
+Essa avaliação é conhecida como [**Qualis CAPES**](https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf).
+
+Os periódicos/revistas são avaliadas conforme as áreas de concentração da CAPES. Isso significa que um periódico pode ser muito bem avaliado (ex. A1) em determinada área, mas não ter uma boa avaliação em outra área.
+
+Quando trabalhamos em equipes interdisciplinares (como por ex: [Projeto Macroamb](https://bv.fapesp.br/pt/auxilios/97000/governanca-ambiental-da-macrometropole-paulista-face-a-variabilidade-climatica/) que faço parte), realizamos pesquisa e publicamos com cientistas de áreas distintas de concentração da CAPES (Ex. no caso do Macroamb, onde trabalhamos com pesquisadores das áreas de Ciências Ambientais, Planejamento Urbano e Regional/Demografia, Ciência Política e Relações Internacionais, Geociências, Saúde Coletiva, entre outros). 
+
+Em pesquisas interdisciplinares, decidir em qual revista publicar é importante, pois conta posteriormente para o currículo dos pesquisadores e para a avaliação do programa de pós-graduação. 
+
+Desenvolver pesquisas na área ambiental demanda atuação interdisciplinar, e encontrar um periódico que seja bem avaliado em todas as áreas as quais pertencem os pesquisadores co-autores de um manuscrito, pode ser um desafio, já que avaliação Qualis CAPES é relacionado com a área de concentração.
+
+**Assim surge a proposta dessa ferramenta**: com ela é possível escolher as áreas de concentração dos co-autores do trabalho e escolher a nota do Qualis CAPES. **A tabela resultará periódicos com avalição em comum nas áreas selecionada**, conforme o exemplo abaixo.
+
+
+```{r out.width="100%", fig.cap="Exemplo de uso - <a href='https://beatriz-milz.shinyapps.io/pesquisa_periodicos/'>Página para Pesquisa de Periódicos</a>"}
+knitr::include_graphics("https://beatrizmilz.com/gif/periodicos_exemplo.gif")
+```
+
+
+Os dados foram obtidos no website da [CAPES](https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf). A página permite o download de uma tabela contendo o ISSN, título do periódico, área de avaliação e a nota na respectiva área. Utilizei os dados da avaliação mais recente (e vigente): 2013-2016.
+
+**Espero que essa ferramenta seja útil aos meus colegas pesquisadores**, e está disponível [neste link](https://beatriz-milz.shinyapps.io/pesquisa_periodicos/)!
+
+## Agradecimentos 
+
+Desenvolvido por Beatriz Milz (Bolsista FAPESP - Processo Nº 18/23771-6). 
+Pesquisadora no projeto FAPESP MacroAmb - Governança Ambiental da Macrometrópole Paulista face à variabilidade climática - Processo Nº	15/03804-9. 
+
+ Agradeço imensamente a equipe da [Curso-R](https://www.curso-r.com/), ao [Julio Trecenti](https://github.com/jtrecenti) e ao [William Amorim](https://github.com/williamorim), que me ajudaram a solucionar o problema com o filtro dos dados!
+ 
+Agradeço a [Carol Chichoski](https://github.com/carolcichoski), por ter revisado o texto! `r emo::ji("heart")`
+ 
+Caso tenha interesse em saber como a ferramenta foi desenvolvida no Shiny App, esse conteuúdo será disponiblizado em breve em outro post.
+ 
