@@ -4,6 +4,10 @@ title: Apresentações/Presentations
 ---
   
 <h2 class="titulo"> Português</h2>
+
+- <i class="fab fa-meetup"></i> **Dashboards, gráficos, mapas: Possibilidades de visualização de dados com R**
+  - 2019 - Nerdzão Week 
+  - [Apresentação](https://beatrizmilz.github.io/NerdzaoWeek/),  [Código](https://github.com/beatrizmilz/NerdzaoWeek)
   
 - <i class="fab fa-meetup"></i> **Comunicando seus resultados: Criando apresentações com R**
   - 2019 - IV SER UFF e R-Ladies Niterói - Beatriz Milz e Haydee Svab
@@ -26,6 +30,10 @@ title: Apresentações/Presentations
   
   
 <h2 class="titulo"> English </h2>
+
+-  <i class="fas fa-chalkboard-teacher"></i> **The evolution and importance of the R-Ladies São Paulo chapter in Brazil**
+  - 2019 useR! Toulouse, France
+  - [Presentation](https://beatrizmilz.github.io/useR2019/),[Code](https://github.com/beatrizmilz/useR2019)
   
 -  <i class="fas fa-chalkboard-teacher"></i> **Producing Reports with knitr and R**
   - 2018 CODATA-RDA School of Research Data Science
