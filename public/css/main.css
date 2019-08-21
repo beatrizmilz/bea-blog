@@ -317,6 +317,7 @@ code {
 
   .article-title {
     font-size: 42px;
+    text-align: left;
   }
 
   .article-duration {

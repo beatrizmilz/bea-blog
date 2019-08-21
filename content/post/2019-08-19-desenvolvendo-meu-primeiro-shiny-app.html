@@ -1,0 +1,56 @@
+---
+title: Desenvolvendo meu primeiro Shiny App
+author: Beatriz Milz
+date: '2019-08-19'
+draft: TRUE
+slug: desenvolvendo-meu-primeiro-shiny-app
+categories:
+  - R
+tags:
+  - Shiny
+  - R
+---
+
+
+
+<div id="aprendendo-sobre-o-pacote-shiny" class="section level2">
+<h2>Aprendendo sobre o pacote Shiny</h2>
+<p>O objetivo deste post é compartilhar um pouco sobre a <strong>minha</strong> experiência no desenvolvimento do meu primeiro <a href="https://shiny.rstudio.com/">Shiny App</a>. O Shiny é um pacote do <code>R</code> utilizado para desenvolver web apps interativos. Exemplos de Shiny Apps estão disponíveis <a href="https://shiny.rstudio.com/gallery/">nessa página</a>.</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-1"></span>
+<img src="https://beatrizmilz.com/img/shiny.png" alt="Hex Logo do pacote Shiny" width="30%" />
+<p class="caption">
+Figure 1: Hex Logo do pacote Shiny
+</p>
+</div>
+<p>Quando conheci o Shiny, fiquei encantada. Parecia uma ótima forma de comunicar os dados interativamente, com as pessoas que não necessariamente conhecem o <code>R</code>. Então no começo do ano de 2019 coloquei como meta: gostaria de começar a aprender como usar esse pacote.</p>
+<p>No evento <a href="http://ser.uff.br/">IV SER - IV Internacional Seminar on Statistics with R</a> tive a oportunidade de assistir um <a href="https://github.com/daattali/shiny-mini-workshop">workshop sobre shiny</a>, oferecido pelo <a href="https://deanattali.com/">Dean Attali</a>, que é consultor Shiny e uma referência no tema! Foi um ótimo workshop e fiquei bem feliz de conseguir acompanhar os exercícios.</p>
+<p>Quando voltei do evento, não queria parar de estudar e praticar o que comecei a aprender. Então recebi um email da <a href="https://www.curso-r.com/">Curso-R</a> comunicando que havia turma aberta para o curso de <a href="https://www.curso-r.com/cursos/dashboards/">Dashboards com R</a>. Eu já havia participado de dois cursos da Curso-R (Introdução à programação em R e Webscrapping em R), e sabia que os cursos oferecidos eram muito bons. Então fiz a inscrição, e no mês de junho foram três sábados de estudos e bastante prática com Shiny! Recomendo muito o curso, os professores são muito bons.</p>
+</div>
+<div id="desenvolvimento" class="section level2">
+<h2>Desenvolvimento</h2>
+<p>Esse post é uma continuação do post <a href="https://beatrizmilz.com/2019/07/04/pesquisa-periodicos/">Ferramenta para Pesquisa de Periódicos</a>, onde descrevi o Shiny App que criei, mas agora o foco é relatar um pouco o processo de desenvolvimento. Todos os códigos estão disponíveis <a href="https://github.com/beatrizmilz/QualisCAPES">neste repositório no Github</a>.</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-2"></span>
+<img src="https://beatrizmilz.com/gif/periodicos_exemplo.gif" alt="Exemplo de uso - &lt;a href='https://beatriz-milz.shinyapps.io/pesquisa_periodicos/'&gt;Página para Pesquisa de Periódicos&lt;/a&gt;" width="100%" />
+<p class="caption">
+Figure 2: Exemplo de uso - <a href='https://beatriz-milz.shinyapps.io/pesquisa_periodicos/'>Página para Pesquisa de Periódicos</a>
+</p>
+</div>
+<p>Os dados foram obtidos no website da <a href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf">CAPES</a>. A página permite o download de uma tabela contendo o ISSN, título do periódico, área de avaliação e a nota na respectiva área. Utilizei os dados da avaliação mais recente disponível em junho/2019: 2013-2016.</p>
+<p>A IDE que utilizei foi o <a href="https://www.rstudio.com/">RStudio</a>, e os pacotes que usados foram:</p>
+<ul>
+<li><p><a href="https://shiny.rstudio.com/">shiny</a> - usado para criar a plataforma interativa;</p></li>
+<li><p><a href="https://rstudio.github.io/shinydashboard/">shinydashboard</a> - permite fazer dashboards com o shiny. Com a ajuda de <code>CSS</code>, consegui personalizar as cores do meu dashboard;</p></li>
+<li><p><a href="https://dreamrs.github.io/shinyWidgets/index.html">shinyWidgets</a> - oferece inputs diferentes, utilizei o <code>sliderTextInput()</code>.</p></li>
+<li><p><a href="https://rstudio.github.io/DT/">DT</a> - esse pacote permite usar tabelas no R utilizando a biblioteca JavaScript <a href="https://datatables.net/">DataTables</a>.</p></li>
+<li><p><a href="https://www.tidyverse.org/">tidyverse</a> - readr, dplyr, purrr e stringr - usei os pacotes que fazem parte do tidyverse em diversas etapas do processo, como ler a base de dados, filtrar, manipular, alterar, entre outros;</p></li>
+<li><p><a href="https://cran.r-project.org/web/packages/janitor/janitor.pdf">janitor</a> - usei a função <code>janitor::clean_names()</code> , que permite alterar nome de todas as colunas da base de dados, deixando-as no padrão <code>snake_case</code>.</p></li>
+</ul>
+<p>O deploy foi feito gratuitamente no <a href="https://www.shinyapps.io/">shinyapps.io</a>, diretamente do RStudio!</p>
+<p>A maior <strong>dificuldade</strong> que tive com esse dashboard foi o filtro que gera a tabela. Inicialmente, ele não resultava o que eu precisava… eu fiquei cerca de duas semanas com esse problema, até que levei para os professores da Curso-R na última aula. Agradeço imensamente ao <a href="https://github.com/jtrecenti">Julio Trecenti</a> e ao <a href="https://github.com/williamorim">William Amorim</a>, que solucionaram o problema! Sem a ajuda que recebi, esse Shiny App ainda estaria apenas no meu computador…</p>
+<p>Por outro lado, é muito gratificante ver tudo funcionando, ter ideias e conseguir implementá-las! Mostrei para algumas pessoas, que deram feedbacks sobre as dificuldades que tiveram ao utilizar a página. Isso foi muito importante também para aprimorar o Shiny App.</p>
+</div>
+<div id="proximas-etapas" class="section level2">
+<h2>Próximas etapas</h2>
+<p>Algumas pessoas sugeriram algumas melhorias que dependem de dados que não estão nessa base disponibilizada pela CAPES. Considerando que a nova avaliação do Qualis será disponibilizada nos próximos meses, e existem notícias de que essa avaliação será unificada (cada periódico terá apenas uma nota geral, e não uma nota por área de avaliação), achei melhor esperar os resultados do novo Qualis para então pensar nas possibilidades de atualização e melhoria deste Shiny App.</p>
+<p>Sobre o aprendizado de Shiny, eu gostaria de praticar mais. Já tenho uma ideia para um próximo Shiny App, agora o que falta é ter tempo para isso. Além disso, gostaria de aprender a utilizar o pacote <a href="https://github.com/ThinkR-open/golem"><code>golem</code></a>, e a deixar meus Apps disponíveis em outras plataformas, como por exemplo na <a href="https://aws.amazon.com/pt/">AWS</a> ou <a href="https://www.digitalocean.com">Digital Ocean</a>.</p>
+</div>
