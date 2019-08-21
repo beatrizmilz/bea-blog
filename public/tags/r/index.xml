@@ -6,10 +6,20 @@
     <description>Recent content in R on Beatriz Milz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://beatrizmilz.com/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Desenvolvendo meu primeiro Shiny App</title>
+      <link>http://beatrizmilz.com/2019/08/21/desenvolvendo-meu-primeiro-shiny-app/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://beatrizmilz.com/2019/08/21/desenvolvendo-meu-primeiro-shiny-app/</guid>
+      <description>Aprendendo sobre o pacote ShinyO objetivo deste post é compartilhar um pouco sobre a minha experiência no desenvolvimento do meu primeiro Shiny App. O Shiny é um pacote do R utilizado para desenvolver web apps interativos. Exemplos de Shiny Apps estão disponíveis nessa página.
+Figure 1: Hex Logo do pacote ShinyQuando conheci o Shiny, fiquei encantada. Parecia uma ótima forma de comunicar os dados interativamente, com as pessoas que não necessariamente conhecem o R.</description>
+    </item>
     
     <item>
       <title>Compartilhando conteúdo utilizando R</title>
