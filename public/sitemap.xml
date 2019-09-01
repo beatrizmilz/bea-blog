@@ -4,14 +4,47 @@
   
   <url>
     <loc>http://beatrizmilz.com/</loc>
-    <lastmod>2019-08-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://beatrizmilz.com/categories/</loc>
-    <lastmod>2019-08-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://beatrizmilz.com/post/</loc>
+    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://beatrizmilz.com/categories/r/</loc>
+    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://beatrizmilz.com/tags/r/</loc>
+    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://beatrizmilz.com/categories/r-ladies/</loc>
+    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://beatrizmilz.com/tags/r-ladies/</loc>
+    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://beatrizmilz.com/tags/</loc>
+    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://beatrizmilz.com/2019/08/31/um-ano-aprendendo-r/</loc>
+    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -20,33 +53,8 @@
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/post/</loc>
-    <lastmod>2019-08-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://beatrizmilz.com/categories/r/</loc>
-    <lastmod>2019-08-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://beatrizmilz.com/tags/r/</loc>
-    <lastmod>2019-08-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://beatrizmilz.com/tags/shiny/</loc>
     <lastmod>2019-08-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://beatrizmilz.com/tags/</loc>
-    <lastmod>2019-08-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -55,38 +63,23 @@
   </url>
   
   <url>
+    <loc>http://beatrizmilz.com/tags/blogdown/</loc>
+    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://beatrizmilz.com/2019/06/24/compartilhando-conteudo/</loc>
     <lastmod>2019-06-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/categories/r-ladies/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://beatrizmilz.com/tags/r-ladies/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://beatrizmilz.com/tags/blogdown/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://beatrizmilz.com/tags/pagedown/</loc>
     <lastmod>2019-06-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://beatrizmilz.com/tags/xaringan/</loc>
     <lastmod>2019-06-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
