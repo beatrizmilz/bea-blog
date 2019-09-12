@@ -6,8 +6,6 @@ date: '2019-06-23'
 
 <i class="fab fa-github"></i> [Github: beatrizmilz](https://github.com/beatrizmilz)
 
-<i class="fa fa-external-link-alt"></i> [Lattes CNPQ](http://lattes.cnpq.br/5150665880581477) 
-
 <i class="fab fa-linkedin-in"></i> [Linkedin](https://br.linkedin.com/in/beatrizmilz) 
 
 For more information, please contact me via email.
