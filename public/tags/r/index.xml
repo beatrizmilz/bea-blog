@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Beatriz Milz</title>
-    <link>/tags/r/</link>
+    <link>http://beatrizmilz.com/tags/r/</link>
     <description>Recent content in R on Beatriz Milz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 31 Aug 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://beatrizmilz.com/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Um ano aprendendo R!</title>
-      <link>/2019/08/31/um-ano-aprendendo-r/</link>
+      <link>http://beatrizmilz.com/2019/08/31/um-ano-aprendendo-r/</link>
       <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/08/31/um-ano-aprendendo-r/</guid>
+      <guid>http://beatrizmilz.com/2019/08/31/um-ano-aprendendo-r/</guid>
       <description>Esse post é uma continuação deste outro: Meio ano de aprendizagem de R!, onde relatei um pouco sobre os primeiros seis meses de aprendizagem em programação, principalmente na linguagem R.
 Como dito no post citado, eu começei a aprender R e programação em agosto de 2018. Ou seja, neste mês completo um ano de aprendizagem! 🎂 🎈 Foi um ano muito rico de experiências, onde conheci muitas pessoas queridas e aprendi muito também!</description>
     </item>
     
     <item>
       <title>Desenvolvendo meu primeiro Shiny App</title>
-      <link>/2019/08/21/desenvolvendo-meu-primeiro-shiny-app/</link>
+      <link>http://beatrizmilz.com/2019/08/21/desenvolvendo-meu-primeiro-shiny-app/</link>
       <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/08/21/desenvolvendo-meu-primeiro-shiny-app/</guid>
+      <guid>http://beatrizmilz.com/2019/08/21/desenvolvendo-meu-primeiro-shiny-app/</guid>
       <description>Aprendendo sobre o pacote ShinyO objetivo deste post é compartilhar um pouco sobre a minha experiência no desenvolvimento do meu primeiro Shiny App. O Shiny é um pacote do R utilizado para desenvolver web apps interativos. Exemplos de Shiny Apps estão disponíveis nessa página.
 Figure 1: Hex Logo do pacote ShinyQuando conheci o Shiny, fiquei encantada. Parecia uma ótima forma de comunicar os dados interativamente, com as pessoas que não necessariamente conhecem o R.</description>
     </item>
     
     <item>
       <title>Compartilhando conteúdo utilizando R</title>
-      <link>/2019/06/24/compartilhando-conteudo/</link>
+      <link>http://beatrizmilz.com/2019/06/24/compartilhando-conteudo/</link>
       <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/06/24/compartilhando-conteudo/</guid>
+      <guid>http://beatrizmilz.com/2019/06/24/compartilhando-conteudo/</guid>
       <description>Atualização da páginaNo último final de semana, utilizei algumas horas para reformular essa página. Eu utilizava o tema Academic, porém queria algo mais simples, então mudei para o Lithium. Além disso, também habilitei os comentários com o Disqus, habilitei o Google Analytics e também resolvi testar o Netlify (que aliás achei incrível).
 Durante esse processo, algumas dificuldades apareceram… Também lembrei da primeira vez que criei uma página com o blogdown, onde graças à muitos conteúdos online eu consegui colocar no ar depois de várias mensagens de erro.</description>
     </item>
     
     <item>
       <title>Meio ano de aprendizagem de R!</title>
-      <link>/2019/01/29/6-meses-de-r/</link>
+      <link>http://beatrizmilz.com/2019/01/29/6-meses-de-r/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/01/29/6-meses-de-r/</guid>
+      <guid>http://beatrizmilz.com/2019/01/29/6-meses-de-r/</guid>
       <description>Neste texto, gostaria de compartilhar um pouco sobre os primeiros seis meses de aprendizagem em programação, principalmente na linguagem R, e também agradecer a todos que participaram deste aprendizado.
 Como surgiu o interesse em aprender R?Meu nome é Beatriz, e a minha graduação foi em Gestão Ambiental. Porém, quando estava no mestrado, precisava utilizar a linguagem R para realizar análises estatísticas com os dados que coletei. Nunca me imaginei aprendendo a programar, e até tentei utilizar sozinha o R em 2017 (sem o RStudio), mas tive muita dificuldade.</description>
     </item>
