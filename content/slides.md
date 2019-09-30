@@ -6,7 +6,8 @@ title: Apresentações/Presentations
 <h2 class="titulo"> Português</h2>
 
 - <i class="fas fa-chalkboard-teacher"></i> **Workshop - Apresentações no R ⚔ com xaringan**
-  - 2019 - 14ª aMostra Estatística - Instituto de Matemática e Estatística da Universidade de São Paulo (IME/USP)  - Beatriz Milz e Mariana Dias Guilardi
+  - 2019 - 14ª aMostra Estatística - Instituto de Matemática e Estatística da Universidade de São Paulo (IME/USP)  
+  - Beatriz Milz e Mariana Dias Guilardi
   - [Apresentação](https://beatrizmilz.github.io/aMostra-IME-2019-Xaringan/),  [Código](https://github.com/beatrizmilz/aMostra-IME-2019-Xaringan/)
 
 
@@ -23,7 +24,8 @@ title: Apresentações/Presentations
   - [Apresentação](https://beatrizmilz.github.io/NerdzaoWeek/),  [Código](https://github.com/beatrizmilz/NerdzaoWeek)
   
 - <i class="fab fa-meetup"></i> **Comunicando seus resultados: Criando apresentações com R**
-  - 2019 - IV SER UFF e R-Ladies Niterói - Beatriz Milz e Haydee Svab
+  - 2019 - IV SER UFF e R-Ladies Niterói 
+  - Beatriz Milz e Haydee Svab
   - [Apresentação](https://beatrizmilz.github.io/IV-SER-RLadies/), [PDF](https://beatrizmilz.github.io/IV-SER-RLadies/index.pdf), [Código](https://github.com/beatrizmilz/IV-SER-RLadies)
   
   
