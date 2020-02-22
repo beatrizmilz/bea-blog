@@ -1,35 +1,105 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shiny on Beatriz Milz</title>
-    <link>http://beatrizmilz.com/tags/shiny/</link>
-    <description>Recent content in Shiny on Beatriz Milz</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 21 Aug 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://beatrizmilz.com/tags/shiny/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Shiny | Beatriz Milz</title>
+    <link>/tags/shiny/</link>
+      <atom:link href="/tags/shiny/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shiny</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 21 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Shiny</title>
+      <link>/tags/shiny/</link>
+    </image>
     
     <item>
       <title>Desenvolvendo meu primeiro Shiny App</title>
-      <link>http://beatrizmilz.com/2019/08/21/desenvolvendo-meu-primeiro-shiny-app/</link>
+      <link>/post/desenvolvendo-meu-primeiro-shiny-app/</link>
       <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://beatrizmilz.com/2019/08/21/desenvolvendo-meu-primeiro-shiny-app/</guid>
-      <description>Aprendendo sobre o pacote ShinyO objetivo deste post é compartilhar um pouco sobre a minha experiência no desenvolvimento do meu primeiro Shiny App. O Shiny é um pacote do R utilizado para desenvolver web apps interativos. Exemplos de Shiny Apps estão disponíveis nessa página.
-Figure 1: Hex Logo do pacote ShinyQuando conheci o Shiny, fiquei encantada. Parecia uma ótima forma de comunicar os dados interativamente, com as pessoas que não necessariamente conhecem o R.</description>
+      <guid>/post/desenvolvendo-meu-primeiro-shiny-app/</guid>
+      <description>
+
+
+&lt;div id=&#34;aprendendo-sobre-o-pacote-shiny&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Aprendendo sobre o pacote Shiny&lt;/h2&gt;
+&lt;p&gt;O objetivo deste post é compartilhar um pouco sobre a &lt;strong&gt;minha&lt;/strong&gt; experiência no desenvolvimento do meu primeiro &lt;a href=&#34;https://shiny.rstudio.com/&#34;&gt;Shiny App&lt;/a&gt;. O Shiny é um pacote do &lt;code&gt;R&lt;/code&gt; utilizado para desenvolver web apps interativos. Exemplos de Shiny Apps estão disponíveis &lt;a href=&#34;https://shiny.rstudio.com/gallery/&#34;&gt;nessa página&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-1&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://beatrizmilz.com/img/shiny.png&#34; alt=&#34;Hex Logo do pacote Shiny&#34; width=&#34;30%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Hex Logo do pacote Shiny
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Quando conheci o Shiny, fiquei encantada. Parecia uma ótima forma de comunicar os dados interativamente, com as pessoas que não necessariamente conhecem o &lt;code&gt;R&lt;/code&gt;. Então no começo do ano de 2019 coloquei como meta: gostaria de começar a aprender como usar esse pacote.&lt;/p&gt;
+&lt;p&gt;No evento &lt;a href=&#34;http://ser.uff.br/&#34;&gt;IV SER - IV Internacional Seminar on Statistics with R&lt;/a&gt; tive a oportunidade de assistir um &lt;a href=&#34;https://github.com/daattali/shiny-mini-workshop&#34;&gt;workshop sobre shiny&lt;/a&gt;, oferecido pelo &lt;a href=&#34;https://deanattali.com/&#34;&gt;Dean Attali&lt;/a&gt;, que é consultor Shiny e uma referência no tema! Foi um ótimo workshop e fiquei bem feliz de conseguir acompanhar os exercícios.&lt;/p&gt;
+&lt;p&gt;Quando voltei do evento, não queria parar de estudar e praticar o que comecei a aprender. Então recebi um email da &lt;a href=&#34;https://www.curso-r.com/&#34;&gt;Curso-R&lt;/a&gt; comunicando que havia turma aberta para o curso de &lt;a href=&#34;https://www.curso-r.com/cursos/dashboards/&#34;&gt;Dashboards com R&lt;/a&gt;. Eu já havia participado de dois cursos da Curso-R (Introdução à programação em R e Webscrapping em R), e sabia que os cursos oferecidos eram muito bons. Então fiz a inscrição, e no mês de junho foram três sábados de estudos e bastante prática com Shiny! Recomendo muito o curso, os professores são muito bons.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;desenvolvimento&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Desenvolvimento&lt;/h2&gt;
+&lt;p&gt;Esse post é uma continuação do post &lt;a href=&#34;https://beatrizmilz.com/2019/07/04/pesquisa-periodicos/&#34;&gt;Ferramenta para Pesquisa de Periódicos&lt;/a&gt;, onde descrevi o Shiny App que criei, mas agora o foco é relatar um pouco o processo de desenvolvimento. Todos os códigos estão disponíveis &lt;a href=&#34;https://github.com/beatrizmilz/QualisCAPES&#34;&gt;neste repositório no Github&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-2&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://beatrizmilz.com/gif/periodicos_exemplo.gif&#34; alt=&#34;Exemplo de uso - &amp;lt;a href=&#39;https://beatriz-milz.shinyapps.io/pesquisa_periodicos/&#39;&amp;gt;Página para Pesquisa de Periódicos&amp;lt;/a&amp;gt;&#34; width=&#34;100%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 2: Exemplo de uso - &lt;a href=&#39;https://beatriz-milz.shinyapps.io/pesquisa_periodicos/&#39;&gt;Página para Pesquisa de Periódicos&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Os dados foram obtidos no website da &lt;a href=&#34;https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf&#34;&gt;CAPES&lt;/a&gt;. A página permite o download de uma tabela contendo o ISSN, título do periódico, área de avaliação e a nota na respectiva área. Utilizei os dados da avaliação mais recente disponível em junho/2019: 2013-2016.&lt;/p&gt;
+&lt;p&gt;A IDE que utilizei foi o &lt;a href=&#34;https://www.rstudio.com/&#34;&gt;RStudio&lt;/a&gt;, e os pacotes que usados foram:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://shiny.rstudio.com/&#34;&gt;shiny&lt;/a&gt; - usado para criar a plataforma interativa;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://rstudio.github.io/shinydashboard/&#34;&gt;shinydashboard&lt;/a&gt; - permite fazer dashboards com o shiny. Com a ajuda de &lt;code&gt;CSS&lt;/code&gt;, consegui personalizar as cores do meu dashboard;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://dreamrs.github.io/shinyWidgets/index.html&#34;&gt;shinyWidgets&lt;/a&gt; - oferece inputs diferentes, utilizei o &lt;code&gt;sliderTextInput()&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://rstudio.github.io/DT/&#34;&gt;DT&lt;/a&gt; - esse pacote permite usar tabelas no R utilizando a biblioteca JavaScript &lt;a href=&#34;https://datatables.net/&#34;&gt;DataTables&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.tidyverse.org/&#34;&gt;tidyverse&lt;/a&gt; - readr, dplyr, purrr e stringr - usei os pacotes que fazem parte do tidyverse em diversas etapas do processo, como ler a base de dados, filtrar, manipular, alterar, entre outros;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://cran.r-project.org/web/packages/janitor/janitor.pdf&#34;&gt;janitor&lt;/a&gt; - usei a função &lt;code&gt;janitor::clean_names()&lt;/code&gt; , que permite alterar nome de todas as colunas da base de dados, deixando-as no padrão &lt;code&gt;snake_case&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;O deploy foi feito gratuitamente no &lt;a href=&#34;https://www.shinyapps.io/&#34;&gt;shinyapps.io&lt;/a&gt;, diretamente do RStudio!&lt;/p&gt;
+&lt;p&gt;A maior &lt;strong&gt;dificuldade&lt;/strong&gt; que tive com esse dashboard foi o filtro que gera a tabela. Inicialmente, ele não resultava o que eu precisava… eu fiquei cerca de duas semanas com esse problema, até que levei para os professores da Curso-R na última aula. Agradeço imensamente ao &lt;a href=&#34;https://github.com/jtrecenti&#34;&gt;Julio Trecenti&lt;/a&gt; e ao &lt;a href=&#34;https://github.com/williamorim&#34;&gt;William Amorim&lt;/a&gt;, que solucionaram o problema! Sem a ajuda que recebi, esse Shiny App ainda estaria apenas no meu computador…&lt;/p&gt;
+&lt;p&gt;Por outro lado, é muito gratificante ver tudo funcionando, ter ideias e conseguir implementá-las! Mostrei para algumas pessoas, que deram feedbacks sobre as dificuldades que tiveram ao utilizar a página. Isso foi muito importante também para aprimorar o Shiny App.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;proximas-etapas&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Próximas etapas&lt;/h2&gt;
+&lt;p&gt;Algumas pessoas sugeriram algumas melhorias que dependem de dados que não estão nessa base disponibilizada pela CAPES. Considerando que a nova avaliação do Qualis será disponibilizada nos próximos meses, e existem notícias de que essa avaliação será unificada (cada periódico terá apenas uma nota geral, e não uma nota por área de avaliação), achei melhor esperar os resultados do novo Qualis para então pensar nas possibilidades de atualização e melhoria deste Shiny App.&lt;/p&gt;
+&lt;p&gt;Sobre o aprendizado de Shiny, eu gostaria de praticar mais. Já tenho uma ideia para um próximo Shiny App, agora o que falta é ter tempo para isso. Além disso, gostaria de aprender a utilizar o pacote &lt;a href=&#34;https://github.com/ThinkR-open/golem&#34;&gt;&lt;code&gt;golem&lt;/code&gt;&lt;/a&gt;, e a deixar meus Apps disponíveis em outras plataformas, como por exemplo na &lt;a href=&#34;https://aws.amazon.com/pt/&#34;&gt;AWS&lt;/a&gt; ou &lt;a href=&#34;https://www.digitalocean.com&#34;&gt;Digital Ocean&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>Ferramenta para Pesquisa de Periódicos</title>
-      <link>http://beatrizmilz.com/2019/07/04/pesquisa-periodicos/</link>
+      <link>/post/pesquisa-periodicos/</link>
       <pubDate>Thu, 04 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://beatrizmilz.com/2019/07/04/pesquisa-periodicos/</guid>
-      <description>No IV SER - IV Internacional Seminar on Statistics with R, o Gustavo Oliveira Pinto apresentou um trabalho com título “Como publicar artigos de acordo com a classificação de periódicos científicos da CAPES”. A ideia da ferramenta surgiu em uma conversa após o evento.
-O objetivo desta ferramenta é facilitar a pesquisa de periódicos para publicação, sendo útil principalmente em grupos de pesquisa multi e interdisciplinares.
-Os programas de pós-graduação são avaliados pela CAPES (Coordenação de Aperfeiçoamento de Pessoal de Nível Superior), a cada 4 anos, e recebem uma nota entre 1 e 7: esse processo é chamado de Avaliação Quadrienal.</description>
+      <guid>/post/pesquisa-periodicos/</guid>
+      <description>
+
+
+&lt;p&gt;No &lt;a href=&#34;http://ser.uff.br/&#34;&gt;IV SER - IV Internacional Seminar on Statistics with R&lt;/a&gt;, o &lt;a href=&#34;https://github.com/GustavoOPinto&#34;&gt;Gustavo Oliveira Pinto&lt;/a&gt; apresentou um trabalho com título &lt;strong&gt;“Como publicar artigos de acordo com a classificação de periódicos científicos da CAPES”&lt;/strong&gt;. A ideia da ferramenta surgiu em uma conversa após o evento.&lt;/p&gt;
+&lt;p&gt;O objetivo desta ferramenta é facilitar a pesquisa de periódicos para publicação, sendo útil principalmente em grupos de pesquisa multi e interdisciplinares.&lt;/p&gt;
+&lt;p&gt;Os programas de pós-graduação são avaliados pela CAPES (Coordenação de Aperfeiçoamento de Pessoal de Nível Superior), a cada 4 anos, e recebem uma nota entre 1 e 7: esse processo é chamado de &lt;strong&gt;Avaliação Quadrienal&lt;/strong&gt;. Caso o curso receba notas 1 e 2, ele deixa de ser recomendado pela CAPES. Para que um programa de pós graduação possa oferecer Doutorado, é preciso ter nota mínima de 4. Programas com nota 7 são considerados programas de excelência, sendo referência internacional.&lt;/p&gt;
+&lt;p&gt;Mais informações sobre a avaliação quadrienal podem ser obtidas &lt;a href=&#34;https://www.capes.gov.br/pt/acessoainformacao/perguntas-frequentes/avaliacao-da-pos-graduacao/7421-sobre-avaliacao-de-cursos&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Um quesito importante da avaliação quadrienal são os artigos publicados em periódicos com boa avaliação, vinculados ao programa de pós-graduação. A Capes avalia os Periódico e os divide nos seguintes estratos: A1, A2, B1, B2, B3, B4, B5 e C.
+Essa avaliação é conhecida como &lt;a href=&#34;https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf&#34;&gt;&lt;strong&gt;Qualis CAPES&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Os periódicos/revistas são avaliadas conforme as áreas de concentração da CAPES. Isso significa que um periódico pode ser muito bem avaliado (ex. A1) em determinada área, mas não ter uma boa avaliação em outra área.&lt;/p&gt;
+&lt;p&gt;Quando trabalhamos em equipes interdisciplinares (como por ex: &lt;a href=&#34;https://bv.fapesp.br/pt/auxilios/97000/governanca-ambiental-da-macrometropole-paulista-face-a-variabilidade-climatica/&#34;&gt;Projeto Macroamb&lt;/a&gt; que faço parte), realizamos pesquisa e publicamos com cientistas de áreas distintas de concentração da CAPES (Ex. no caso do Macroamb, onde trabalhamos com pesquisadores das áreas de Ciências Ambientais, Planejamento Urbano e Regional/Demografia, Ciência Política e Relações Internacionais, Geociências, Saúde Coletiva, entre outros).&lt;/p&gt;
+&lt;p&gt;Em pesquisas interdisciplinares, decidir em qual revista publicar é importante, pois conta posteriormente para o currículo dos pesquisadores e para a avaliação do programa de pós-graduação.&lt;/p&gt;
+&lt;p&gt;Desenvolver pesquisas na área ambiental demanda atuação interdisciplinar, e encontrar um periódico que seja bem avaliado em todas as áreas as quais pertencem os pesquisadores co-autores de um manuscrito, pode ser um desafio, já que avaliação Qualis CAPES é relacionado com a área de concentração.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Assim surge a proposta dessa ferramenta&lt;/strong&gt;: com ela é possível escolher as áreas de concentração dos co-autores do trabalho e escolher a nota do Qualis CAPES. &lt;strong&gt;A tabela resultará periódicos com avalição em comum nas áreas selecionada&lt;/strong&gt;, conforme o exemplo abaixo.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-1&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://beatrizmilz.com/gif/periodicos_exemplo.gif&#34; alt=&#34;Exemplo de uso - &amp;lt;a href=&#39;https://beatriz-milz.shinyapps.io/pesquisa_periodicos/&#39;&amp;gt;Página para Pesquisa de Periódicos&amp;lt;/a&amp;gt;&#34; width=&#34;100%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Exemplo de uso - &lt;a href=&#39;https://beatriz-milz.shinyapps.io/pesquisa_periodicos/&#39;&gt;Página para Pesquisa de Periódicos&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Os dados foram obtidos no website da &lt;a href=&#34;https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf&#34;&gt;CAPES&lt;/a&gt;. A página permite o download de uma tabela contendo o ISSN, título do periódico, área de avaliação e a nota na respectiva área. Utilizei os dados da avaliação mais recente (e vigente): 2013-2016.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Espero que essa ferramenta seja útil aos meus colegas pesquisadores&lt;/strong&gt;, e está disponível &lt;a href=&#34;https://beatriz-milz.shinyapps.io/pesquisa_periodicos/&#34;&gt;neste link&lt;/a&gt;!&lt;/p&gt;
+&lt;div id=&#34;agradecimentos&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Agradecimentos&lt;/h2&gt;
+&lt;p&gt;Desenvolvido por Beatriz Milz (Bolsista FAPESP - Processo Nº 18/23771-6).
+Pesquisadora no projeto FAPESP MacroAmb - Governança Ambiental da Macrometrópole Paulista face à variabilidade climática - Processo Nº 15/03804-9.&lt;/p&gt;
+&lt;p&gt;Agradeço imensamente a equipe da &lt;a href=&#34;https://www.curso-r.com/&#34;&gt;Curso-R&lt;/a&gt;, ao &lt;a href=&#34;https://github.com/jtrecenti&#34;&gt;Julio Trecenti&lt;/a&gt; e ao &lt;a href=&#34;https://github.com/williamorim&#34;&gt;William Amorim&lt;/a&gt;, que me ajudaram a solucionar o problema com o filtro dos dados!&lt;/p&gt;
+&lt;p&gt;Agradeço a &lt;a href=&#34;https://github.com/carolcichoski&#34;&gt;Carol Chichoski&lt;/a&gt;, por ter revisado o texto! ❤️&lt;/p&gt;
+&lt;p&gt;Caso tenha interesse em saber como a ferramenta foi desenvolvida no Shiny App, esse conteuúdo será disponiblizado em breve em outro post.&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>

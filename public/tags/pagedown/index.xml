@@ -1,24 +1,64 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>pagedown on Beatriz Milz</title>
-    <link>http://beatrizmilz.com/tags/pagedown/</link>
-    <description>Recent content in pagedown on Beatriz Milz</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 24 Jun 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://beatrizmilz.com/tags/pagedown/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>pagedown | Beatriz Milz</title>
+    <link>/tags/pagedown/</link>
+      <atom:link href="/tags/pagedown/index.xml" rel="self" type="application/rss+xml" />
+    <description>pagedown</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 24 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>pagedown</title>
+      <link>/tags/pagedown/</link>
+    </image>
     
     <item>
       <title>Compartilhando conteúdo utilizando R</title>
-      <link>http://beatrizmilz.com/2019/06/24/compartilhando-conteudo/</link>
+      <link>/post/compartilhando-conteudo/</link>
       <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://beatrizmilz.com/2019/06/24/compartilhando-conteudo/</guid>
-      <description>Atualização da páginaNo último final de semana, utilizei algumas horas para reformular essa página. Eu utilizava o tema Academic, porém queria algo mais simples, então mudei para o Lithium. Além disso, também habilitei os comentários com o Disqus, habilitei o Google Analytics e também resolvi testar o Netlify (que aliás achei incrível).
-Durante esse processo, algumas dificuldades apareceram… Também lembrei da primeira vez que criei uma página com o blogdown, onde graças à muitos conteúdos online eu consegui colocar no ar depois de várias mensagens de erro.</description>
+      <guid>/post/compartilhando-conteudo/</guid>
+      <description>
+
+
+&lt;div id=&#34;atualizacao-da-pagina&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Atualização da página&lt;/h1&gt;
+&lt;p&gt;No último final de semana, utilizei algumas horas para reformular essa página. Eu utilizava o tema &lt;a href=&#34;https://themes.gohugo.io/academic/&#34;&gt;Academic&lt;/a&gt;, porém queria algo mais simples, então mudei para o &lt;a href=&#34;https://themes.gohugo.io/hugo-lithium-theme/&#34;&gt;Lithium&lt;/a&gt;. Além disso, também habilitei os comentários com o &lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;, habilitei o &lt;a href=&#34;https://analytics.google.com/analytics/web/&#34;&gt;Google Analytics&lt;/a&gt; e também resolvi testar o &lt;a href=&#34;https://netlify.com/&#34;&gt;Netlify&lt;/a&gt; (que aliás achei incrível).&lt;/p&gt;
+&lt;p&gt;Durante esse processo, algumas dificuldades apareceram… Também lembrei da primeira vez que criei uma página com o &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;&lt;code&gt;blogdown&lt;/code&gt;&lt;/a&gt;, onde graças à muitos conteúdos online eu consegui colocar no ar depois de várias mensagens de erro.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/ktvFa67wmjDEI/giphy.gif&#34; width=&#34;30%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;div id=&#34;conteudos-online&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Conteúdos online&lt;/h2&gt;
+&lt;p&gt;Os conteúdos online, que muitas pessoas disponibilizaram através de posts em blog, livros, documentação, dúvidas no &lt;a href=&#34;https://pt.stackoverflow.com/&#34;&gt;Stackoverflow&lt;/a&gt;, me ajudaram muito a conseguir entender como funcionava o processo de criar uma página com o &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;&lt;code&gt;blogdown&lt;/code&gt;&lt;/a&gt;. Esses conteúdos foram essenciais também para entender como deixar esse site disponível online utilizando o &lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt; (lembrando que a minha formação é em Gestão Ambiental). Porém a maior parte desse conteúdo estava &lt;strong&gt;disponibilizado em inglês&lt;/strong&gt;: foram poucos os materiais que encontrei em português.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/1iu8uG2cjYFZS6wTxv/giphy.gif&#34; width=&#34;30%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Lembrei também da conversa que tive rapidamente no mês passado com a &lt;a href=&#34;https://github.com/JuliaHellenFerreira&#34;&gt;Julia&lt;/a&gt;, co-organizadora do &lt;a href=&#34;https://www.meetup.com/pt-BR/rladies-niteroi/&#34;&gt;R-Ladies Niterói&lt;/a&gt;, onde disse que seria interessante que ela disponibilizasse online as palestras que ela já fez, para que outras pessoas consigam consultar e aprender com o conteúdo.&lt;/p&gt;
+&lt;p&gt;Se você está em dúvida se deve compartilhar conteúdo na internet, eu indico a palestra (em inglês) do &lt;a href=&#34;http://varianceexplained.org/about/&#34;&gt;David Robinson&lt;/a&gt; na &lt;code&gt;rstudio::conf 2019&lt;/code&gt;, chamada &lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/the-unreasonable-effectiveness-of-public-work&#34;&gt;“The unreasonable effectiveness of public work”&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As formas de compartilhar conteúdo apontadas por David são: escrever um post em um blog, escrever um tweet, contribuir com projetos open source, dar palestras, gravar a tela enquanto faz alguma análise de dados e disponibilizar o vídeo, e escrever um livro sobre o assunto.&lt;/p&gt;
+&lt;p&gt;Nessa palestra, David diz que se você der a mesma dica/conselho três vezes, escreva um post em um blog, assim muitas pessoas conseguem acessar esse conteúdo.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;When you’ve written the same code 3 times, write a function&lt;br&gt;&lt;br&gt;When you’ve given the same in-person advice 3 times, write a blog post&lt;/p&gt;&amp;mdash; David Robinson (@drob) &lt;a href=&#34;https://twitter.com/drob/status/928447584712253440?ref_src=twsrc%5Etfw&#34;&gt;November 9, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;/div&gt;
+&lt;div id=&#34;compartilhando-conteudo-sobre-r-e-utilizando-r&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Compartilhando conteúdo sobre R e utilizando R&lt;/h2&gt;
+&lt;p&gt;Por isso, pretendo fazer alguns posts &lt;strong&gt;em português&lt;/strong&gt; com algumas &lt;strong&gt;dicas sobre como compartilhar conteúdo na internet&lt;/strong&gt;, utilizando &lt;code&gt;R&lt;/code&gt;. Não é segredo que eu sou fã dos pacotes criados pelo &lt;a href=&#34;https://yihui.name&#34;&gt;Yihui Xie&lt;/a&gt;, então os temas que pretendo abordar são:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Criar seu currículo com &lt;code&gt;R&lt;/code&gt;, usando o pacote &lt;a href=&#34;https://github.com/rstudio/pagedown&#34;&gt;&lt;code&gt;pagedown&lt;/code&gt;&lt;/a&gt;;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Criar uma página/blog com &lt;code&gt;R&lt;/code&gt;, usando o pacote &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;&lt;code&gt;blogdown&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Criar apresentações com &lt;code&gt;R&lt;/code&gt;, usando o pacote &lt;a href=&#34;https://github.com/yihui/xaringan&#34;&gt;&lt;code&gt;xaringan&lt;/code&gt;&lt;/a&gt; - lembrando que existe uma apresentação sobre esse assunto disponível &lt;a href=&#34;http://beatrizmilz.com/slides/&#34;&gt;aqui&lt;/a&gt;. O &lt;a href=&#34;https://github.com/brunolucian&#34;&gt;Bruno Lucian&lt;/a&gt; se interessou em compartilhar esse conteúdo no blog &lt;a href=&#34;https://www.dadosaleatorios.com.br/&#34;&gt;Dados Aleatórios&lt;/a&gt;, então quando estiver disponível eu colocarei o link para o post aqui também.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;git-e-github&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Git e Github&lt;/h2&gt;
+&lt;p&gt;Para o compartilhar conteúdo, é interessante também utilizar &lt;code&gt;git&lt;/code&gt; e Github. Mas considerando que nesse tema já existe bastante conteúdo em português, por enquanto vou focar nas ferramentas com &lt;code&gt;R&lt;/code&gt;, que tem menos conteúdo disponível nessa língua.&lt;/p&gt;
+&lt;p&gt;O post do &lt;a href=&#34;https://woliveiras.com.br/&#34;&gt;William Oliveira&lt;/a&gt;, chamado &lt;a href=&#34;https://medium.com/trainingcenter/plano-para-estudar-git-e-github-enquanto-aprende-programa%C3%A7%C3%A3o-f5d5f986f459&#34;&gt;Plano para estudar Git e GitHub enquanto aprende programação&lt;/a&gt;, me ajudou bastante a entender como começar a usar o &lt;code&gt;git&lt;/code&gt;. Nesse post ele utiliza o terminal, e para algumas pessoas que estão iniciando essa abordagem pode ser um pouco intimidadora.&lt;/p&gt;
+&lt;p&gt;Outra opção para quem está iniciando é utilizar o &lt;a href=&#34;https://desktop.github.com/&#34;&gt;Github Desktop&lt;/a&gt;. Acredito que é uma interface amigável para quem está aprendendo como funciona o &lt;code&gt;git&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ate-logo&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Até logo!&lt;/h2&gt;
+&lt;p&gt;Pretendo postar sobre esses conteúdos logo logo. Enquanto isso, estou aberta à sugestões. Existem outras formas que vocês usam para divulgar conteúdo utilizando &lt;code&gt;R&lt;/code&gt;? Existe alguma que você conheça e gostaria de aprender mais? Existem dificuldades? Se sim, quais?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/dNgK7Ws7y176U/giphy.gif&#34; width=&#34;30%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>

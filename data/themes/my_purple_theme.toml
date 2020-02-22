@@ -1,0 +1,18 @@
+# Theme metadata
+name = "Bea's purple theme"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#88398a"
+
+# Menu
+menu_primary = "#88398a"
+menu_text = "#fff"
+menu_text_active = "rgb(125, 101, 125)"
+menu_title = "#fff"
+
+# Home sections
+home_section_odd = "#fff"
+home_section_even = "#f1ecf5"

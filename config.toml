@@ -1,60 +1,71 @@
-# blogdown::hugo_build()
+# Configuration of Academic
+# Documentation: https://sourcethemes.com/academic/
+#
+# This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
+# Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
-baseurl = "http://beatrizmilz.com"
-languageCode = "en-us"
+# Title of your site
 title = "Beatriz Milz"
-theme = "hugo-lithium"
-googleAnalytics = "UA-142617419-1"
-disqusShortname = "beatriz_milz"
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
-[permalinks]
-    post = "/:year/:month/:day/:slug/"
+# The URL of your site.
+# End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+baseurl = "/"
 
-[[menu.main]]
-    pre = "fas fa-home"
-    name = ""
-    url = "/"
-    weight = 1
+# Enter a copyright notice to display in the site footer.
+# To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
+copyright = ""
 
-[[menu.main]]
-    name = "Sobre/About"
-    url = "/about/"
-    weight = 2
-    
-[[menu.main]]
-    name = "Apresentações/Presentations"
-    url = "/slides/" 
-    weight = 3
-    
-[[menu.main]]
-    name = "Contato/Contact"
-    url = "/contact/" 
-    weight = 4    
-    
-[[menu.main]]
-    name = "CV/Resume"
-    url = "https://beatrizmilz.github.io/resume/index.pdf"
-    weight = 5
+############################
+## Advanced options below ##
+############################
 
-[params]
-    description = "Página pessoal de Beatriz Milz"
+# Name of Academic theme folder in `themes/`.
+theme = "hugo-academic"
 
-    # options for highlight.js (version, additional languages, and theme)
-    highlightjsVersion = "9.12.0"
-    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    highlightjsLang = ["r", "yaml"]
-    highlightjsTheme = "github"
+# Get last modified date for content from Git?
+enableGitInfo = false
 
-    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    MathJaxVersion = "2.7.5"
+# Default language to use (if you setup multilingual support)
+defaultContentLanguage = "en"
+hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
+defaultContentLanguageInSubdir = false
+removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issues/5687
 
-    # path to the favicon, under "static"
-   # favicon = "favicon.ico"
+paginate = 10  # Number of items per page in paginated lists.
+enableEmoji = true
+footnotereturnlinkcontents = "<sup>^</sup>"
+ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
-    #[params.logo]
-    #url = "logo.png"
-    #width = 100
-    #height = 100
-    #alt = "Logo"
+[outputs]
+  home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
+  section = [ "HTML", "RSS" ]
 
+[mediaTypes."application/manifest+json"]
+  suffixes = ["webmanifest"]
+
+[outputFormats.WebAppManifest]
+  mediaType = "application/manifest+json"
+  rel = "manifest"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Enable user to embed HTML snippets in Markdown content.
+  [markup.highlight]
+    codeFences = false  # Disable Hugo's code highlighter as it conflicts with Academic's highligher.
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+
+[imaging]
+  resampleFilter = "lanczos"
+  quality = 90
+  anchor = "smart"  # Anchor for cropping. Options include Smart and Center.
+
+# Taxonomies.
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  publication_type = "publication_types"
+  author = "authors"

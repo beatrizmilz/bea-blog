@@ -1,105 +1,156 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://beatrizmilz.com/</loc>
+    <loc>/courses/example/example1/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/example/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/example/example2/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/example/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
     <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/categories/</loc>
+    <loc>/post/</loc>
     <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/post/</loc>
+    <loc>/tags/r/</loc>
     <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/categories/r/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/tags/r/</loc>
+    <loc>/tags/r-ladies/</loc>
     <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/tags/r-ladies/</loc>
+    <loc>/categories/r-ladies/</loc>
     <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/categories/r-ladies/</loc>
+    <loc>/tags/</loc>
     <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/tags/</loc>
+    <loc>/post/um-ano-aprendendo-r/</loc>
     <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/2019/08/31/um-ano-aprendendo-r/</loc>
-    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://beatrizmilz.com/2019/08/21/desenvolvendo-meu-primeiro-shiny-app/</loc>
+    <loc>/post/desenvolvendo-meu-primeiro-shiny-app/</loc>
     <lastmod>2019-08-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/tags/shiny/</loc>
+    <loc>/tags/shiny/</loc>
     <lastmod>2019-08-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/2019/07/04/pesquisa-periodicos/</loc>
+    <loc>/post/pesquisa-periodicos/</loc>
     <lastmod>2019-07-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/tags/blogdown/</loc>
+    <loc>/tags/blogdown/</loc>
     <lastmod>2019-06-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/2019/06/24/compartilhando-conteudo/</loc>
+    <loc>/post/compartilhando-conteudo/</loc>
     <lastmod>2019-06-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/tags/pagedown/</loc>
+    <loc>/tags/pagedown/</loc>
     <lastmod>2019-06-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/tags/xaringan/</loc>
+    <loc>/tags/xaringan/</loc>
     <lastmod>2019-06-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/slides/</loc>
-    <lastmod>2019-06-23T00:00:00+00:00</lastmod>
+    <loc>/courses/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/about/</loc>
-    <lastmod>2019-06-23T00:00:00+00:00</lastmod>
+    <loc>/slides/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/contact/</loc>
-    <lastmod>2019-06-23T00:00:00+00:00</lastmod>
+    <loc>/slides/example/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://beatrizmilz.com/2019/01/29/6-meses-de-r/</loc>
+    <loc>/post/6-meses-de-r/</loc>
     <lastmod>2019-01-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/privacy/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/terms/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/admin/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
   </url>
   
 </urlset>

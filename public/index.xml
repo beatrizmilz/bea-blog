@@ -2,103 +2,498 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Beatriz Milz</title>
-    <link>http://beatrizmilz.com/</link>
-    <description>Recent content on Beatriz Milz</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 31 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>Beatriz Milz</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Beatriz Milz</title>
+      <link>/</link>
+    </image>
     
-	<atom:link href="http://beatrizmilz.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Example Page 1</title>
+      <link>/courses/example/example1/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/example/example1/</guid>
+      <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
     
+    <item>
+      <title>Example Page 2</title>
+      <link>/courses/example/example2/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/example/example2/</guid>
+      <description>&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
+&lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;h2 id=&#34;tip-4&#34;&gt;Tip 4&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>/talk/example/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>/talk/example/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Um ano aprendendo R!</title>
-      <link>http://beatrizmilz.com/2019/08/31/um-ano-aprendendo-r/</link>
+      <link>/post/um-ano-aprendendo-r/</link>
       <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://beatrizmilz.com/2019/08/31/um-ano-aprendendo-r/</guid>
-      <description>Esse post é uma continuação deste outro: Meio ano de aprendizagem de R!, onde relatei um pouco sobre os primeiros seis meses de aprendizagem em programação, principalmente na linguagem R.
-Como dito no post citado, eu começei a aprender R e programação em agosto de 2018. Ou seja, neste mês completo um ano de aprendizagem! 🎂 🎈 Foi um ano muito rico de experiências, onde conheci muitas pessoas queridas e aprendi muito também!</description>
+      <guid>/post/um-ano-aprendendo-r/</guid>
+      <description>
+
+
+&lt;p&gt;Esse post é uma continuação deste outro: &lt;a href=&#34;https://beatrizmilz.com/2019/01/29/6-meses-de-r/&#34;&gt;Meio ano de aprendizagem de R!&lt;/a&gt;, onde relatei um pouco sobre os primeiros seis meses de aprendizagem em programação, principalmente na linguagem R.&lt;/p&gt;
+&lt;p&gt;Como dito no post citado, eu começei a aprender &lt;code&gt;R&lt;/code&gt; e programação em agosto de 2018. Ou seja, neste mês completo um ano de aprendizagem! 🎂 🎈 Foi um ano muito rico de experiências, onde conheci muitas pessoas queridas e aprendi muito também!&lt;/p&gt;
+&lt;div id=&#34;r-ladies-sao-paulo&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R-Ladies São Paulo 💜&lt;/h1&gt;
+&lt;p&gt;Conhecer a organização &lt;a href=&#34;https://www.meetup.com/pt-BR/R-Ladies-Sao-Paulo/&#34;&gt;R-Ladies São Paulo&lt;/a&gt; foi uma das melhores coisas que já me aconteceu, e ter a oportunidade de contribuir com a organização dos eventos é algo que faço com muita alegria. Na &lt;a href=&#34;https://www.meetup.com/pt-BR/R-Ladies-Sao-Paulo/&#34;&gt;R-Ladies&lt;/a&gt;, sinto que é um espaço muito acolhedor e seguro para aprender sobre R, compartilhar conhecimento, tirar dúvidas, fazer amizades, e muito mais.&lt;/p&gt;
+&lt;p&gt;Neste mês de agosto, também foi o aniversário de 1 ano da R-Ladies São Paulo, e a apresentação feita no evento está disponível &lt;a href=&#34;https://beatrizmilz.github.io/R-Ladies_1ano/&#34;&gt;neste link&lt;/a&gt;. Foi um evento muito querido! E abaixo segue uma foto de como foi:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://beatrizmilz.com/img/1anorladies.jpg&#34; width=&#34;90%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;E uma thread no twitter contando mais detalhes sobre como foi o evento:&lt;/p&gt;
+&lt;CENTER&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;pt&#34; dir=&#34;ltr&#34;&gt;
+Sábado passado aconteceu o &lt;a href=&#34;https://twitter.com/hashtag/meetup?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#meetup&lt;/a&gt; de aniversário de 1 ano da &lt;a href=&#34;https://twitter.com/hashtag/RLadies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RLadies&lt;/a&gt; São Paulo! O evento aconteceu lá na &lt;a href=&#34;https://twitter.com/thoughtworksbr?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@thoughtworksbr&lt;/span&gt;&lt;/a&gt; , fomos super bem recebidas pela Chris, agradecemos muito pelo espaço e coffe break! Segue algumas fotos: &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/rstatsbr?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstatsbr&lt;/a&gt; &lt;a href=&#34;https://t.co/FfW8Et1FVx&#34;&gt;pic.twitter.com/FfW8Et1FVx&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies São Paulo (&lt;span class=&#34;citation&#34;&gt;@RLadiesSaoPaulo&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesSaoPaulo/status/1165359598376771585?ref_src=twsrc%5Etfw&#34;&gt;August 24, 2019&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/CENTER&gt;
+&lt;/div&gt;
+&lt;div id=&#34;aprendizado&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Aprendizado&lt;/h1&gt;
+&lt;p&gt;Neste primeiro ano, fiz diversos cursos sobre R, sendo alguns online e outros presenciais, destacando os seguintes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Presencial, Setembro/2018 - &lt;a href=&#34;https://www.curso-r.com/cursos/intro-r/&#34;&gt;Introdução à Programação em R&lt;/a&gt;, da &lt;a href=&#34;https://www.curso-r.com/&#34;&gt;Curso-R&lt;/a&gt; - Neste curso, tive um contato maior com o pacote &lt;a href=&#34;https://www.tidyverse.org/&#34;&gt;&lt;code&gt;tidyverse&lt;/code&gt;&lt;/a&gt;. Foi um divisor de águas para mim, e saí muito empolgada para aprender mais! Agradeço a &lt;a href=&#34;https://www.curso-r.com/&#34;&gt;Curso-R&lt;/a&gt; pela bolsa recebida!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Presencial, Maio/2019 - &lt;a href=&#34;https://github.com/daattali/shiny-mini-workshop&#34;&gt;Building web applications in R using Shiny&lt;/a&gt;, do &lt;a href=&#34;https://deanattali.com/shiny/&#34;&gt;Dean Atalli&lt;/a&gt; - Foi um workshop sobre como criar aplicações Web utilizando o pacote Shiny. Teve muitas atividades práticas, e aprendi bastante! Fiquei muito animada para aprender mais…&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Presencial, Junho/2019 - &lt;a href=&#34;https://www.curso-r.com/cursos/dashboards/&#34;&gt;Dashboards com R&lt;/a&gt;, da &lt;a href=&#34;https://www.curso-r.com/&#34;&gt;Curso-R&lt;/a&gt; - Foi um curso bem prático, focado em criar dashboards usando RMarkdown e também Shiny. Na última aula, os professores também citaram os pacotes mais recentes relacionados ao desenvolvimento de Shiny Apps!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Online, 2019 - &lt;a href=&#34;https://www.coursera.org/specializations/jhu-data-science&#34;&gt;Coursera - Programa de cursos integrados Ciência de Dados (02/10)&lt;/a&gt; - Atualmente estou fazendo esse programa de cursos oferecidos pela &lt;a href=&#34;https://www.jhu.edu/&#34;&gt;Johns Hopkins University&lt;/a&gt;. Já completei dois cursos:
+&lt;strong&gt;As Ferramentas do Cientista de Dados&lt;/strong&gt; e &lt;strong&gt;Linguagem R&lt;/strong&gt;. Atualmente estou finalizando o curso de &lt;strong&gt;Obtenção e Limpeza de Dados&lt;/strong&gt;, e sinceramente já deveria ter completado, porém sinto que meu ritmo é mais devagar mesmo em aulas online. Aulas presenciais me deixam mais empolgada! 😃&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para os próximos meses espero conseguir evoluir no &lt;a href=&#34;https://www.coursera.org/specializations/jhu-data-science&#34;&gt;programa de Ciência de dados do Coursera&lt;/a&gt;!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;eventos&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Eventos&lt;/h1&gt;
+&lt;div id=&#34;iv-ser-uff&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;IV SER UFF&lt;/h2&gt;
+&lt;p&gt;O &lt;a href=&#34;http://ser.uff.br/&#34;&gt;SER - International Seminar on Statistics with R&lt;/a&gt;, é um evento realizado na Universidade Federal Fluminense, em Niterói - RJ. Essa foi a primeira conferência que participo sobre R, e aconteceu em maio de 2019.&lt;/p&gt;
+&lt;p&gt;Conheci muitas pessoas legais nesse evento: R-Ladies de outros capítulos do Brasil, os organizadores do evento, algumas pessoas do grupo do telegram R Brasil e muito mais.&lt;/p&gt;
+&lt;p&gt;Eu e a &lt;a href=&#34;https://br.linkedin.com/in/hsvab&#34;&gt;Haydee Svab&lt;/a&gt; (co-organizadora do R-Ladies São Paulo) submetemos um mini-curso no evento, e ele foi aceito e oferecido junto ao evento do R-Ladies Niterói. O tema do mini-curso foi: &lt;a href=&#34;https://beatrizmilz.github.io/IV-SER-RLadies/&#34;&gt;Comunicando seus resultados: Criando apresentações com R&lt;/a&gt;. Segue abaixo uma foto que tiramos com R-Ladies de outros capítulos, que participaram do mini-curso:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://beatrizmilz.com/img/rladiesniteroi.jpeg&#34; width=&#34;90%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Outra participação no evento foi na apresentação de um pôster, que foi escrito por quatro co-organizadoras do R-Ladies São Paulo: eu, &lt;a href=&#34;https://br.linkedin.com/in/brunagarbes&#34;&gt;Bruna Garbes&lt;/a&gt;, &lt;a href=&#34;http://brunaw.com/&#34;&gt;Bruna Wundervald&lt;/a&gt; e &lt;a href=&#34;https://br.linkedin.com/in/hsvab&#34;&gt;Haydee Svab&lt;/a&gt;. O texto do pôster está disponível online, e tem o seguinte título: &lt;a href=&#34;http://periodicos.uff.br/anaisdoser/article/view/29327&#34;&gt;Ensino de R através da Comunidade R-Ladies - Capítulo São Paulo&lt;/a&gt;. O pôster em formato PDF está disponível neste &lt;a href=&#34;https://github.com/brunaw/poster_rladies_SER/blob/master/poster_SER_2019.pdf&#34;&gt;link&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;user2019&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;useR!2019&lt;/h2&gt;
+&lt;p&gt;A &lt;a href=&#34;https://user2019.r-project.org/&#34;&gt;useR!2019&lt;/a&gt; foi a segunda conferência que participei de R, e aconteceu em julho de 2019, em Toulouse, na França. Não vou me prolongar pois pretendo fazer um post só sobre o evento (sim, estou atrasada 😞). Eu e a &lt;a href=&#34;https://twitter.com/angcustodio&#34;&gt;Angélica Custódio&lt;/a&gt; recebemos bolsas de diversidade para participar do evento. Nós escrevemos um post juntas, relatando a experiência de participar do &lt;a href=&#34;https://www.curso-r.com/blog/2019-08-12-tidydevday/&#34;&gt;tidyverse developer day&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Na foto a seguir, está o grupo de brasileiros que participaram do evento: &lt;a href=&#34;https://www.researchgate.net/profile/Laurie_Baker2&#34;&gt;Laurie Baker&lt;/a&gt; (que não é Brasileira, mas andou conosco no evento), &lt;a href=&#34;https://twitter.com/angcustodio&#34;&gt;Angélica Custódio&lt;/a&gt;, &lt;a href=&#34;https://br.linkedin.com/in/jtrecenti&#34;&gt;Julio Trecenti&lt;/a&gt;, eu, &lt;a href=&#34;https://github.com/dfalbel&#34;&gt;Daniel Falbel&lt;/a&gt; e o &lt;a href=&#34;https://twitter.com/Williamorim89&#34;&gt;William Amorim&lt;/a&gt;. O Prof. &lt;a href=&#34;http://www.leg.ufpr.br/~elias/&#34;&gt;Elias Krainski&lt;/a&gt; também participou, porém não está na foto.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://beatrizmilz.com/img/user2019-brasileiros.jpg&#34; width=&#34;90%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Aliás, o &lt;a href=&#34;https://br.linkedin.com/in/jtrecenti&#34;&gt;Julio Trecenti&lt;/a&gt; escreveu um post relatando a experiência dele de participar deste evento: &lt;a href=&#34;https://www.curso-r.com/blog/2019-07-14-user2019/&#34;&gt;Minha experiência na useR!2019&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Eu e a &lt;a href=&#34;http://brunaw.com/&#34;&gt;Bruna Wundervald&lt;/a&gt; escrevemos um resumo para Lightning Talk (uma palestra de 5 minutos), que foi aceito. Fiquei nervosa para apresentar, já que era a primeira vez apresentando em inglês, fora do Brasil, e para um público tão legal! A apresentação está disponível &lt;a href=&#34;https://beatrizmilz.github.io/useR2019/&#34;&gt;neste link&lt;/a&gt;, e também está disponível no youtube:&lt;/p&gt;
+&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/2HK6hjwhdRk?start=880&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;p&gt;E eu ainda fiz amizade com uma pessoa muito querida e maravilhosa: A &lt;a href=&#34;https://twitter.com/angcustodio&#34;&gt;Angélica Custódio&lt;/a&gt;! 💜 Uma foto nossa turistando em Toulouse:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://beatrizmilz.com/img/bia-e-angelica.jpg&#34; width=&#34;90%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;compartilhando-conhecimento&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Compartilhando conhecimento&lt;/h1&gt;
+&lt;p&gt;Apresentações me deixam nervosa, e isso não é segredo para ninguém.. Acabo falando super rápido, e depois fico me sentindo mal por isso.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media1.giphy.com/media/qvWavuCEwjEPu/giphy.gif&#34; width=&#34;100%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Quero melhorar nessa questão (e se alguém tiver dicas, me enviem por favor), mas tento não deixar o receio de falar muito rápido me impedir de tentar compartilhar o que já aprendi.&lt;/p&gt;
+&lt;p&gt;O que aprendi nesse 1 ano de R é devido à comunidade. Eu ainda preciso e quero aprendender muitas coisas ainda, mas acho válido compartilhar o que eu aprendi até então, e acredito que é uma forma de retribuir para a comunidade um pouco do que tanto que recebi até agora.&lt;/p&gt;
+&lt;p&gt;As apresentações que fiz geralmente deixo disponível &lt;a href=&#34;https://beatrizmilz.com/slides/&#34;&gt;nessa página&lt;/a&gt;, para que todos consigam consultar.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;proximos-passos&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Próximos passos&lt;/h1&gt;
+&lt;p&gt;Em setembro, participarei da &lt;a href=&#34;https://latin-r.com/&#34;&gt;Latin-R&lt;/a&gt; - Conferencia Latinoamericana sobre Uso de R en Investigación + Desarrollo, pois fui selecionada para receber um bolsa de diversidade. Estou muito animada para conhecer mais pessoas da comunidade de R Latinoamericana.&lt;/p&gt;
+&lt;p&gt;No projeto temático de pesquisa que faço parte (&lt;a href=&#34;https://bv.fapesp.br/pt/auxilios/97000/governanca-ambiental-da-macrometropole-paulista-face-a-variabilidade-climatica/&#34;&gt;Governança ambiental da Macrometrópole Paulista face à variabilidade climática&lt;/a&gt;), existem pessoas que já programam em R, e também pessoas que tem interesse em aprender.&lt;/p&gt;
+&lt;p&gt;Recentemente, eu e mais duas pessoas que já programam em R (a &lt;a href=&#34;https://bv.fapesp.br/pt/pesquisador/698446/rosana-laura-da-silva/&#34;&gt;Rosana Laura&lt;/a&gt; e o &lt;a href=&#34;http://lattes.cnpq.br/7678202356014883&#34;&gt;Diego Braga&lt;/a&gt;, ambos pós-graduandos em &lt;a href=&#34;https://sites.google.com/site/pospgt/&#34;&gt;Planejamento e Gestão do Território&lt;/a&gt; na UFABC) começamos a organizar um grupo de estudos para que a equipe do projeto possa compartilhar conhecimentos sobre R, considerando que os temas de pesquisa são bem diversos e utilizam metodologias diferentes também. O primeiro encontro do grupo de estudos está programado para setembro de 2019!&lt;/p&gt;
+&lt;p&gt;E é isso, espero continuar aprendendo muito sobre R, e compartilhando também. 💜&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media0.giphy.com/media/1iu8uG2cjYFZS6wTxv/giphy-downsized.gif&#34; width=&#34;50%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>Desenvolvendo meu primeiro Shiny App</title>
-      <link>http://beatrizmilz.com/2019/08/21/desenvolvendo-meu-primeiro-shiny-app/</link>
+      <link>/post/desenvolvendo-meu-primeiro-shiny-app/</link>
       <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://beatrizmilz.com/2019/08/21/desenvolvendo-meu-primeiro-shiny-app/</guid>
-      <description>Aprendendo sobre o pacote ShinyO objetivo deste post é compartilhar um pouco sobre a minha experiência no desenvolvimento do meu primeiro Shiny App. O Shiny é um pacote do R utilizado para desenvolver web apps interativos. Exemplos de Shiny Apps estão disponíveis nessa página.
-Figure 1: Hex Logo do pacote ShinyQuando conheci o Shiny, fiquei encantada. Parecia uma ótima forma de comunicar os dados interativamente, com as pessoas que não necessariamente conhecem o R.</description>
+      <guid>/post/desenvolvendo-meu-primeiro-shiny-app/</guid>
+      <description>
+
+
+&lt;div id=&#34;aprendendo-sobre-o-pacote-shiny&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Aprendendo sobre o pacote Shiny&lt;/h2&gt;
+&lt;p&gt;O objetivo deste post é compartilhar um pouco sobre a &lt;strong&gt;minha&lt;/strong&gt; experiência no desenvolvimento do meu primeiro &lt;a href=&#34;https://shiny.rstudio.com/&#34;&gt;Shiny App&lt;/a&gt;. O Shiny é um pacote do &lt;code&gt;R&lt;/code&gt; utilizado para desenvolver web apps interativos. Exemplos de Shiny Apps estão disponíveis &lt;a href=&#34;https://shiny.rstudio.com/gallery/&#34;&gt;nessa página&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-1&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://beatrizmilz.com/img/shiny.png&#34; alt=&#34;Hex Logo do pacote Shiny&#34; width=&#34;30%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Hex Logo do pacote Shiny
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Quando conheci o Shiny, fiquei encantada. Parecia uma ótima forma de comunicar os dados interativamente, com as pessoas que não necessariamente conhecem o &lt;code&gt;R&lt;/code&gt;. Então no começo do ano de 2019 coloquei como meta: gostaria de começar a aprender como usar esse pacote.&lt;/p&gt;
+&lt;p&gt;No evento &lt;a href=&#34;http://ser.uff.br/&#34;&gt;IV SER - IV Internacional Seminar on Statistics with R&lt;/a&gt; tive a oportunidade de assistir um &lt;a href=&#34;https://github.com/daattali/shiny-mini-workshop&#34;&gt;workshop sobre shiny&lt;/a&gt;, oferecido pelo &lt;a href=&#34;https://deanattali.com/&#34;&gt;Dean Attali&lt;/a&gt;, que é consultor Shiny e uma referência no tema! Foi um ótimo workshop e fiquei bem feliz de conseguir acompanhar os exercícios.&lt;/p&gt;
+&lt;p&gt;Quando voltei do evento, não queria parar de estudar e praticar o que comecei a aprender. Então recebi um email da &lt;a href=&#34;https://www.curso-r.com/&#34;&gt;Curso-R&lt;/a&gt; comunicando que havia turma aberta para o curso de &lt;a href=&#34;https://www.curso-r.com/cursos/dashboards/&#34;&gt;Dashboards com R&lt;/a&gt;. Eu já havia participado de dois cursos da Curso-R (Introdução à programação em R e Webscrapping em R), e sabia que os cursos oferecidos eram muito bons. Então fiz a inscrição, e no mês de junho foram três sábados de estudos e bastante prática com Shiny! Recomendo muito o curso, os professores são muito bons.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;desenvolvimento&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Desenvolvimento&lt;/h2&gt;
+&lt;p&gt;Esse post é uma continuação do post &lt;a href=&#34;https://beatrizmilz.com/2019/07/04/pesquisa-periodicos/&#34;&gt;Ferramenta para Pesquisa de Periódicos&lt;/a&gt;, onde descrevi o Shiny App que criei, mas agora o foco é relatar um pouco o processo de desenvolvimento. Todos os códigos estão disponíveis &lt;a href=&#34;https://github.com/beatrizmilz/QualisCAPES&#34;&gt;neste repositório no Github&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-2&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://beatrizmilz.com/gif/periodicos_exemplo.gif&#34; alt=&#34;Exemplo de uso - &amp;lt;a href=&#39;https://beatriz-milz.shinyapps.io/pesquisa_periodicos/&#39;&amp;gt;Página para Pesquisa de Periódicos&amp;lt;/a&amp;gt;&#34; width=&#34;100%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 2: Exemplo de uso - &lt;a href=&#39;https://beatriz-milz.shinyapps.io/pesquisa_periodicos/&#39;&gt;Página para Pesquisa de Periódicos&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Os dados foram obtidos no website da &lt;a href=&#34;https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf&#34;&gt;CAPES&lt;/a&gt;. A página permite o download de uma tabela contendo o ISSN, título do periódico, área de avaliação e a nota na respectiva área. Utilizei os dados da avaliação mais recente disponível em junho/2019: 2013-2016.&lt;/p&gt;
+&lt;p&gt;A IDE que utilizei foi o &lt;a href=&#34;https://www.rstudio.com/&#34;&gt;RStudio&lt;/a&gt;, e os pacotes que usados foram:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://shiny.rstudio.com/&#34;&gt;shiny&lt;/a&gt; - usado para criar a plataforma interativa;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://rstudio.github.io/shinydashboard/&#34;&gt;shinydashboard&lt;/a&gt; - permite fazer dashboards com o shiny. Com a ajuda de &lt;code&gt;CSS&lt;/code&gt;, consegui personalizar as cores do meu dashboard;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://dreamrs.github.io/shinyWidgets/index.html&#34;&gt;shinyWidgets&lt;/a&gt; - oferece inputs diferentes, utilizei o &lt;code&gt;sliderTextInput()&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://rstudio.github.io/DT/&#34;&gt;DT&lt;/a&gt; - esse pacote permite usar tabelas no R utilizando a biblioteca JavaScript &lt;a href=&#34;https://datatables.net/&#34;&gt;DataTables&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.tidyverse.org/&#34;&gt;tidyverse&lt;/a&gt; - readr, dplyr, purrr e stringr - usei os pacotes que fazem parte do tidyverse em diversas etapas do processo, como ler a base de dados, filtrar, manipular, alterar, entre outros;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://cran.r-project.org/web/packages/janitor/janitor.pdf&#34;&gt;janitor&lt;/a&gt; - usei a função &lt;code&gt;janitor::clean_names()&lt;/code&gt; , que permite alterar nome de todas as colunas da base de dados, deixando-as no padrão &lt;code&gt;snake_case&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;O deploy foi feito gratuitamente no &lt;a href=&#34;https://www.shinyapps.io/&#34;&gt;shinyapps.io&lt;/a&gt;, diretamente do RStudio!&lt;/p&gt;
+&lt;p&gt;A maior &lt;strong&gt;dificuldade&lt;/strong&gt; que tive com esse dashboard foi o filtro que gera a tabela. Inicialmente, ele não resultava o que eu precisava… eu fiquei cerca de duas semanas com esse problema, até que levei para os professores da Curso-R na última aula. Agradeço imensamente ao &lt;a href=&#34;https://github.com/jtrecenti&#34;&gt;Julio Trecenti&lt;/a&gt; e ao &lt;a href=&#34;https://github.com/williamorim&#34;&gt;William Amorim&lt;/a&gt;, que solucionaram o problema! Sem a ajuda que recebi, esse Shiny App ainda estaria apenas no meu computador…&lt;/p&gt;
+&lt;p&gt;Por outro lado, é muito gratificante ver tudo funcionando, ter ideias e conseguir implementá-las! Mostrei para algumas pessoas, que deram feedbacks sobre as dificuldades que tiveram ao utilizar a página. Isso foi muito importante também para aprimorar o Shiny App.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;proximas-etapas&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Próximas etapas&lt;/h2&gt;
+&lt;p&gt;Algumas pessoas sugeriram algumas melhorias que dependem de dados que não estão nessa base disponibilizada pela CAPES. Considerando que a nova avaliação do Qualis será disponibilizada nos próximos meses, e existem notícias de que essa avaliação será unificada (cada periódico terá apenas uma nota geral, e não uma nota por área de avaliação), achei melhor esperar os resultados do novo Qualis para então pensar nas possibilidades de atualização e melhoria deste Shiny App.&lt;/p&gt;
+&lt;p&gt;Sobre o aprendizado de Shiny, eu gostaria de praticar mais. Já tenho uma ideia para um próximo Shiny App, agora o que falta é ter tempo para isso. Além disso, gostaria de aprender a utilizar o pacote &lt;a href=&#34;https://github.com/ThinkR-open/golem&#34;&gt;&lt;code&gt;golem&lt;/code&gt;&lt;/a&gt;, e a deixar meus Apps disponíveis em outras plataformas, como por exemplo na &lt;a href=&#34;https://aws.amazon.com/pt/&#34;&gt;AWS&lt;/a&gt; ou &lt;a href=&#34;https://www.digitalocean.com&#34;&gt;Digital Ocean&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>Ferramenta para Pesquisa de Periódicos</title>
-      <link>http://beatrizmilz.com/2019/07/04/pesquisa-periodicos/</link>
+      <link>/post/pesquisa-periodicos/</link>
       <pubDate>Thu, 04 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://beatrizmilz.com/2019/07/04/pesquisa-periodicos/</guid>
-      <description>No IV SER - IV Internacional Seminar on Statistics with R, o Gustavo Oliveira Pinto apresentou um trabalho com título “Como publicar artigos de acordo com a classificação de periódicos científicos da CAPES”. A ideia da ferramenta surgiu em uma conversa após o evento.
-O objetivo desta ferramenta é facilitar a pesquisa de periódicos para publicação, sendo útil principalmente em grupos de pesquisa multi e interdisciplinares.
-Os programas de pós-graduação são avaliados pela CAPES (Coordenação de Aperfeiçoamento de Pessoal de Nível Superior), a cada 4 anos, e recebem uma nota entre 1 e 7: esse processo é chamado de Avaliação Quadrienal.</description>
+      <guid>/post/pesquisa-periodicos/</guid>
+      <description>
+
+
+&lt;p&gt;No &lt;a href=&#34;http://ser.uff.br/&#34;&gt;IV SER - IV Internacional Seminar on Statistics with R&lt;/a&gt;, o &lt;a href=&#34;https://github.com/GustavoOPinto&#34;&gt;Gustavo Oliveira Pinto&lt;/a&gt; apresentou um trabalho com título &lt;strong&gt;“Como publicar artigos de acordo com a classificação de periódicos científicos da CAPES”&lt;/strong&gt;. A ideia da ferramenta surgiu em uma conversa após o evento.&lt;/p&gt;
+&lt;p&gt;O objetivo desta ferramenta é facilitar a pesquisa de periódicos para publicação, sendo útil principalmente em grupos de pesquisa multi e interdisciplinares.&lt;/p&gt;
+&lt;p&gt;Os programas de pós-graduação são avaliados pela CAPES (Coordenação de Aperfeiçoamento de Pessoal de Nível Superior), a cada 4 anos, e recebem uma nota entre 1 e 7: esse processo é chamado de &lt;strong&gt;Avaliação Quadrienal&lt;/strong&gt;. Caso o curso receba notas 1 e 2, ele deixa de ser recomendado pela CAPES. Para que um programa de pós graduação possa oferecer Doutorado, é preciso ter nota mínima de 4. Programas com nota 7 são considerados programas de excelência, sendo referência internacional.&lt;/p&gt;
+&lt;p&gt;Mais informações sobre a avaliação quadrienal podem ser obtidas &lt;a href=&#34;https://www.capes.gov.br/pt/acessoainformacao/perguntas-frequentes/avaliacao-da-pos-graduacao/7421-sobre-avaliacao-de-cursos&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Um quesito importante da avaliação quadrienal são os artigos publicados em periódicos com boa avaliação, vinculados ao programa de pós-graduação. A Capes avalia os Periódico e os divide nos seguintes estratos: A1, A2, B1, B2, B3, B4, B5 e C.
+Essa avaliação é conhecida como &lt;a href=&#34;https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf&#34;&gt;&lt;strong&gt;Qualis CAPES&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Os periódicos/revistas são avaliadas conforme as áreas de concentração da CAPES. Isso significa que um periódico pode ser muito bem avaliado (ex. A1) em determinada área, mas não ter uma boa avaliação em outra área.&lt;/p&gt;
+&lt;p&gt;Quando trabalhamos em equipes interdisciplinares (como por ex: &lt;a href=&#34;https://bv.fapesp.br/pt/auxilios/97000/governanca-ambiental-da-macrometropole-paulista-face-a-variabilidade-climatica/&#34;&gt;Projeto Macroamb&lt;/a&gt; que faço parte), realizamos pesquisa e publicamos com cientistas de áreas distintas de concentração da CAPES (Ex. no caso do Macroamb, onde trabalhamos com pesquisadores das áreas de Ciências Ambientais, Planejamento Urbano e Regional/Demografia, Ciência Política e Relações Internacionais, Geociências, Saúde Coletiva, entre outros).&lt;/p&gt;
+&lt;p&gt;Em pesquisas interdisciplinares, decidir em qual revista publicar é importante, pois conta posteriormente para o currículo dos pesquisadores e para a avaliação do programa de pós-graduação.&lt;/p&gt;
+&lt;p&gt;Desenvolver pesquisas na área ambiental demanda atuação interdisciplinar, e encontrar um periódico que seja bem avaliado em todas as áreas as quais pertencem os pesquisadores co-autores de um manuscrito, pode ser um desafio, já que avaliação Qualis CAPES é relacionado com a área de concentração.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Assim surge a proposta dessa ferramenta&lt;/strong&gt;: com ela é possível escolher as áreas de concentração dos co-autores do trabalho e escolher a nota do Qualis CAPES. &lt;strong&gt;A tabela resultará periódicos com avalição em comum nas áreas selecionada&lt;/strong&gt;, conforme o exemplo abaixo.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-1&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://beatrizmilz.com/gif/periodicos_exemplo.gif&#34; alt=&#34;Exemplo de uso - &amp;lt;a href=&#39;https://beatriz-milz.shinyapps.io/pesquisa_periodicos/&#39;&amp;gt;Página para Pesquisa de Periódicos&amp;lt;/a&amp;gt;&#34; width=&#34;100%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Exemplo de uso - &lt;a href=&#39;https://beatriz-milz.shinyapps.io/pesquisa_periodicos/&#39;&gt;Página para Pesquisa de Periódicos&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Os dados foram obtidos no website da &lt;a href=&#34;https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf&#34;&gt;CAPES&lt;/a&gt;. A página permite o download de uma tabela contendo o ISSN, título do periódico, área de avaliação e a nota na respectiva área. Utilizei os dados da avaliação mais recente (e vigente): 2013-2016.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Espero que essa ferramenta seja útil aos meus colegas pesquisadores&lt;/strong&gt;, e está disponível &lt;a href=&#34;https://beatriz-milz.shinyapps.io/pesquisa_periodicos/&#34;&gt;neste link&lt;/a&gt;!&lt;/p&gt;
+&lt;div id=&#34;agradecimentos&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Agradecimentos&lt;/h2&gt;
+&lt;p&gt;Desenvolvido por Beatriz Milz (Bolsista FAPESP - Processo Nº 18/23771-6).
+Pesquisadora no projeto FAPESP MacroAmb - Governança Ambiental da Macrometrópole Paulista face à variabilidade climática - Processo Nº 15/03804-9.&lt;/p&gt;
+&lt;p&gt;Agradeço imensamente a equipe da &lt;a href=&#34;https://www.curso-r.com/&#34;&gt;Curso-R&lt;/a&gt;, ao &lt;a href=&#34;https://github.com/jtrecenti&#34;&gt;Julio Trecenti&lt;/a&gt; e ao &lt;a href=&#34;https://github.com/williamorim&#34;&gt;William Amorim&lt;/a&gt;, que me ajudaram a solucionar o problema com o filtro dos dados!&lt;/p&gt;
+&lt;p&gt;Agradeço a &lt;a href=&#34;https://github.com/carolcichoski&#34;&gt;Carol Chichoski&lt;/a&gt;, por ter revisado o texto! ❤️&lt;/p&gt;
+&lt;p&gt;Caso tenha interesse em saber como a ferramenta foi desenvolvida no Shiny App, esse conteuúdo será disponiblizado em breve em outro post.&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>Compartilhando conteúdo utilizando R</title>
-      <link>http://beatrizmilz.com/2019/06/24/compartilhando-conteudo/</link>
+      <link>/post/compartilhando-conteudo/</link>
       <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://beatrizmilz.com/2019/06/24/compartilhando-conteudo/</guid>
-      <description>Atualização da páginaNo último final de semana, utilizei algumas horas para reformular essa página. Eu utilizava o tema Academic, porém queria algo mais simples, então mudei para o Lithium. Além disso, também habilitei os comentários com o Disqus, habilitei o Google Analytics e também resolvi testar o Netlify (que aliás achei incrível).
-Durante esse processo, algumas dificuldades apareceram… Também lembrei da primeira vez que criei uma página com o blogdown, onde graças à muitos conteúdos online eu consegui colocar no ar depois de várias mensagens de erro.</description>
+      <guid>/post/compartilhando-conteudo/</guid>
+      <description>
+
+
+&lt;div id=&#34;atualizacao-da-pagina&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Atualização da página&lt;/h1&gt;
+&lt;p&gt;No último final de semana, utilizei algumas horas para reformular essa página. Eu utilizava o tema &lt;a href=&#34;https://themes.gohugo.io/academic/&#34;&gt;Academic&lt;/a&gt;, porém queria algo mais simples, então mudei para o &lt;a href=&#34;https://themes.gohugo.io/hugo-lithium-theme/&#34;&gt;Lithium&lt;/a&gt;. Além disso, também habilitei os comentários com o &lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;, habilitei o &lt;a href=&#34;https://analytics.google.com/analytics/web/&#34;&gt;Google Analytics&lt;/a&gt; e também resolvi testar o &lt;a href=&#34;https://netlify.com/&#34;&gt;Netlify&lt;/a&gt; (que aliás achei incrível).&lt;/p&gt;
+&lt;p&gt;Durante esse processo, algumas dificuldades apareceram… Também lembrei da primeira vez que criei uma página com o &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;&lt;code&gt;blogdown&lt;/code&gt;&lt;/a&gt;, onde graças à muitos conteúdos online eu consegui colocar no ar depois de várias mensagens de erro.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/ktvFa67wmjDEI/giphy.gif&#34; width=&#34;30%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;div id=&#34;conteudos-online&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Conteúdos online&lt;/h2&gt;
+&lt;p&gt;Os conteúdos online, que muitas pessoas disponibilizaram através de posts em blog, livros, documentação, dúvidas no &lt;a href=&#34;https://pt.stackoverflow.com/&#34;&gt;Stackoverflow&lt;/a&gt;, me ajudaram muito a conseguir entender como funcionava o processo de criar uma página com o &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;&lt;code&gt;blogdown&lt;/code&gt;&lt;/a&gt;. Esses conteúdos foram essenciais também para entender como deixar esse site disponível online utilizando o &lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt; (lembrando que a minha formação é em Gestão Ambiental). Porém a maior parte desse conteúdo estava &lt;strong&gt;disponibilizado em inglês&lt;/strong&gt;: foram poucos os materiais que encontrei em português.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/1iu8uG2cjYFZS6wTxv/giphy.gif&#34; width=&#34;30%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Lembrei também da conversa que tive rapidamente no mês passado com a &lt;a href=&#34;https://github.com/JuliaHellenFerreira&#34;&gt;Julia&lt;/a&gt;, co-organizadora do &lt;a href=&#34;https://www.meetup.com/pt-BR/rladies-niteroi/&#34;&gt;R-Ladies Niterói&lt;/a&gt;, onde disse que seria interessante que ela disponibilizasse online as palestras que ela já fez, para que outras pessoas consigam consultar e aprender com o conteúdo.&lt;/p&gt;
+&lt;p&gt;Se você está em dúvida se deve compartilhar conteúdo na internet, eu indico a palestra (em inglês) do &lt;a href=&#34;http://varianceexplained.org/about/&#34;&gt;David Robinson&lt;/a&gt; na &lt;code&gt;rstudio::conf 2019&lt;/code&gt;, chamada &lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/the-unreasonable-effectiveness-of-public-work&#34;&gt;“The unreasonable effectiveness of public work”&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As formas de compartilhar conteúdo apontadas por David são: escrever um post em um blog, escrever um tweet, contribuir com projetos open source, dar palestras, gravar a tela enquanto faz alguma análise de dados e disponibilizar o vídeo, e escrever um livro sobre o assunto.&lt;/p&gt;
+&lt;p&gt;Nessa palestra, David diz que se você der a mesma dica/conselho três vezes, escreva um post em um blog, assim muitas pessoas conseguem acessar esse conteúdo.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;When you’ve written the same code 3 times, write a function&lt;br&gt;&lt;br&gt;When you’ve given the same in-person advice 3 times, write a blog post&lt;/p&gt;&amp;mdash; David Robinson (@drob) &lt;a href=&#34;https://twitter.com/drob/status/928447584712253440?ref_src=twsrc%5Etfw&#34;&gt;November 9, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;/div&gt;
+&lt;div id=&#34;compartilhando-conteudo-sobre-r-e-utilizando-r&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Compartilhando conteúdo sobre R e utilizando R&lt;/h2&gt;
+&lt;p&gt;Por isso, pretendo fazer alguns posts &lt;strong&gt;em português&lt;/strong&gt; com algumas &lt;strong&gt;dicas sobre como compartilhar conteúdo na internet&lt;/strong&gt;, utilizando &lt;code&gt;R&lt;/code&gt;. Não é segredo que eu sou fã dos pacotes criados pelo &lt;a href=&#34;https://yihui.name&#34;&gt;Yihui Xie&lt;/a&gt;, então os temas que pretendo abordar são:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Criar seu currículo com &lt;code&gt;R&lt;/code&gt;, usando o pacote &lt;a href=&#34;https://github.com/rstudio/pagedown&#34;&gt;&lt;code&gt;pagedown&lt;/code&gt;&lt;/a&gt;;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Criar uma página/blog com &lt;code&gt;R&lt;/code&gt;, usando o pacote &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;&lt;code&gt;blogdown&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Criar apresentações com &lt;code&gt;R&lt;/code&gt;, usando o pacote &lt;a href=&#34;https://github.com/yihui/xaringan&#34;&gt;&lt;code&gt;xaringan&lt;/code&gt;&lt;/a&gt; - lembrando que existe uma apresentação sobre esse assunto disponível &lt;a href=&#34;http://beatrizmilz.com/slides/&#34;&gt;aqui&lt;/a&gt;. O &lt;a href=&#34;https://github.com/brunolucian&#34;&gt;Bruno Lucian&lt;/a&gt; se interessou em compartilhar esse conteúdo no blog &lt;a href=&#34;https://www.dadosaleatorios.com.br/&#34;&gt;Dados Aleatórios&lt;/a&gt;, então quando estiver disponível eu colocarei o link para o post aqui também.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;git-e-github&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Git e Github&lt;/h2&gt;
+&lt;p&gt;Para o compartilhar conteúdo, é interessante também utilizar &lt;code&gt;git&lt;/code&gt; e Github. Mas considerando que nesse tema já existe bastante conteúdo em português, por enquanto vou focar nas ferramentas com &lt;code&gt;R&lt;/code&gt;, que tem menos conteúdo disponível nessa língua.&lt;/p&gt;
+&lt;p&gt;O post do &lt;a href=&#34;https://woliveiras.com.br/&#34;&gt;William Oliveira&lt;/a&gt;, chamado &lt;a href=&#34;https://medium.com/trainingcenter/plano-para-estudar-git-e-github-enquanto-aprende-programa%C3%A7%C3%A3o-f5d5f986f459&#34;&gt;Plano para estudar Git e GitHub enquanto aprende programação&lt;/a&gt;, me ajudou bastante a entender como começar a usar o &lt;code&gt;git&lt;/code&gt;. Nesse post ele utiliza o terminal, e para algumas pessoas que estão iniciando essa abordagem pode ser um pouco intimidadora.&lt;/p&gt;
+&lt;p&gt;Outra opção para quem está iniciando é utilizar o &lt;a href=&#34;https://desktop.github.com/&#34;&gt;Github Desktop&lt;/a&gt;. Acredito que é uma interface amigável para quem está aprendendo como funciona o &lt;code&gt;git&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ate-logo&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Até logo!&lt;/h2&gt;
+&lt;p&gt;Pretendo postar sobre esses conteúdos logo logo. Enquanto isso, estou aberta à sugestões. Existem outras formas que vocês usam para divulgar conteúdo utilizando &lt;code&gt;R&lt;/code&gt;? Existe alguma que você conheça e gostaria de aprender mais? Existem dificuldades? Se sim, quais?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/dNgK7Ws7y176U/giphy.gif&#34; width=&#34;30%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
-      <title>Apresentações/Presentations</title>
-      <link>http://beatrizmilz.com/slides/</link>
-      <pubDate>Sun, 23 Jun 2019 00:00:00 +0000</pubDate>
+      <title>Slides</title>
+      <link>/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+Three
+&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
       
-      <guid>http://beatrizmilz.com/slides/</guid>
-      <description>Português   Workshop - Apresentações no R ⚔ com xaringan
- 2019 - 14ª aMostra Estatística - Instituto de Matemática e Estatística da Universidade de São Paulo (IME/USP)
- Beatriz Milz e Mariana Dias Guilardi Apresentação, Código   Primeiros passos utilizando o Git e GitHub no RStudio
- 2019 - R-Ladies São Paulo Apresentação, Código    Introdução ao pacote xaringan - Criando apresentações com R
- 2019 - Instituto de Matemática e Estatística da Universidade de São Paulo (IME/USP) Apresentação, Código   Dashboards, gráficos, mapas: Possibilidades de visualização de dados com R</description>
-    </item>
-    
-    <item>
-      <title>Beatriz Milz</title>
-      <link>http://beatrizmilz.com/about/</link>
-      <pubDate>Sun, 23 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://beatrizmilz.com/about/</guid>
-      <description>Português  Doutoranda no Programa de Pós-Graduação em Ciência Ambiental (PROCAM) - Instituto de Energia e Ambiente - Universidade de São Paulo (Bolsita FAPESP - Processo nº 2018&amp;frasl;23771-6)
- Pesquisadora no Projeto Temático FAPESP Governança ambiental da macrometrópole paulista face à variabilidade climática - Processo FAPESP N15/03804-9.
- Entusiasta de R.
- Co-organizadora do Meetup R-Ladies São Paulo.
- Secretária Executiva da Revista Ambiente &amp;amp; Sociedade.
- Mestre em Ciências - Programa de Pós-graduação em Análise Ambiental Integrada - Universidade Federal de São Paulo - Campus Diadema (UNIFESP)</description>
-    </item>
-    
-    <item>
-      <title>Contato/Contact</title>
-      <link>http://beatrizmilz.com/contact/</link>
-      <pubDate>Sun, 23 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://beatrizmilz.com/contact/</guid>
-      <description>beatriz.milz@usp.br
- Github: beatrizmilz
- Linkedin
-For more information, please contact me via email.</description>
+      data-background-image=&#34;/img/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Meio ano de aprendizagem de R!</title>
-      <link>http://beatrizmilz.com/2019/01/29/6-meses-de-r/</link>
+      <link>/post/6-meses-de-r/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://beatrizmilz.com/2019/01/29/6-meses-de-r/</guid>
-      <description>Neste texto, gostaria de compartilhar um pouco sobre os primeiros seis meses de aprendizagem em programação, principalmente na linguagem R, e também agradecer a todos que participaram deste aprendizado.
-Como surgiu o interesse em aprender R?Meu nome é Beatriz, e a minha graduação foi em Gestão Ambiental. Porém, quando estava no mestrado, precisava utilizar a linguagem R para realizar análises estatísticas com os dados que coletei. Nunca me imaginei aprendendo a programar, e até tentei utilizar sozinha o R em 2017 (sem o RStudio), mas tive muita dificuldade.</description>
+      <guid>/post/6-meses-de-r/</guid>
+      <description>
+
+
+&lt;p&gt;Neste texto, gostaria de compartilhar um pouco sobre os primeiros seis meses de aprendizagem em programação, principalmente na linguagem R, e também agradecer a todos que participaram deste aprendizado.&lt;/p&gt;
+&lt;div id=&#34;como-surgiu-o-interesse-em-aprender-r&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Como surgiu o interesse em aprender R?&lt;/h2&gt;
+&lt;p&gt;Meu nome é Beatriz, e a minha graduação foi em Gestão Ambiental. Porém, quando estava no mestrado, precisava utilizar a linguagem R para realizar análises estatísticas com os dados que coletei. Nunca me imaginei aprendendo a programar, e até tentei utilizar sozinha o R em 2017 (sem o RStudio), mas tive muita dificuldade. Então outra pessoa me ajudou com essas análises.&lt;/p&gt;
+&lt;p&gt;Depois que conclui o mestrado, no segundo semestre de 2018, passei alguns meses me preparando e participando do processo seletivo do doutorado, e pensei que seria uma boa época para tentar aprender a “mexer com o R”. Eu queria conseguir fazer minhas próprias análises estatísticas sozinha! Perguntei para uma amiga, a &lt;a href=&#34;https://github.com/analuspi&#34;&gt;Ana Lu&lt;/a&gt;, e ela me deu algumas dicas.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;r-ladies&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;R-Ladies&lt;/h2&gt;
+&lt;p&gt;Eu e a Ana ficamos sabendo que iria acontecer o primeiro encontro do &lt;a href=&#34;https://www.meetup.com/R-Ladies-Sao-Paulo&#34;&gt;R-Ladies de São Paulo&lt;/a&gt;, que é uma organização que promove a diversidade de gênero na comunidade da linguagem R. Fiquei super animada, porém como não sabia naaaada ainda, eu corri e fiz o curso introdutório de R, a tempo de participar do meetup. Eu e a Ana Lu participamos deste encontro e conhecemos outras mulheres que programam ou estavam interessadas em aprender a programar em R.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Primeiro Meetup do R-Ladies em São Paulo:&lt;/strong&gt;
+&lt;img src=&#34;https://beatrizmilz.com/img/rladies-1-meetup.jpeg&#34; width=&#34;100%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;O primeiro meetup do R-Ladies foi muito especial para mim. Eu sabia tão pouco, e me senti em um ambiente super seguro e confortável para fazer as perguntas que tinha.O R-Ladies desde o começo foi um grupo onde me sentia confortável, segura, e havia uma troca muito grande de conhecimento. Considero que muito do que já aprendi sobre R eu quero agradecer à comunidade R-Ladies e todas as participantes do grupo de São Paulo. Então desde outubro de 2018 venho auxiliado na organização dos encontros, o que tem sido uma experiência super interessante, além de ser uma forma de retribuir o que eu tenho recebido!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;cursos&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Cursos&lt;/h2&gt;
+&lt;p&gt;De agosto para cá tive a oportunidade de fazer outros cursos, porém o que considero um “divisor de águas” na minha aprendizagem sobre R foi o de &lt;a href=&#34;https://www.curso-r.com/cursos/intro-r/&#34;&gt;Introdução à Programação em R&lt;/a&gt;, da &lt;a href=&#34;https://www.curso-r.com/&#34;&gt;Curso-R&lt;/a&gt;, devido a uma bolsa de diversidade de gênero que recebi e agradeço MUITO por essa oportunidade. Agradeço também a &lt;a href=&#34;https://github.com/MaryMS/&#34;&gt;Maria&lt;/a&gt; pela companhia! Neste curso, além de aprender bastante e fazer miillllll perguntass (e agradeço os professores por também oferecerem um ambiente onde me sentisse confortável de perguntar tudo tudo tudo que tinha dúvida ou curiosidade), eu também saí de lá super empolgada em aprender mais sobre R.&lt;/p&gt;
+&lt;p&gt;Atualmente estou me dedicando em realizar cursos online, pois em novembro fui contemplada com 3 meses de acesso através de uma bolsa de estudos para mulheres e minorias de gênero.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;eventos&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Eventos&lt;/h2&gt;
+&lt;p&gt;Além dos cursos, alguns eventos também foram uma ótima oportunidade para aprender mais sobre o R e programação. A &lt;a href=&#34;https://www.ime.usp.br/~amostra/&#34;&gt;13a aMostra Estatística&lt;/a&gt; que aconteceu no IME/USP foi um evento muito interessante onde tive a oportunidade de participar de 3 mini-cursos oferecidos pela &lt;a href=&#34;https://www.curso-r.com/&#34;&gt;Curso-R&lt;/a&gt;: Exploratory Data Analisys, Shiny e Rmarkdown. Agradeço a organização deste evento por oferecer um conteúdo tão legal e gratuito!&lt;/p&gt;
+&lt;p&gt;Em novembro também fui contemplada com uma &lt;a href=&#34;https://escoladedados.org/2018/10/confira-a-lista-dos-selecionados-para-as-bolsas-de-jovens-comunicadores-do-coda-br/&#34;&gt;bolsa para jovens comunicadores&lt;/a&gt; e tive a oportunidade de participar do evento Coda BR. Eu fiquei tão feliz de poder participar deste evento, que mal tenho palavras para explicar como foi especial. Apesar de ter assistido conteúdo sobre R, o CODA BR foi muito além de programação: conheci mais sobre jornalismo de dados, tive a oportunidade de assistir palestras de especialistas nacionais e internacionais, conhecer pessoas que já admirava (a emoção de conhecer o Turicas, que eu admirava e conhecia através de podcasts e do trabalho no &lt;a href=&#34;https://brasil.io/home&#34;&gt;Brasil.IO&lt;/a&gt;), e principalmente conhecer muitas pessoas interessantes que depois se tornaram muito queridas para mim e que também fazem parte desta jornada.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ensinando-r&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Ensinando R?&lt;/h2&gt;
+&lt;p&gt;Também tive a oportunidade de ensinar outras pessoas sobre R. Acredito que, mesmo que ainda não sejamos experts, podemos compartilhar o que aprendemos com outras pessoas que também estão nessa caminhada. Além disso, descobri que ensinar outras pessoas é uma ótima forma de aprender mais também, principalmente pois quando preparo uma apresentação, eu pesquiso bastante e acabo aprendendo coisas novas (e tento sempre colocar as apresentações neste site para facilitar que outras pessoas tenham acesso).&lt;/p&gt;
+&lt;p&gt;R-Ladies no &lt;a href=&#34;http://www.ictp-saifr.org/2018-codata-rda-school-of-research-data-science/&#34;&gt;CODATA&lt;/a&gt;, em São Paulo:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://beatrizmilz.com/img/rladies_codata.jpg&#34; width=&#34;100%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;conclusao&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Conclusão&lt;/h2&gt;
+&lt;p&gt;Ainda tenho muito para aprender sobre R. Ainda tenho muita dificuldade em estatística (mas descobri que tenho mais facilidade em outras tarefas que fazemos com R!). Espero aprender muito ainda, e compartilhar muito conhecimento também. Desejo contribuir para que a comunidade R-Ladies cresça, e retribuir, mesmo que apenas parcialmente, tudo o que recebi neste tempo e de alguma forma me ajudou nesta trajetória.&lt;/p&gt;
+&lt;p&gt;Gratidão à todos que contribuíram de alguma forma nessa caminhada em programação!&lt;/p&gt;
+&lt;p&gt;E para fechar o post, coloco uma foto de recordação que significa muito para mim e simboliza a minha evolução neste meio ano.&lt;/p&gt;
+&lt;p&gt;Eu e a camiseta que recebi por ter participado da Hacktoberfest de 2018:
+&lt;img src=&#34;https://beatrizmilz.com/img/hacktoberfest.jpg&#34; width=&#34;30%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Terms</title>
+      <link>/terms/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>/terms/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

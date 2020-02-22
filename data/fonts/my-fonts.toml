@@ -1,0 +1,11 @@
+# Font style metadata
+name = "My fonts"
+
+# Optional Google font URL
+google_fonts = "Lexend+Deca|Montserrat"
+
+# Font families
+heading_font = "Lexend Deca, sans-serif"
+body_font = "Montserrat, sans-serif"
+nav_font = "Montserrat, sans-serif"
+mono_font = "Montserrat"
