@@ -206,6 +206,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142617419-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-142617419-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -509,7 +547,7 @@
       <h2><a href="/post/compartilhando-conteudo/" >Compartilhando conteúdo utilizando R</a></h2>
       <div class="article-style">
         
-          Atualização da página No último final de semana, utilizei algumas horas para reformular essa página. Eu utilizava o tema Academic, porém queria algo mais simples, então mudei para o Lithium. Além disso, também habilitei os comentários com o Disqus, habilitei o Google Analytics e também resolvi testar o Netlify (que aliás achei incrível).
+          Atualização da páginaNo último final de semana, utilizei algumas horas para reformular essa página. Eu utilizava o tema Academic, porém queria algo mais simples, então mudei para o Lithium. Além disso, também habilitei os comentários com o Disqus, habilitei o Google Analytics e também resolvi testar o Netlify (que aliás achei incrível).
 Durante esse processo, algumas dificuldades apareceram… Também lembrei da primeira vez que criei uma página com o blogdown, onde graças à muitos conteúdos online eu consegui colocar no ar depois de várias mensagens de erro.
         
       </div>

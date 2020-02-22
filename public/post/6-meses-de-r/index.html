@@ -29,7 +29,7 @@
     
   
   <meta name="description" content="Neste texto, gostaria de compartilhar um pouco sobre os primeiros seis meses de aprendizagem em programação, principalmente na linguagem R, e também agradecer a todos que participaram deste aprendizado.
-Como surgiu o interesse em aprender R? Meu nome é Beatriz, e a minha graduação foi em Gestão Ambiental. Porém, quando estava no mestrado, precisava utilizar a linguagem R para realizar análises estatísticas com os dados que coletei. Nunca me imaginei aprendendo a programar, e até tentei utilizar sozinha o R em 2017 (sem o RStudio), mas tive muita dificuldade.">
+Como surgiu o interesse em aprender R?Meu nome é Beatriz, e a minha graduação foi em Gestão Ambiental. Porém, quando estava no mestrado, precisava utilizar a linguagem R para realizar análises estatísticas com os dados que coletei. Nunca me imaginei aprendendo a programar, e até tentei utilizar sozinha o R em 2017 (sem o RStudio), mas tive muita dificuldade.">
 
   
   <link rel="alternate" hreflang="en-us" href="/post/6-meses-de-r/">
@@ -207,6 +207,44 @@ Como surgiu o interesse em aprender R? Meu nome é Beatriz, e a minha graduaçã
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142617419-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-142617419-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -233,7 +271,7 @@ Como surgiu o interesse em aprender R? Meu nome é Beatriz, e a minha graduaçã
   <meta property="og:url" content="/post/6-meses-de-r/">
   <meta property="og:title" content="Meio ano de aprendizagem de R! | Beatriz Milz">
   <meta property="og:description" content="Neste texto, gostaria de compartilhar um pouco sobre os primeiros seis meses de aprendizagem em programação, principalmente na linguagem R, e também agradecer a todos que participaram deste aprendizado.
-Como surgiu o interesse em aprender R? Meu nome é Beatriz, e a minha graduação foi em Gestão Ambiental. Porém, quando estava no mestrado, precisava utilizar a linguagem R para realizar análises estatísticas com os dados que coletei. Nunca me imaginei aprendendo a programar, e até tentei utilizar sozinha o R em 2017 (sem o RStudio), mas tive muita dificuldade."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+Como surgiu o interesse em aprender R?Meu nome é Beatriz, e a minha graduação foi em Gestão Ambiental. Porém, quando estava no mestrado, precisava utilizar a linguagem R para realizar análises estatísticas com os dados que coletei. Nunca me imaginei aprendendo a programar, e até tentei utilizar sozinha o R em 2017 (sem o RStudio), mas tive muita dificuldade."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
     
@@ -283,7 +321,7 @@ Como surgiu o interesse em aprender R? Meu nome é Beatriz, e a minha graduaçã
       "url": "/images/icon_huad7eeada2969fc16609a300863722f9f_11369_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Neste texto, gostaria de compartilhar um pouco sobre os primeiros seis meses de aprendizagem em programação, principalmente na linguagem R, e também agradecer a todos que participaram deste aprendizado.\nComo surgiu o interesse em aprender R? Meu nome é Beatriz, e a minha graduação foi em Gestão Ambiental. Porém, quando estava no mestrado, precisava utilizar a linguagem R para realizar análises estatísticas com os dados que coletei. Nunca me imaginei aprendendo a programar, e até tentei utilizar sozinha o R em 2017 (sem o RStudio), mas tive muita dificuldade."
+  "description": "Neste texto, gostaria de compartilhar um pouco sobre os primeiros seis meses de aprendizagem em programação, principalmente na linguagem R, e também agradecer a todos que participaram deste aprendizado.\nComo surgiu o interesse em aprender R?\rMeu nome é Beatriz, e a minha graduação foi em Gestão Ambiental. Porém, quando estava no mestrado, precisava utilizar a linguagem R para realizar análises estatísticas com os dados que coletei. Nunca me imaginei aprendendo a programar, e até tentei utilizar sozinha o R em 2017 (sem o RStudio), mas tive muita dificuldade."
 }
 </script>
 
@@ -636,7 +674,7 @@ Como surgiu o interesse em aprender R? Meu nome é Beatriz, e a minha graduaçã
 <p>R-Ladies no <a href="http://www.ictp-saifr.org/2018-codata-rda-school-of-research-data-science/">CODATA</a>, em São Paulo:</p>
 <p><img src="https://beatrizmilz.com/img/rladies_codata.jpg" width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="conclusao" class="section level2">
+<div id="conclusão" class="section level2">
 <h2>Conclusão</h2>
 <p>Ainda tenho muito para aprender sobre R. Ainda tenho muita dificuldade em estatística (mas descobri que tenho mais facilidade em outras tarefas que fazemos com R!). Espero aprender muito ainda, e compartilhar muito conhecimento também. Desejo contribuir para que a comunidade R-Ladies cresça, e retribuir, mesmo que apenas parcialmente, tudo o que recebi neste tempo e de alguma forma me ajudou nesta trajetória.</p>
 <p>Gratidão à todos que contribuíram de alguma forma nessa caminhada em programação!</p>

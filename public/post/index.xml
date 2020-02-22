@@ -22,7 +22,7 @@
 
 &lt;p&gt;Esse post é uma continuação deste outro: &lt;a href=&#34;https://beatrizmilz.com/2019/01/29/6-meses-de-r/&#34;&gt;Meio ano de aprendizagem de R!&lt;/a&gt;, onde relatei um pouco sobre os primeiros seis meses de aprendizagem em programação, principalmente na linguagem R.&lt;/p&gt;
 &lt;p&gt;Como dito no post citado, eu começei a aprender &lt;code&gt;R&lt;/code&gt; e programação em agosto de 2018. Ou seja, neste mês completo um ano de aprendizagem! 🎂 🎈 Foi um ano muito rico de experiências, onde conheci muitas pessoas queridas e aprendi muito também!&lt;/p&gt;
-&lt;div id=&#34;r-ladies-sao-paulo&#34; class=&#34;section level1&#34;&gt;
+&lt;div id=&#34;r-ladies-são-paulo&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;R-Ladies São Paulo 💜&lt;/h1&gt;
 &lt;p&gt;Conhecer a organização &lt;a href=&#34;https://www.meetup.com/pt-BR/R-Ladies-Sao-Paulo/&#34;&gt;R-Ladies São Paulo&lt;/a&gt; foi uma das melhores coisas que já me aconteceu, e ter a oportunidade de contribuir com a organização dos eventos é algo que faço com muita alegria. Na &lt;a href=&#34;https://www.meetup.com/pt-BR/R-Ladies-Sao-Paulo/&#34;&gt;R-Ladies&lt;/a&gt;, sinto que é um espaço muito acolhedor e seguro para aprender sobre R, compartilhar conhecimento, tirar dúvidas, fazer amizades, e muito mais.&lt;/p&gt;
 &lt;p&gt;Neste mês de agosto, também foi o aniversário de 1 ano da R-Ladies São Paulo, e a apresentação feita no evento está disponível &lt;a href=&#34;https://beatrizmilz.github.io/R-Ladies_1ano/&#34;&gt;neste link&lt;/a&gt;. Foi um evento muito querido! E abaixo segue uma foto de como foi:&lt;/p&gt;
@@ -83,7 +83,7 @@ Sábado passado aconteceu o &lt;a href=&#34;https://twitter.com/hashtag/meetup?s
 &lt;p&gt;O que aprendi nesse 1 ano de R é devido à comunidade. Eu ainda preciso e quero aprendender muitas coisas ainda, mas acho válido compartilhar o que eu aprendi até então, e acredito que é uma forma de retribuir para a comunidade um pouco do que tanto que recebi até agora.&lt;/p&gt;
 &lt;p&gt;As apresentações que fiz geralmente deixo disponível &lt;a href=&#34;https://beatrizmilz.com/slides/&#34;&gt;nessa página&lt;/a&gt;, para que todos consigam consultar.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;proximos-passos&#34; class=&#34;section level1&#34;&gt;
+&lt;div id=&#34;próximos-passos&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Próximos passos&lt;/h1&gt;
 &lt;p&gt;Em setembro, participarei da &lt;a href=&#34;https://latin-r.com/&#34;&gt;Latin-R&lt;/a&gt; - Conferencia Latinoamericana sobre Uso de R en Investigación + Desarrollo, pois fui selecionada para receber um bolsa de diversidade. Estou muito animada para conhecer mais pessoas da comunidade de R Latinoamericana.&lt;/p&gt;
 &lt;p&gt;No projeto temático de pesquisa que faço parte (&lt;a href=&#34;https://bv.fapesp.br/pt/auxilios/97000/governanca-ambiental-da-macrometropole-paulista-face-a-variabilidade-climatica/&#34;&gt;Governança ambiental da Macrometrópole Paulista face à variabilidade climática&lt;/a&gt;), existem pessoas que já programam em R, e também pessoas que tem interesse em aprender.&lt;/p&gt;
@@ -138,7 +138,7 @@ Figure 2: Exemplo de uso - &lt;a href=&#39;https://beatriz-milz.shinyapps.io/pes
 &lt;p&gt;A maior &lt;strong&gt;dificuldade&lt;/strong&gt; que tive com esse dashboard foi o filtro que gera a tabela. Inicialmente, ele não resultava o que eu precisava… eu fiquei cerca de duas semanas com esse problema, até que levei para os professores da Curso-R na última aula. Agradeço imensamente ao &lt;a href=&#34;https://github.com/jtrecenti&#34;&gt;Julio Trecenti&lt;/a&gt; e ao &lt;a href=&#34;https://github.com/williamorim&#34;&gt;William Amorim&lt;/a&gt;, que solucionaram o problema! Sem a ajuda que recebi, esse Shiny App ainda estaria apenas no meu computador…&lt;/p&gt;
 &lt;p&gt;Por outro lado, é muito gratificante ver tudo funcionando, ter ideias e conseguir implementá-las! Mostrei para algumas pessoas, que deram feedbacks sobre as dificuldades que tiveram ao utilizar a página. Isso foi muito importante também para aprimorar o Shiny App.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;proximas-etapas&#34; class=&#34;section level2&#34;&gt;
+&lt;div id=&#34;próximas-etapas&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Próximas etapas&lt;/h2&gt;
 &lt;p&gt;Algumas pessoas sugeriram algumas melhorias que dependem de dados que não estão nessa base disponibilizada pela CAPES. Considerando que a nova avaliação do Qualis será disponibilizada nos próximos meses, e existem notícias de que essa avaliação será unificada (cada periódico terá apenas uma nota geral, e não uma nota por área de avaliação), achei melhor esperar os resultados do novo Qualis para então pensar nas possibilidades de atualização e melhoria deste Shiny App.&lt;/p&gt;
 &lt;p&gt;Sobre o aprendizado de Shiny, eu gostaria de praticar mais. Já tenho uma ideia para um próximo Shiny App, agora o que falta é ter tempo para isso. Além disso, gostaria de aprender a utilizar o pacote &lt;a href=&#34;https://github.com/ThinkR-open/golem&#34;&gt;&lt;code&gt;golem&lt;/code&gt;&lt;/a&gt;, e a deixar meus Apps disponíveis em outras plataformas, como por exemplo na &lt;a href=&#34;https://aws.amazon.com/pt/&#34;&gt;AWS&lt;/a&gt; ou &lt;a href=&#34;https://www.digitalocean.com&#34;&gt;Digital Ocean&lt;/a&gt;.&lt;/p&gt;
@@ -192,12 +192,12 @@ Pesquisadora no projeto FAPESP MacroAmb - Governança Ambiental da Macrometrópo
       <description>
 
 
-&lt;div id=&#34;atualizacao-da-pagina&#34; class=&#34;section level1&#34;&gt;
+&lt;div id=&#34;atualização-da-página&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Atualização da página&lt;/h1&gt;
 &lt;p&gt;No último final de semana, utilizei algumas horas para reformular essa página. Eu utilizava o tema &lt;a href=&#34;https://themes.gohugo.io/academic/&#34;&gt;Academic&lt;/a&gt;, porém queria algo mais simples, então mudei para o &lt;a href=&#34;https://themes.gohugo.io/hugo-lithium-theme/&#34;&gt;Lithium&lt;/a&gt;. Além disso, também habilitei os comentários com o &lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;, habilitei o &lt;a href=&#34;https://analytics.google.com/analytics/web/&#34;&gt;Google Analytics&lt;/a&gt; e também resolvi testar o &lt;a href=&#34;https://netlify.com/&#34;&gt;Netlify&lt;/a&gt; (que aliás achei incrível).&lt;/p&gt;
 &lt;p&gt;Durante esse processo, algumas dificuldades apareceram… Também lembrei da primeira vez que criei uma página com o &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;&lt;code&gt;blogdown&lt;/code&gt;&lt;/a&gt;, onde graças à muitos conteúdos online eu consegui colocar no ar depois de várias mensagens de erro.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/ktvFa67wmjDEI/giphy.gif&#34; width=&#34;30%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
-&lt;div id=&#34;conteudos-online&#34; class=&#34;section level2&#34;&gt;
+&lt;div id=&#34;conteúdos-online&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Conteúdos online&lt;/h2&gt;
 &lt;p&gt;Os conteúdos online, que muitas pessoas disponibilizaram através de posts em blog, livros, documentação, dúvidas no &lt;a href=&#34;https://pt.stackoverflow.com/&#34;&gt;Stackoverflow&lt;/a&gt;, me ajudaram muito a conseguir entender como funcionava o processo de criar uma página com o &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;&lt;code&gt;blogdown&lt;/code&gt;&lt;/a&gt;. Esses conteúdos foram essenciais também para entender como deixar esse site disponível online utilizando o &lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt; (lembrando que a minha formação é em Gestão Ambiental). Porém a maior parte desse conteúdo estava &lt;strong&gt;disponibilizado em inglês&lt;/strong&gt;: foram poucos os materiais que encontrei em português.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/1iu8uG2cjYFZS6wTxv/giphy.gif&#34; width=&#34;30%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
@@ -209,7 +209,7 @@ Pesquisadora no projeto FAPESP MacroAmb - Governança Ambiental da Macrometrópo
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
 &lt;/div&gt;
-&lt;div id=&#34;compartilhando-conteudo-sobre-r-e-utilizando-r&#34; class=&#34;section level2&#34;&gt;
+&lt;div id=&#34;compartilhando-conteúdo-sobre-r-e-utilizando-r&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Compartilhando conteúdo sobre R e utilizando R&lt;/h2&gt;
 &lt;p&gt;Por isso, pretendo fazer alguns posts &lt;strong&gt;em português&lt;/strong&gt; com algumas &lt;strong&gt;dicas sobre como compartilhar conteúdo na internet&lt;/strong&gt;, utilizando &lt;code&gt;R&lt;/code&gt;. Não é segredo que eu sou fã dos pacotes criados pelo &lt;a href=&#34;https://yihui.name&#34;&gt;Yihui Xie&lt;/a&gt;, então os temas que pretendo abordar são:&lt;/p&gt;
 &lt;ul&gt;
@@ -224,7 +224,7 @@ Pesquisadora no projeto FAPESP MacroAmb - Governança Ambiental da Macrometrópo
 &lt;p&gt;O post do &lt;a href=&#34;https://woliveiras.com.br/&#34;&gt;William Oliveira&lt;/a&gt;, chamado &lt;a href=&#34;https://medium.com/trainingcenter/plano-para-estudar-git-e-github-enquanto-aprende-programa%C3%A7%C3%A3o-f5d5f986f459&#34;&gt;Plano para estudar Git e GitHub enquanto aprende programação&lt;/a&gt;, me ajudou bastante a entender como começar a usar o &lt;code&gt;git&lt;/code&gt;. Nesse post ele utiliza o terminal, e para algumas pessoas que estão iniciando essa abordagem pode ser um pouco intimidadora.&lt;/p&gt;
 &lt;p&gt;Outra opção para quem está iniciando é utilizar o &lt;a href=&#34;https://desktop.github.com/&#34;&gt;Github Desktop&lt;/a&gt;. Acredito que é uma interface amigável para quem está aprendendo como funciona o &lt;code&gt;git&lt;/code&gt;.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;ate-logo&#34; class=&#34;section level2&#34;&gt;
+&lt;div id=&#34;até-logo&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Até logo!&lt;/h2&gt;
 &lt;p&gt;Pretendo postar sobre esses conteúdos logo logo. Enquanto isso, estou aberta à sugestões. Existem outras formas que vocês usam para divulgar conteúdo utilizando &lt;code&gt;R&lt;/code&gt;? Existe alguma que você conheça e gostaria de aprender mais? Existem dificuldades? Se sim, quais?&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/dNgK7Ws7y176U/giphy.gif&#34; width=&#34;30%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
@@ -270,7 +270,7 @@ Pesquisadora no projeto FAPESP MacroAmb - Governança Ambiental da Macrometrópo
 &lt;p&gt;R-Ladies no &lt;a href=&#34;http://www.ictp-saifr.org/2018-codata-rda-school-of-research-data-science/&#34;&gt;CODATA&lt;/a&gt;, em São Paulo:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://beatrizmilz.com/img/rladies_codata.jpg&#34; width=&#34;100%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;conclusao&#34; class=&#34;section level2&#34;&gt;
+&lt;div id=&#34;conclusão&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Conclusão&lt;/h2&gt;
 &lt;p&gt;Ainda tenho muito para aprender sobre R. Ainda tenho muita dificuldade em estatística (mas descobri que tenho mais facilidade em outras tarefas que fazemos com R!). Espero aprender muito ainda, e compartilhar muito conhecimento também. Desejo contribuir para que a comunidade R-Ladies cresça, e retribuir, mesmo que apenas parcialmente, tudo o que recebi neste tempo e de alguma forma me ajudou nesta trajetória.&lt;/p&gt;
 &lt;p&gt;Gratidão à todos que contribuíram de alguma forma nessa caminhada em programação!&lt;/p&gt;
