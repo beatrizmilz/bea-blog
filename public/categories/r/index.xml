@@ -5,12 +5,147 @@
     <link>/categories/r/</link>
       <atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 31 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 22 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>R</title>
       <link>/categories/r/</link>
     </image>
+    
+    <item>
+      <title>The Carpentries: Como fazer o treinamento de instrutor(a)?</title>
+      <link>/post/the-carpentries/</link>
+      <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/post/the-carpentries/</guid>
+      <description>
+
+
+&lt;p&gt;Olá a todes! Neste post, vou contar um pouco sobre o que é a &lt;a href=&#34;https://carpentries.org/&#34;&gt;The Carpentries&lt;/a&gt;, como conheci este projeto, como foi o treinamento para me tornar uma instrutora, e quais desafios que percebi para o crescimento da comunidade no Brasil.&lt;/p&gt;
+&lt;div id=&#34;o-que-é-a-the-carpentries&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;O que é a The Carpentries?&lt;/h2&gt;
+&lt;center&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-1&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://carpentries.org/assets/img/TheCarpentries.svg&#34; alt=&#34;Logo da The Carpentries. Fonte: &amp;lt;a href=&#39;https://carpentries.org/&#39;&amp;gt;The Carpentries&amp;lt;/a&amp;gt;&#34;  /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Logo da The Carpentries. Fonte: &lt;a href=&#39;https://carpentries.org/&#39;&gt;The Carpentries&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;p&gt;A &lt;a href=&#34;https://carpentries.org/&#34;&gt;The Carpentries&lt;/a&gt; é uma comunidade global que desenvolve materiais e realiza workshops sobre habilidades de programação (principalmente ciência de dados). Os conteúdos dos workshops são desenvolvidos pela comunidade, através do GitHub. Esses workshops são realizados por instrutores(as) que recebem um treinamento e são certificados.&lt;/p&gt;
+&lt;p&gt;Leia abaixo a missão e visão da The Carpentries:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Visão&lt;/strong&gt;: Nossa visão é ser a &lt;strong&gt;comunidade inclusiva&lt;/strong&gt; líder em ensino de dados e habilidades de programação.
+&lt;strong&gt;Missão&lt;/strong&gt;: A Carpentries desenvolve capacidade global em dados essenciais e habilidades computacionais para conduzir pesquisas eficientes, abertas e reproduzíveis. Treinamos e promovemos uma &lt;strong&gt;comunidade ativa, inclusiva e diversificada&lt;/strong&gt; de alunos e instrutores que promove e modela a importância do software e dos dados na pesquisa. Colaboramos no desenvolvimento de lições abertas e entregamos essas lições usando práticas de ensino baseadas em evidências. Focamos nas pessoas que conduzem e apoiam pesquisas.
+Fonte: &lt;a href=&#34;https://carpentries.org/about/&#34; class=&#34;uri&#34;&gt;https://carpentries.org/about/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Um ponto que acredito ser indispensável em qualquer comunidade é ter um código de conduta. Na The Carpentries, o &lt;a href=&#34;https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html&#34;&gt;código de conduta&lt;/a&gt; é continuamente discutido e aprimorado!&lt;/p&gt;
+&lt;p&gt;A The Carpentries engloba 3 projetos: &lt;a href=&#34;http://www.datacarpentry.org/&#34;&gt;Data Carpentry&lt;/a&gt;, &lt;a href=&#34;https://software-carpentry.org/&#34;&gt;Software Carpentry&lt;/a&gt; e &lt;a href=&#34;https://librarycarpentry.org/&#34;&gt;Library Carpentry&lt;/a&gt;. Cada projeto tem um foco, mas todos criam materiais de ensino e promovem workshops sobre &lt;code&gt;R&lt;/code&gt;, &lt;code&gt;Python&lt;/code&gt;, &lt;code&gt;Git&lt;/code&gt; e muito mais.&lt;/p&gt;
+&lt;p&gt;Segue abaixo uma lista de materiais sobre &lt;code&gt;R&lt;/code&gt; disponíveis nos projetos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Data Carpentry&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://datacarpentry.org/R-ecology-lesson/&#34;&gt;Data Analysis and Visualization in R for Ecologists&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://datacarpentry.org/r-intro-geospatial&#34;&gt;Introduction to R for Geospatial Data&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://datacarpentry.org/r-raster-vector-geospatial&#34;&gt;Introduction to Geospatial Raster and Vector Data with R&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Software Carpentry&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://swcarpentry.github.io/r-novice-inflammation&#34;&gt;Programming with R&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://swcarpentry.github.io/r-novice-gapminder&#34;&gt;R for Reproducible Scientific Analysis&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Library Carpentry&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://librarycarpentry.org/lc-r/&#34;&gt;Introduction to R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Os materiais são desenvolvidos em inglês. Alguns materiais estão sendo traduzidos para espanhol, sendo uma iniciativa da comunidade da The Carpentries na América Latina. Infelizmente não estão disponíveis materiais em português, pois a comunidade brasileira da The Carpentries ainda é pequena, o que é possível de observar no mapa abaixo:&lt;/p&gt;
+&lt;center&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-2&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://i.imgur.com/C1ZX6Sv.jpg&#34; alt=&#34;Mapa de instrutores(as) da Carpentries. Data: Fevereiro/2020 Fonte: &amp;lt;a href=&#39;https://carpentries.org/instructors-map/&#39;&amp;gt;Carpentries - Instructors Map&amp;lt;/a&amp;gt;.&#34;  /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 2: Mapa de instrutores(as) da Carpentries. Data: Fevereiro/2020 Fonte: &lt;a href=&#39;https://carpentries.org/instructors-map/&#39;&gt;Carpentries - Instructors Map&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+&lt;div id=&#34;como-conheci-a-the-carpentries&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Como conheci a The Carpentries?&lt;/h2&gt;
+&lt;p&gt;Agora que já expliquei o que é a The Carpentries, vou falar um pouco sobre como eu conheci esse projeto.&lt;/p&gt;
+&lt;p&gt;No segundo semestre de 2018, quando estava começando a aprender R, os organizadores do &lt;a href=&#34;https://www.ictp-saifr.org/2018-codata-rda-school-of-research-data-science/&#34;&gt;“2018 CODATA-RDA School of Research Data Science”&lt;/a&gt; entraram em contato com as R-Ladies São Paulo para ministrar voluntariamente um dia e meio de aula de R &lt;strong&gt;em inglês&lt;/strong&gt;. Mesmo com poucos meses de aprendizado, eu declarei interesse em participar. Na ocasião, a Haydee Svab e a Alissa Mune também participaram.&lt;/p&gt;
+&lt;p&gt;Este curso ocorreu em dezembro de 2018, e utilizou o método da Carpentries de ensino, e também os materiais. O material utilizado foi o &lt;a href=&#34;http://swcarpentry.github.io/r-novice-inflammation/&#34;&gt;Programming with R&lt;/a&gt;, da &lt;a href=&#34;https://software-carpentry.org/&#34;&gt;Software Carpentry&lt;/a&gt;. Eu ministrei os conteúdos de Boas práticas (&lt;a href=&#34;http://swcarpentry.github.io/r-novice-inflammation/06-best-practices-R/index.html&#34;&gt;Best Practices for Writing R Code&lt;/a&gt;), e Relatórios dinâmicos com o &lt;code&gt;knitr&lt;/code&gt; (&lt;a href=&#34;http://swcarpentry.github.io/r-novice-inflammation/07-knitr-R/index.html&#34;&gt;Dynamic Reports with knitr&lt;/a&gt;), pois eram os conteúdos que eu tinha mais familiaridade. Foi uma oportunidade muito boa, onde eu aprendi bastante, e também conheci R-Ladies de outros capítulos da América Latina.&lt;/p&gt;
+&lt;center&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-3&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://beatrizmilz.com/img/rladies_codata.jpg&#34; alt=&#34;R-Ladies no 2018 CODATA: &amp;lt;a href=&#39;https://twitter.com/SanchezTapiaA&#39;&amp;gt;Andrea Tapia - R-Ladies Rio de Janeiro&amp;lt;/a&amp;gt;, &amp;lt;a href=&#39;https://twitter.com/ndasilva_stat&#39;&amp;gt;Natalia da Silva - R-Ladies Montevideo&amp;lt;/a&amp;gt;, &amp;lt;a href=&#39;https://twitter.com/alissamune&#39;&amp;gt;Alissa Mune - R-Ladies São Paulo&amp;lt;/a&amp;gt;, &amp;lt;a href=&#39;https://twitter.com/hsvab&#39;&amp;gt;Haydee Svab - R-Ladies São Paulo&amp;lt;/a&amp;gt;, eu, e &amp;lt;a href=&#39;https://twitter.com/Fichulina&#39;&amp;gt;Marcela Alfaro - R-Ladies San José&amp;lt;/a&amp;gt;.&#34;  /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 3: R-Ladies no 2018 CODATA: &lt;a href=&#39;https://twitter.com/SanchezTapiaA&#39;&gt;Andrea Tapia - R-Ladies Rio de Janeiro&lt;/a&gt;, &lt;a href=&#39;https://twitter.com/ndasilva_stat&#39;&gt;Natalia da Silva - R-Ladies Montevideo&lt;/a&gt;, &lt;a href=&#39;https://twitter.com/alissamune&#39;&gt;Alissa Mune - R-Ladies São Paulo&lt;/a&gt;, &lt;a href=&#39;https://twitter.com/hsvab&#39;&gt;Haydee Svab - R-Ladies São Paulo&lt;/a&gt;, eu, e &lt;a href=&#39;https://twitter.com/Fichulina&#39;&gt;Marcela Alfaro - R-Ladies San José&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;p&gt;Nessa ocasião, a &lt;a href=&#39;https://twitter.com/Fichulina&#39;&gt;Marce&lt;/a&gt; explicou o que é a Carpentries, disse que temos poucos instrutores(as) no Brasil, e me motivou a me inscrever no processo para fazer o treinamento para ser uma instrutora.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;treinamento-de-instrutora&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Treinamento de instrutora&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://carpentries.github.io/instructor-training/&#34;&gt;Nesta página&lt;/a&gt; é possível encontrar informações sobre o treinamento. Abaixo vou descrever como foi o &lt;strong&gt;meu&lt;/strong&gt; processo de treinamento.&lt;/p&gt;
+&lt;div id=&#34;registrando-o-interesse&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Registrando o interesse&lt;/h3&gt;
+&lt;p&gt;Depois do CODATA, eu demorei um pouco para começar. A primeira etapa foi preencher &lt;a href=&#34;https://amy.carpentries.org/forms/request_training/&#34;&gt;este formulário online&lt;/a&gt; registrando o interesse em realizar o treinamento. Eu preenchi em março de 2019.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;email-de-aceite&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Email de aceite&lt;/h3&gt;
+&lt;p&gt;No início de abril de 2019, recebi o email em que indicava o link para me inscrever no treinamento. No site, são disponíveis diversas opções de datas e horários. Eu me inscrevi para realizar o treinamento em Julho/2019, pois o mesmo &lt;strong&gt;tem duração de 2 dias (online)&lt;/strong&gt;, e no primeiro semestre eu estava ocupada com as disciplinas da pós.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;treinamento&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Treinamento&lt;/h3&gt;
+&lt;p&gt;O treinamento foi realizado em Julho/2019 através do Zoom (online), com duração de 2 dias. É importante destacar que o treinamento foi inteiramente realizado em inglês. &lt;a href=&#34;https://carpentries.github.io/instructor-training/&#34;&gt;Nesta página&lt;/a&gt; é possível ver os conteúdos abordados. O curso foca em boas práticas para o ensino, e foi riquíssimo, contando com atividades práticas. Uma das minhas atividades favoritas foi em grupo: cada pessoa do grupo deveria compartilhar a tela do computador e apresentar uma curta aula, e os participantes do grupo fornecem feedbacks positivos e negativos.&lt;/p&gt;
+&lt;p&gt;Depois de completar o treinamento, existem 3 etapas para concluir o checkout process: participar de uma reunião da comunidade (community discussion), fazer uma contribuição em algum material da Carpentries, e apresentar uma aula de 5 minutos codando ao vivo (live coding). Essas etapas devem ser realizadas em até 3 meses após participar do treinamento online.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;community-discussion&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Community discussion&lt;/h3&gt;
+&lt;p&gt;Para participar da community discussion, existe um documento com diversas opções de horários e datas. Eu coloquei meu nome em uma opção de data que eu poderia participar. A reunião é online e dura 1 hora, e participaram pessoas que estão no treinamento, e também instrutores(as) experientes.&lt;/p&gt;
+&lt;p&gt;Foi muito interessante ouvir as pessoas contando quais foram os aprendizados que tiveram nos workshops oferecidos. Algo que eu achei muito interessante são os relatos do que errado nos workshops, pois assim podemos pensar em formas de prevenir estes problemas em workshops futuros!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;contribuindo-com-os-materiais&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Contribuindo com os materiais&lt;/h3&gt;
+&lt;p&gt;Como disse anteriormente, todos os materiais da Carpentries são desenvolvidos e aprimorados pela comunidade, através do GitHub. Então parte do treinamento é realizar uma contribuição, seja com um pull request, respondendo uma issue ou dando alguma sugestão/feedback.&lt;/p&gt;
+&lt;p&gt;Eu estava estudando uma das lições da Data Carpentry para me preparar para a etapa de live coding. Em Agosto/2019, fiz uma contribuição respondendo uma &lt;a href=&#34;https://github.com/datacarpentry/R-ecology-lesson/issues/559&#34;&gt;issue&lt;/a&gt; com uma sugestão relacionado à lição &lt;a href=&#34;https://datacarpentry.org/R-ecology-lesson/&#34;&gt;Data Analysis and Visualization in R for Ecologists&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;live-coding&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Live Coding&lt;/h3&gt;
+&lt;p&gt;Essa foi a última etapa, que realizei em Setembro/2019! A dinâmica é a seguinte: deve-se escolhar uma lição da Carpentries (eu escolhi &lt;a href=&#34;https://datacarpentry.org/R-ecology-lesson/&#34;&gt;essa&lt;/a&gt;), e estudar o material.&lt;/p&gt;
+&lt;p&gt;Depois de estudar o conteúdo da lição &lt;a href=&#34;https://datacarpentry.org/R-ecology-lesson/&#34;&gt;Data Analysis and Visualization in R for Ecologists&lt;/a&gt;, adicionei meu nome e a lição escolhida no documento com as datas disponíveis para o Live Coding.&lt;/p&gt;
+&lt;p&gt;A avaliação é realizada em uma ligação no Zoom, com outras pessoas que estão em treinamento e uma pessoa avaliadora. A pessoa avaliadora então escolhe em qual tópico do curso a aula com live coding deve começar (por isso é necessário estudar todo o material escolhido!).&lt;/p&gt;
+&lt;p&gt;Então eu compartilhei a minha tela com todos(as), abri o RStudio, e dei uma aula de 5 minutos em inglês, com live coding, utilizando as práticas que aprendemos no treinamento. Depois de apresentar a aula, é necessário fazer um feedback de si mesmo (positivo e negativo). O feedback que eu fiz para mim mesma é que senti que eu parava para pensar no termo em inglês, e isso prejudicava o ritmo da aula. A pessoa que estava avaliando me tranquilizou e disse que isso não afetou a qualidade da aula. As outras pessoas que estavam em treinamento elaboraram feedbacks, o que me deixou super feliz, já que recebi feedbacks bem legais (um exemplo foi falarem que a minha voz e jeito de falar é animada e deixou as pessoas interessadas no conteúdo apresentado).&lt;/p&gt;
+&lt;p&gt;Depois de apresentar e receber os feedbacks, também assisti as aulas de outras pessoas em treinamento, e dei feedbacks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;concluindo-o-checkout-process&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Concluindo o Checkout Process&lt;/h3&gt;
+&lt;p&gt;Depois de cumprir todas essas etapas e informar por email (por exemplo, o link da issue que contribuí), esperei um tempo e verifiquei &lt;a href=&#34;https://amy.carpentries.org/account/login/?next=/dashboard/&#34;&gt;neste site&lt;/a&gt; que já havia cumprido os requisitos. Preenchi os dados que faltavam, e em pouco tempo o meu nome apareceu na lista de instrutores(as): (é preciso utilizar o ctrl+F, pois são muitas pessoas!)&lt;/p&gt;
+&lt;center&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-4&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://i.imgur.com/eNrUmqa.jpg&#34; alt=&#34;Print screen da página de instrutores(as) da Carpentries.  Fonte: &amp;lt;a href=&#39;https://carpentries.org/instructors/&#39;&amp;gt;Carpentries - Our Instructors&amp;lt;/a&amp;gt;.&#34; width=&#34;50%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 4: Print screen da página de instrutores(as) da Carpentries. Fonte: &lt;a href=&#39;https://carpentries.org/instructors/&#39;&gt;Carpentries - Our Instructors&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;p&gt;Desde então, posso organizar e dar aula em Workshops da Carpentries. Eu e o &lt;a href=&#39;https://twitter.com/rgaiacs&#39;&gt;Raniere Silva&lt;/a&gt; estamos em contato com ideias de organizar workshops neste ano!&lt;/p&gt;
+&lt;p&gt;Eu aprendi bastante neste treinamento, o que possibilitou ter um olhar crítico sobre as aulas e materiais que eu (e outras pessoas também) ofereço. Desenvolver a habilidade de fornecer feedbacks construtivos, e praticar live coding foram conteúdos que também gostei muito no treinamento da Carpentries.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;desafios-para-a-comunidade-carpentries-no-brasil&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Desafios para a comunidade Carpentries no Brasil&lt;/h2&gt;
+&lt;p&gt;Dentre os desafios que percebi, o que mais chama a atenção é que o treinamento para se tornar uma pessoa instrutora é totalmente em inglês. Isso acaba dificultando a participação de muitas pessoas que não falam inglês. Além disso, existem poucos instrutores(as) certificados no Brasil. Consequentemente o material dos workshops estão em inglês, pois ainda não foram traduzidos.&lt;/p&gt;
+&lt;p&gt;Nos países da América Latina que falam espanhol, as pessoas instrutoras trabalham em equipe para traduzir os materiais dos workshops, e também já ofereceram o treinamento para instrutores(as) em espanhol.&lt;/p&gt;
+&lt;p&gt;Portanto, se queremos ter materiais e workshops em português, é essencial que a comunidade da Carpentries cresça no Brasil!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media0.giphy.com/media/QxZ0nbcVgMlPlnfZos/giphy-downsized.gif&#34; width=&#34;40%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Escrevi este post com o objetivo de deixar mais claro como foi este processo. Estou à disposição em caso de outras dúvidas: &lt;i class=&#34;far fa-envelope&#34;&gt;&lt;/i&gt; &lt;a href=&#34;mailto:milz.bea@gmail.com&#34;&gt;milz.bea@gmail.com&lt;/a&gt; e &lt;a href=&#39;https://t.me/beamilz&#39;&gt;&lt;i class=&#34;fab fa-telegram&#34;&gt;&lt;/i&gt; telegram&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;agradecimentos&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Agradecimentos:&lt;/h2&gt;
+&lt;p&gt;Gostaria de agradecer algumas pessoas que fizeram parte do treinamento e avaliação, ou de alguma forma contribuíram com este processo: &lt;a href=&#39;https://twitter.com/Fichulina&#39;&gt;Marcela Alfaro&lt;/a&gt;, &lt;a href=&#39;https://twitter.com/microStevens&#39;&gt;Sarah Stevens&lt;/a&gt;, &lt;a href=&#39;https://twitter.com/maneeshasane&#39;&gt;Maneesha Sane&lt;/a&gt;, &lt;a href=&#39;https://twitter.com/fmic_&#39;&gt;François Michonneau&lt;/a&gt; e &lt;a href=&#39;https://twitter.com/rgaiacs&#39;&gt;Raniere Silva&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Um ano aprendendo R!</title>
