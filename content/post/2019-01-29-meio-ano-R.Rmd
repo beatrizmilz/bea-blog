@@ -2,7 +2,7 @@
 title: Meio ano de aprendizagem de R!
 author: Beatriz Milz
 date: '2019-01-29'
-lastmod: '2019-01-29'
+lastmod: '2019-01-29T09:00:00-03:00'
 slug: 6-meses-de-r
 categories: [R-Ladies, R]
 tags: [R, R-Ladies]
