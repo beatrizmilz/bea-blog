@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blogdown | Beatriz Milz</title>
-    <link>/tags/blogdown/</link>
-      <atom:link href="/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://beatrizmilz.com/tags/blogdown/</link>
+      <atom:link href="http://beatrizmilz.com/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
     <description>blogdown</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 24 Jun 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>blogdown</title>
-      <link>/tags/blogdown/</link>
+      <link>http://beatrizmilz.com/tags/blogdown/</link>
     </image>
     
     <item>
       <title>Compartilhando conteúdo utilizando R</title>
-      <link>/post/compartilhando-conteudo/</link>
+      <link>http://beatrizmilz.com/post/compartilhando-conteudo/</link>
       <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/post/compartilhando-conteudo/</guid>
+      <guid>http://beatrizmilz.com/post/compartilhando-conteudo/</guid>
       <description>
 
 

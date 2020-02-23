@@ -2,6 +2,7 @@
 title: Desenvolvendo meu primeiro Shiny App
 author: Beatriz Milz
 date: '2019-08-21'
+lastmod: '2019-08-21'
 slug: desenvolvendo-meu-primeiro-shiny-app
 categories:
   - R

@@ -3,164 +3,154 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/courses/example/example1/</loc>
+    <loc>http://beatrizmilz.com/courses/example/example1/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/courses/example/</loc>
+    <loc>http://beatrizmilz.com/courses/example/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/courses/example/example2/</loc>
+    <loc>http://beatrizmilz.com/courses/example/example2/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/example/</loc>
+    <loc>http://beatrizmilz.com/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/</loc>
+    <loc>http://beatrizmilz.com/talk/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>http://beatrizmilz.com/talk/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://beatrizmilz.com/categories/</loc>
     <lastmod>2020-02-22T18:07:54-03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>http://beatrizmilz.com/post/</loc>
     <lastmod>2020-02-22T18:07:54-03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
+    <loc>http://beatrizmilz.com/categories/r/</loc>
     <lastmod>2020-02-22T18:07:54-03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>http://beatrizmilz.com/tags/</loc>
     <lastmod>2020-02-22T18:07:54-03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/the-carpentries/</loc>
+    <loc>http://beatrizmilz.com/tags/the-carpentries/</loc>
     <lastmod>2020-02-22T18:07:54-03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/the-carpentries/</loc>
+    <loc>http://beatrizmilz.com/post/the-carpentries/</loc>
     <lastmod>2020-02-22T18:07:54-03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/r/</loc>
+    <loc>http://beatrizmilz.com/tags/r/</loc>
     <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/r-ladies/</loc>
+    <loc>http://beatrizmilz.com/tags/r-ladies/</loc>
     <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/r-ladies/</loc>
+    <loc>http://beatrizmilz.com/categories/r-ladies/</loc>
     <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/um-ano-aprendendo-r/</loc>
+    <loc>http://beatrizmilz.com/post/um-ano-aprendendo-r/</loc>
     <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/desenvolvendo-meu-primeiro-shiny-app/</loc>
+    <loc>http://beatrizmilz.com/post/desenvolvendo-meu-primeiro-shiny-app/</loc>
     <lastmod>2019-08-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/shiny/</loc>
+    <loc>http://beatrizmilz.com/tags/shiny/</loc>
     <lastmod>2019-08-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/pesquisa-periodicos/</loc>
+    <loc>http://beatrizmilz.com/post/pesquisa-periodicos/</loc>
     <lastmod>2019-07-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/blogdown/</loc>
+    <loc>http://beatrizmilz.com/tags/blogdown/</loc>
     <lastmod>2019-06-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/compartilhando-conteudo/</loc>
+    <loc>http://beatrizmilz.com/post/compartilhando-conteudo/</loc>
     <lastmod>2019-06-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/pagedown/</loc>
+    <loc>http://beatrizmilz.com/tags/pagedown/</loc>
     <lastmod>2019-06-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/xaringan/</loc>
+    <loc>http://beatrizmilz.com/tags/xaringan/</loc>
     <lastmod>2019-06-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/courses/</loc>
+    <loc>http://beatrizmilz.com/courses/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/slides/</loc>
+    <loc>http://beatrizmilz.com/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/slides/example/</loc>
+    <loc>http://beatrizmilz.com/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/6-meses-de-r/</loc>
+    <loc>http://beatrizmilz.com/post/6-meses-de-r/</loc>
     <lastmod>2019-01-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+    <loc>http://beatrizmilz.com/authors/admin/</loc>
   </url>
   
   <url>
-    <loc>/privacy/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+    <loc>http://beatrizmilz.com/authors/</loc>
   </url>
   
   <url>
-    <loc>/terms/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+    <loc>http://beatrizmilz.com/publication_types/</loc>
   </url>
   
   <url>
-    <loc>/authors/admin/</loc>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
+    <loc>http://beatrizmilz.com/publication/</loc>
   </url>
   
 </urlset>

@@ -2,6 +2,7 @@
 title: Compartilhando conteúdo utilizando R
 author: Beatriz Milz
 date: '2019-06-24'
+lastmod: '2019-06-24'
 slug: compartilhando-conteudo
 categories: [R-Ladies, R]
 tags: [R, R-Ladies, xaringan, blogdown, pagedown]
