@@ -54,6 +54,8 @@ user_groups:
 Meu nome é Beatriz, e meu pronome é **"ela"**. Atualmente sou doutoranda em Ciência Ambiental (PROCAM/IEE/USP) na Universidade de São Paulo. Sou pesquisadora no Projeto Temático FAPESP [MacroAmb - Governança ambiental da Macrometrópole Paulista face à variabilidade climática](https://bv.fapesp.br/pt/auxilios/97000/governanca-ambiental-da-macrometropole-paulista-face-a-variabilidade-climatica/). Faço parte voluntariamente da equipe da Secretaria Executiva da [Revista Ambiente & Sociedade](http://www.scielo.br/scielo.php?script=sci_serial&pid=1414-753X&lng=pt&nrm=iso), uma revista científica Brasileira que é referência em estudos interdisciplinares sobre ambiente e sociedade.
 
 Comecei a aprender `R` em agosto de 2018, e recentemente comecei a aprender `Python`. Sou co-organizadora da [R-Ladies São Paulo](https://www.meetup.com/R-Ladies-Sao-Paulo/), uma comunidade que tem como objetivo promover a diversidade de gênero na comunidade da linguagem `R`. Também participo da comunidade [PyLadies São Paulo](https://www.sympla.com.br/pyladiessp), que tem como objetivo unir mulheres em torno do mundo da programação, especialmente usando `Python`. Sou instrutora da [Carpentries](https://carpentries.org/instructors/), um projeto que tem como missão ensinar habilidades de ciência de dados para pessoas pesquisadoras. 
+
+Desde abril de 2020, faço parte do time de pessoas [Embaixadoras de Inovação Cívica](https://embaixadoras.ok.org.br/) da [Open Knowledge Brasil](https://br.okfn.org/).
   </div>
     </div>
 
@@ -64,6 +66,7 @@ My name is Beatriz, and my pronoum is **she/her**. I'm currently a doctorate stu
 
 I started learning `R` in August 2018, and recently I started learning `Python`. I am a co-organizer of [R-Ladies São Paulo](https://www.meetup.com/R-Ladies-Sao-Paulo/), a community that aims to promote gender diversity in the `R` community. I also participate in the [PyLadies São Paulo](https://www.sympla.com.br/pyladiessp) community, which aims to unite women around the programming world, especially using `Python`. I am an instructor at [Carpentries](https://carpentries.org/instructors/), a project whose mission is to teach data science skills to researchers.
  
+Since April 2020, I'm part of the team of [Ambassadors for Civic Innovation](https://embaixadoras.ok.org.br/) of [Open Knowledge Brasil](https://br.okfn.org/).
 
   </div>
    </div>
@@ -74,6 +77,8 @@ I started learning `R` in August 2018, and recently I started learning `Python`.
 Mi nombre es Beatriz y mi pronombre es **ella**. Actualmente soy estudiante de doctorado en Ciencias Ambientales (PROCAM/IEE/ USP) en la Universidad de São Paulo. Soy investigadora en el Proyecto Temático FAPESP [MacroAmb - Gobernanza Ambiental de la Macrometrópole Paulista debido a la variabilidad climática](https://bv.fapesp.br/pt/auxilios/97000/governanca-ambiental-da-macrometropole-paulista-face-a-variabilidade-climatica/). Soy voluntariamente parte del equipo de la Secretaría Ejecutiva de [Revista Ambiente & Sociedade](http://www.scielo.br/revistas/asoc/iaboutj.htm), una revista científica brasileña que es una referencia en estudios interdisciplinarios sobre medio ambiente y sociedad.
 
 Empecé a aprender `R` en agosto de 2018, y recientemente comencé a aprender `Python`. Soy coorganizadora de [R-Ladies São Paulo](https://www.meetup.com/R-Ladies-Sao-Paulo/), una comunidad que tiene como objetivo promover la diversidad de género en la comunidad de programación `R`. También participo en la comunidad [PyLadies São Paulo](https://www.sympla.com.br/pyladiessp), cuyo objetivo es unir a las mujeres en todo el mundo de la programación, especialmente usando `Python`. Soy instructora en [Carpinterías](https://carpentries.org/instructors/), un proyecto cuya misión es enseñar habilidades de ciencia de datos para investigadores académicos.
+
+Desde abril de 2020, formo parte del equipo de personas [Embajadoras para la Inovación Cívica](https://embaixadoras.ok.org.br/) de [Open Knowledge Brasil](https://br.okfn.org/).
 
   </div>
    </div>
