@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Macrometrópole Paulista | Beatriz Milz</title>
+    <link>http://beatrizmilz.com/categories/macrometropole-paulista/</link>
+      <atom:link href="http://beatrizmilz.com/categories/macrometropole-paulista/index.xml" rel="self" type="application/rss+xml" />
+    <description>Macrometrópole Paulista</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Macrometrópole Paulista</title>
+      <link>http://beatrizmilz.com/categories/macrometropole-paulista/</link>
+    </image>
+    
+    <item>
+      <title>Criando mapas com os pacotes tidyverse e geobr</title>
+      <link>http://beatrizmilz.com/post/2020-07-27-coleta-e-tratamento-de-esgoto/</link>
+      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://beatrizmilz.com/post/2020-07-27-coleta-e-tratamento-de-esgoto/</guid>
+      <description>
+
+
+&lt;p&gt;Data do post: 27/07/2020&lt;/p&gt;
+&lt;p&gt;Como eu estou meses sem postar nada no blog, resolvi postar um código adaptado, referente a um projeto final que realizei para a disciplina &lt;a href=&#34;https://jonnyphillips.github.io/Ciencia_de_Dados/&#34;&gt;“FLS6397 - Introdução à Análise de Dados, Programação e Visualização para as Ciências Sociais”&lt;/a&gt;. A disciplina ocorreu no primeiro semestre de 2020, na FFLCH/USP (porém devido à pandemia, a maior parte das aulas foi online). Na &lt;a href=&#34;https://jonnyphillips.github.io/Ciencia_de_Dados/&#34;&gt;página da disciplina&lt;/a&gt;, está disponível tutoriais com todo o conteúdo da disciplina, de graça e aberto para todes!&lt;/p&gt;
+&lt;p&gt;As instruções para a realização do projeto estão disponíveis na &lt;a href=&#34;https://jonnyphillips.github.io/Ciencia_de_Dados/projeto.html&#34;&gt;página da disciplina&lt;/a&gt;.&lt;/p&gt;
+&lt;div id=&#34;dados-utilizados&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Dados utilizados&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Dados de Saneamento: &lt;/strong&gt; A Companhia Ambiental do Estado de São Paulo (CETESB)&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; publica todos os anos o “&lt;a href=&#34;https://cetesb.sp.gov.br/aguas-interiores/publicacoes-e-relatorios/&#34;&gt;Relatório de Qualidade das Águas Interiores do Estado de São Paulo&lt;/a&gt;”. Desde o relatório referente ao ano de 2016, é publicado o &lt;strong&gt;Apêndice C&lt;/strong&gt;, que contém &lt;strong&gt;dados de saneamento por município&lt;/strong&gt; do Estado de São Paulo. Os arquivos são disponibilizados em arquivo PDF, &lt;a href=&#34;https://cetesb.sp.gov.br/aguas-interiores/wp-content/uploads/sites/12/2018/03/Ap%C3%AAndice-C-Dados-do-saneamento-b%C3%A1sico...-munic%C3%ADpios-paulistas-2016_17-04.pdf&#34;&gt;e especificamente para o ano de 2016 é um arquivo PDF que não possibilita copiar as informações&lt;/a&gt; (como uma imagem, por exemplo). O relatório mais recente é referente ao ano de &lt;a href=&#34;https://cetesb.sp.gov.br/aguas-interiores/wp-content/uploads/sites/12/2019/10/Ap%C3%AAndice-C_Dados-de-Saneamento-por-Munic%C3%ADpio.pdf&#34;&gt;2018&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Dados shapefile dos municípios:&lt;/strong&gt; Foi utilizado o pacote &lt;code&gt;{geobr}&lt;/code&gt; &lt;span class=&#34;citation&#34;&gt;(Pereira and Goncalves &lt;a href=&#34;#ref-R-geobr&#34; role=&#34;doc-biblioref&#34;&gt;2020&lt;/a&gt;)&lt;/span&gt;, que possibilita acessar dados espaciais oficiais do Brasil.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Neste post, irei focar em mostrar como abri os dados, e utilizando principalmente o &lt;code&gt;tidyverse&lt;/code&gt; &lt;span class=&#34;citation&#34;&gt;(Wickham, Averick, et al. &lt;a href=&#34;#ref-tidyverse2019&#34; role=&#34;doc-biblioref&#34;&gt;2019&lt;/a&gt;)&lt;/span&gt; e o pacote &lt;code&gt;geobr&lt;/code&gt; &lt;span class=&#34;citation&#34;&gt;(Pereira and Goncalves &lt;a href=&#34;#ref-R-geobr&#34; role=&#34;doc-biblioref&#34;&gt;2020&lt;/a&gt;)&lt;/span&gt;, criei mapas com esses dados.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pacotes-necessários&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Pacotes necessários&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(tidyverse)
+library(ggplot2)
+library(dplyr)
+library(magrittr)
+library(geobr)
+# install.packages(&amp;quot;pdftables&amp;quot;)
+library(pdftables)
+library(readr)
+library(stringr)
+library(abjutils)
+library(ggspatial)
+library(tibble)
+library(knitr)
+library(sf)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;p&gt;&lt;strong&gt;O que é &lt;code&gt;::&lt;/code&gt; ?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Nos códigos abaixo, muitas vezes me refiro à uma função utilizando o formato &lt;code&gt;pacote::funcao()&lt;/code&gt;, sendo que o que vem antes dos &lt;code&gt;::&lt;/code&gt; é o nome do pacote em qual à função pertence, e depois dos &lt;code&gt;::&lt;/code&gt; é o nome da função que quero usar.&lt;/p&gt;
+&lt;p&gt;Isso é útil pois:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Caso o pacote não esteja carregado com a função &lt;code&gt;library(pacote)&lt;/code&gt;, ainda sim o R entenderá qual função você está se referindo, e executará o código.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Caso você se refira à uma função apenas pelo nome (sem considerar o &lt;code&gt;::&lt;/code&gt;), em uma situação onde você carregou pacotes diferentes que possuem funções com nome igual, a função do pacote carregado por último será utilizada. Isso pode causar a execução de uma função indesejada. Portanto, utilizar o &lt;code&gt;::&lt;/code&gt; ajuda a garantir a utilizção da função desejada.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;abrir-e-arrumar-as-bases-brutas&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Abrir e arrumar as bases brutas&lt;/h2&gt;
+&lt;div id=&#34;dados-de-saneamento&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Dados de Saneamento&lt;/h3&gt;
+&lt;p&gt;O primeiro passo é fazer o download do arquivo PDF referente ao Apêndice C e converter em CSV. A função &lt;code&gt;download.file()&lt;/code&gt; possibilita fazer download de arquivos diretamente do R.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Link do relatório
+url &amp;lt;-
+  &amp;quot;https://cetesb.sp.gov.br/aguas-interiores/wp-content/uploads/sites/12/2019/10/Ap%C3%AAndice-C_Dados-de-Saneamento-por-Munic%C3%ADpio.pdf&amp;quot; 
+
+
+#Fazer o download do arquivo PDF
+
+download.file(url, # URL do arquivo a ser baixado
+              destfile = &amp;quot;dados/apendice_c_2018.pdf&amp;quot;, # Informar onde quer que seja salvo, e com qual nome e extensão 
+              method = &amp;quot;curl&amp;quot; # Método utilizado para o download
+              )&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Para fazer a conversão, utilizei o pacote &lt;code&gt;{pdftables}&lt;/code&gt; &lt;span class=&#34;citation&#34;&gt;(Persson &lt;a href=&#34;#ref-R-pdftables&#34; role=&#34;doc-biblioref&#34;&gt;2016&lt;/a&gt;)&lt;/span&gt;, que possibilita converter o arquivo PDF para CSV diretamente do R, através da API (e omiti a minha chave da API no código):&lt;/p&gt;
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;p&gt;&lt;strong&gt;O que é API?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;É a sigla para “Application Programming Interfaces”, ou em português, “Interface de programação de aplicações”.&lt;/p&gt;
+&lt;p&gt;Neste exemplo, caso não fosse utilizar a API, seria necessário realizar o upload do arquivo PDF no site &lt;a href=&#34;https://pdftables.com/&#34;&gt;PDFTables&lt;/a&gt;, e depois baixar o arquivo convertido.&lt;/p&gt;
+&lt;p&gt;Para utilizar a API, é necessário fazer um cadastro no site, e na aba &lt;a href=&#34;https://pdftables.com/pdf-to-excel-api&#34;&gt;API&lt;/a&gt; é disponibilizado a chave da API para utilizá-la. Posteriormente, pode-se utilizar a função &lt;code&gt;pdftables::convert_pdf()&lt;/code&gt; para fazer a conversão diretamente do R. Isso é muito útil quando temos uma grande quantidade de arquivos, e também para deixar registrado a etapa realizada.&lt;/p&gt;
+&lt;p&gt;Caso queira saber mais sobre APIs, leia essa &lt;a href=&#34;http://material.curso-r.com/api/&#34;&gt;página do material&lt;/a&gt; da &lt;a href=&#34;http://curso-r.com/&#34;&gt;Curso-R&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Converter o arquivo PDF em CSV. Utilizei a API que obtive no site, mas para compilar, omiti a API key.
+
+pdftables::convert_pdf(&amp;quot;dados/apendice_c_2018.pdf&amp;quot;,
+                       # Arquivo para converter
+                       output_file = &amp;quot;dados/apendice_c_2018.csv&amp;quot;,
+                       #  Informar onde quer o arquivo gerado
+                       # seja salvo, e com qual nome e extensão
+                       api_key = &amp;quot;...&amp;quot; # Chave da API, gerada através do site.
+                       )&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A tabela convertida em &lt;code&gt;.csv&lt;/code&gt; pode ser acessada &lt;a href=&#34;https://beatrizmilz.github.io/2020-FLS6397/projeto_final/dados/apendice_c_2018.csv&#34;&gt;neste link&lt;/a&gt;. O próximo passo é carregar a base, usando a função &lt;code&gt;readr::read_csv()&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;apendice_c_2018 &amp;lt;-
+  readr::read_csv(
+    &amp;quot;dados/apendice_c_2018.csv&amp;quot;, # Qual arquivo CSV quero carregar
+    col_names = c(
+      # define o nome das colunas
+      &amp;quot;ugrhi&amp;quot;,
+      &amp;quot;municipio&amp;quot;,
+      &amp;quot;consessao&amp;quot;,
+      &amp;quot;pop_urbana&amp;quot;,
+      &amp;quot;atendimento_coleta_porc&amp;quot;,
+      &amp;quot;atendimento_tratamento_porc&amp;quot;,
+      &amp;quot;eficiencia&amp;quot;,
+      &amp;quot;carga_poluidora_potencial&amp;quot;,
+      &amp;quot;carga_poluidora_remancescente&amp;quot;,
+      &amp;quot;ictem&amp;quot;,
+      &amp;quot;corpo_receptor&amp;quot;
+    ),
+    locale = readr::locale(encoding = &amp;quot;ISO-8859-1&amp;quot;),
+    # encoding dos dados
+    skip = 5 # Quantas linhas para pular no CSV antes de começar a ler os dados.
+  )&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Encoding?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Uma das informações importantes que utilizei na função para ler os dados no R, no código acima, é o &lt;strong&gt;Encoding&lt;/strong&gt;. O Encoding está relacionado à codificação dos caracteres. Você já carregou uma base de dados onde os caracteres apareceram desconfigurados, como na imagem abaixo? Provavelmente era um erro de Encoding!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://beatrizmilz.com/img/encoding-error.JPG&#34; width=&#34;80%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Ao carregar um arquivo, é util saber em qual encoding ele foi salvo.&lt;/p&gt;
+&lt;p&gt;O recomendado ao salvar um arquivo é utilizar o encoding &lt;strong&gt;UTF-8&lt;/strong&gt;.&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;A base deve conter 645 linhas, referente ao número de municípios no estado de São Paulo&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;nrow(apendice_c_2018) # consulta quantas linhas tem na base&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 701&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A base contém mais linhas do que municípios. O código abaixo retira linhas que apenas contém NA, e linhas que não apresentam dados dos municípios:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;apendice_c_filtrado &amp;lt;- apendice_c_2018 %&amp;gt;%
+  # Filtrar linhas que não contém nome de municípios
+  dplyr::filter(!municipio %in% c(&amp;quot;Estado de São Paulo&amp;quot;, &amp;quot;Município&amp;quot;, NA, &amp;quot;MUNICÍPIO&amp;quot;)) &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Agora a base tem 645 linhas, o que corresponde aos 645 municípios do estado de SP. É importante também verificar o tipo de dados nas colunas:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tibble::glimpse(apendice_c_filtrado)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Rows: 645
+## Columns: 11
+## $ ugrhi                         &amp;lt;chr&amp;gt; &amp;quot;1&amp;quot;, &amp;quot;1&amp;quot;, &amp;quot;1&amp;quot;, &amp;quot;2&amp;quot;, &amp;quot;2&amp;quot;, &amp;quot;2&amp;quot;, &amp;quot;2&amp;quot;, &amp;quot;2...
+## $ municipio                     &amp;lt;chr&amp;gt; &amp;quot;Campos do Jordão&amp;quot;, &amp;quot;Santo Antônio do...
+## $ consessao                     &amp;lt;chr&amp;gt; &amp;quot;SABESP&amp;quot;, &amp;quot;SABESP&amp;quot;, &amp;quot;SABESP&amp;quot;, &amp;quot;SAAE&amp;quot;,...
+## $ pop_urbana                    &amp;lt;chr&amp;gt; &amp;quot;51440&amp;quot;, &amp;quot;4033&amp;quot;, &amp;quot;5224&amp;quot;, &amp;quot;35604&amp;quot;, &amp;quot;18...
+## $ atendimento_coleta_porc       &amp;lt;chr&amp;gt; &amp;quot;52&amp;quot;, &amp;quot;47&amp;quot;, &amp;quot;92&amp;quot;, &amp;quot;70&amp;quot;, &amp;quot;91&amp;quot;, &amp;quot;100&amp;quot;, ...
+## $ atendimento_tratamento_porc   &amp;lt;chr&amp;gt; &amp;quot;100&amp;quot;, &amp;quot;100&amp;quot;, &amp;quot;75&amp;quot;, &amp;quot;28&amp;quot;, &amp;quot;100&amp;quot;, &amp;quot;0&amp;quot;,...
+## $ eficiencia                    &amp;lt;chr&amp;gt; &amp;quot;97&amp;quot;, &amp;quot;80&amp;quot;, &amp;quot;76&amp;quot;, &amp;quot;70&amp;quot;, &amp;quot;82&amp;quot;, NA, &amp;quot;62...
+## $ carga_poluidora_potencial     &amp;lt;chr&amp;gt; &amp;quot;2.778&amp;quot;, &amp;quot;218&amp;quot;, &amp;quot;282&amp;quot;, &amp;quot;1.923&amp;quot;, &amp;quot;101&amp;quot;...
+## $ carga_poluidora_remancescente &amp;lt;chr&amp;gt; &amp;quot;1.377&amp;quot;, &amp;quot;136&amp;quot;, &amp;quot;133&amp;quot;, &amp;quot;1.659&amp;quot;, &amp;quot;26&amp;quot;,...
+## $ ictem                         &amp;lt;chr&amp;gt; &amp;quot;6,06&amp;quot;, &amp;quot;4,65&amp;quot;, &amp;quot;6,14&amp;quot;, &amp;quot;2,56&amp;quot;, &amp;quot;8,22...
+## $ corpo_receptor                &amp;lt;chr&amp;gt; &amp;quot;Rio Capivari, Rio Sapucaí-Guaçu e af...&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Algumas colunas são de dados numéricos mas que foram carregadas como texto (&lt;code&gt;&amp;lt;chr&amp;gt;&lt;/code&gt;), portanto devem ser convertidas para o tipo correto (possível com a função &lt;code&gt;dplyr::mutate()&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;apendice_c &amp;lt;- apendice_c_filtrado %&amp;gt;%
+  dplyr::mutate(
+    pop_urbana = as.double(pop_urbana) , 
+    atendimento_coleta_porc = as.double(atendimento_coleta_porc),
+    atendimento_tratamento_porc = as.double(atendimento_tratamento_porc),
+    eficiencia = as.double(eficiencia),
+    
+    # As conversões abaixo tem uma etapa a mais, devido à padronização diferente utilizada na base, 
+    #com o ponto e a vírgula para representar as casas decimais:
+    carga_poluidora_potencial =  stringr::str_replace_all(carga_poluidora_potencial, &amp;quot;\\.&amp;quot;, &amp;quot;&amp;quot;) %&amp;gt;%
+      as.double(),
+    
+    carga_poluidora_remancescente =  stringr::str_replace_all(carga_poluidora_remancescente, &amp;quot;\\.&amp;quot;, &amp;quot;&amp;quot;) %&amp;gt;%
+      as.double(),
+    ictem =  stringr::str_replace_all(ictem, &amp;quot;,&amp;quot;, &amp;quot;\\.&amp;quot;) %&amp;gt;% as.double()
+    
+  )&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Agora podemos observar novamente o tipo de dados nas colunas, e verificar se todos os dados estão no formato ideal para a análise:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tibble::glimpse(apendice_c)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Rows: 645
+## Columns: 11
+## $ ugrhi                         &amp;lt;chr&amp;gt; &amp;quot;1&amp;quot;, &amp;quot;1&amp;quot;, &amp;quot;1&amp;quot;, &amp;quot;2&amp;quot;, &amp;quot;2&amp;quot;, &amp;quot;2&amp;quot;, &amp;quot;2&amp;quot;, &amp;quot;2...
+## $ municipio                     &amp;lt;chr&amp;gt; &amp;quot;Campos do Jordão&amp;quot;, &amp;quot;Santo Antônio do...
+## $ consessao                     &amp;lt;chr&amp;gt; &amp;quot;SABESP&amp;quot;, &amp;quot;SABESP&amp;quot;, &amp;quot;SABESP&amp;quot;, &amp;quot;SAAE&amp;quot;,...
+## $ pop_urbana                    &amp;lt;dbl&amp;gt; 51440, 4033, 5224, 35604, 1863, 2598,...
+## $ atendimento_coleta_porc       &amp;lt;dbl&amp;gt; 52, 47, 92, 70, 91, 100, 89, 100, 100...
+## $ atendimento_tratamento_porc   &amp;lt;dbl&amp;gt; 100, 100, 75, 28, 100, 0, 100, 99, 10...
+## $ eficiencia                    &amp;lt;dbl&amp;gt; 97, 80, 76, 70, 82, NA, 62, 75, 86, 8...
+## $ carga_poluidora_potencial     &amp;lt;dbl&amp;gt; 2778, 218, 282, 1923, 101, 140, 470, ...
+## $ carga_poluidora_remancescente &amp;lt;dbl&amp;gt; 1377, 136, 133, 1659, 26, 140, 210, 1...
+## $ ictem                         &amp;lt;dbl&amp;gt; 6.06, 4.65, 6.14, 2.56, 8.22, 1.50, 6...
+## $ corpo_receptor                &amp;lt;chr&amp;gt; &amp;quot;Rio Capivari, Rio Sapucaí-Guaçu e af...&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Agora a base está pronta para uso!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;dados-shapefile-dos-município&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Dados shapefile dos município&lt;/h3&gt;
+&lt;p&gt;Os dados foram obtidos com o pacote &lt;code&gt;geobr&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Lê a base de dados espaciais (do tipo Shapefile) dos municípios do Estado de São Paulo,
+# no ano de 2018, segundo o IBGE.
+# Os dados salvos são da classe Simple Feature
+
+municipios_sp &amp;lt;- geobr::read_municipality(&amp;quot;SP&amp;quot;, 2018)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;p&gt;O pacote &lt;code&gt;geobr&lt;/code&gt; &lt;span class=&#34;citation&#34;&gt;(Pereira and Goncalves &lt;a href=&#34;#ref-R-geobr&#34; role=&#34;doc-biblioref&#34;&gt;2020&lt;/a&gt;)&lt;/span&gt; é um pacote que disponibiliza funções para realizar o download de diversas bases de dados espaciais oficiais do Brasil. Você pode saber mais no &lt;a href=&#34;https://github.com/ipeaGIT/geobr&#34;&gt;repositório do pacote no GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;O pacote &lt;code&gt;sf&lt;/code&gt; (Simple Features for R) &lt;span class=&#34;citation&#34;&gt;(Pebesma &lt;a href=&#34;#ref-R-sf&#34; role=&#34;doc-biblioref&#34;&gt;2020&lt;/a&gt;, &lt;a href=&#34;#ref-sf2018&#34; role=&#34;doc-biblioref&#34;&gt;2018&lt;/a&gt;)&lt;/span&gt; possibilita trabalhar com essas bases de dados espaciais. Gosto muito da seguinte ilustação da &lt;a href=&#34;https://github.com/allisonhorst/stats-illustrations&#34;&gt;Allison Horst&lt;/a&gt; sobre esse pacote:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/allisonhorst/stats-illustrations/master/rstats-artwork-PT/sf_pt.png&#34; width=&#34;80%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;lista-de-ugrhis&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Lista de UGRHIS&lt;/h3&gt;
+&lt;p&gt;No projeto, defini como área de estudo os municípios das seguintes Unidades de Gerenciamento de Recursos Hídricos (&lt;strong&gt;UGRHI&lt;/strong&gt;): Paraíba do Sul, Litoral Norte, Piracicaba/Capivari/Jundiaí, Alto Tietê, Baixada Santista e Tietê/Sorocaba. Essas UGRHIs foram escolhidas por estarem totalmente ou marjoritariamente no território da Macrometrópole Paulista (&lt;strong&gt;MMP&lt;/strong&gt;) (considerando a delimitação do DAEE&lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Criei manualmente uma tibble com o número e nome das UGRHIs que farão parte da análise:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ugrhis &amp;lt;- tibble::tibble(
+  ugrhi = c(&amp;quot;2&amp;quot;,
+            &amp;quot;3&amp;quot;,
+            &amp;quot;5&amp;quot;,
+            &amp;quot;6&amp;quot;,
+            &amp;quot;7&amp;quot;,
+            &amp;quot;10&amp;quot;),
+  nome_ugrhi = c(
+    &amp;quot; Paraíba do Sul&amp;quot;,
+    &amp;quot; Litoral Norte&amp;quot;,
+    &amp;quot; Piracicaba/Capivari/Jundiaí&amp;quot;,
+    &amp;quot; Alto Tietê&amp;quot;,
+    &amp;quot; Baixada Santista&amp;quot;,
+    &amp;quot; Tietê/Sorocaba&amp;quot;
+  )
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;unir-as-bases&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Unir as bases !&lt;/h2&gt;
+&lt;p&gt;A base da CETESB não possui o código de município do IBGE (o ideal para fazer o Join). Neste caso, podemos usar o nome do município, porém é preciso padronizar os nomes em relação à maiúsculas/minúsculas, acentos, presença de traços, entre outros. A maior diferença encontrada foi na grafia do nome do município “São Luiz do Paraitinga”: segundo o site da Assembléia Legislativa do Estado de São Paulo, e o site do município, Luiz é escrito com Z, porém a base da CETESB utiliza a forma incorreta: “São Luís do Paraitinga”. Essas inconsistências foram corrigidas com código abaixo, usando principalmente funções dos pacotes &lt;code&gt;stringr&lt;/code&gt;, &lt;code&gt;dplyr&lt;/code&gt; e &lt;code&gt;abjutils&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;municipios_sp_limpo &amp;lt;-
+  municipios_sp %&amp;gt;% dplyr::mutate(
+    nome_muni = stringr::str_to_lower(name_muni),
+    nome_muni = stringr::str_replace_all(nome_muni, &amp;quot;-&amp;quot;, &amp;quot; &amp;quot;),
+    nome_muni = abjutils::rm_accent(nome_muni)
+  )
+
+apendice_c_limpo &amp;lt;- apendice_c %&amp;gt;% dplyr::mutate(
+  nome_muni =  dplyr::case_when(
+    municipio == &amp;quot;São Luís do Paraitinga&amp;quot; ~
+      &amp;quot;São Luiz do Paraitinga&amp;quot;,
+    TRUE ~ municipio
+  ),
+  nome_muni = stringr::str_to_lower(nome_muni),
+  nome_muni = stringr::str_replace_all(nome_muni, &amp;quot;-&amp;quot;, &amp;quot; &amp;quot;),
+  nome_muni = abjutils::rm_accent(nome_muni))&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Após arrumar a base, podemos unir com as funções do tipo &lt;code&gt;join_*&lt;/code&gt;, do pacote &lt;code&gt;dplyr&lt;/code&gt; (Sim, é possível usar as funções do tipo &lt;code&gt;join_*&lt;/code&gt; com objetos de classe Simple Feature, porém use-os como o primeiro argumento ao usar a função):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;apendice_c_geo &amp;lt;-
+  dplyr::full_join(municipios_sp_limpo, apendice_c_limpo) %&amp;gt;%
+  dplyr::left_join(ugrhis)
+
+apendice_c_geo %&amp;gt;% nrow() # Confirmando se a nova base tem o número de municípios do estado.&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 645&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Ao unir as bases, temos colunas duplicadas ou desnecessárias, então é interessante removê-las. Após este procedimento, a base será filtrada para que apenas municípios que fazem parte das UGRHIs analisadas estejam na tibble gerada.&lt;/p&gt;
+&lt;p&gt;Além disso, o valor de porcentagem de atendimento de tratamento de esgoto é um valor de porcentagem em relação ao volume de esgoto &lt;strong&gt;coletado&lt;/strong&gt;. Por exemplo, o município de Bertioga, segundo os dados da CETESB para 2018, apresenta uma porcentagem de coleta de apenas 34 % do esgoto gerado, e uma porcentagem de 100 % do esgoto tratado. Isso significa que 100 % do esgoto coletado é tratado, e não mostra a porcentagem de todo esgoto gerado que foi tratado. Para isso, criei também uma coluna (chamada &lt;code&gt;porc_real_trat&lt;/code&gt;) onde é feito esse cálculo (utilizando a função mutate).&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;saneamento &amp;lt;- apendice_c_geo %&amp;gt;%
+  dplyr::select(-nome_muni,-municipio,-code_state) %&amp;gt;% # Remove colunas duplicadas
+  dplyr::filter(ugrhi %in% ugrhis$ugrhi) %&amp;gt;% # Filtra a coluna UGRHI. Apenas as UGRHIS que estão na tibble
+                                            # criada, permanecerão.
+  dplyr::mutate(porc_real_trat = atendimento_tratamento_porc * atendimento_coleta_porc / 100) # Cria uma nova
+# coluna, com o cálculo do número real de porcentagem de tratamento de esgoto.&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A base final que usaremos na análise contém dados de 171 municípios, que fazem parte de 6 UGRHIs diferentes. A soma da população urbana destes municípios é de 32.79 milhões de habitantes, o que corresponde à 75.1 % da população urbana do Estado de São Paulo (segundo os dados da base completa utilizada nessa análise).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;visualizando-os-dados&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Visualizando os dados&lt;/h2&gt;
+&lt;p&gt;Para evitar duplicação de código, o código abaixo é referente ao estilo do mapa, que aplicarei em todos os mapas seguintes.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tema_mapa &amp;lt;-
+  theme_bw() + # Escolhe o tema. Eu gosto do theme_bw() por ser bem simples/limpo
+  
+  # Os códigos abaixo são referentes à estética do tema,
+  # como o tamanho da fonte, direção do texto,
+  # linhas ao fundo, etc.
+  
+  theme(
+    axis.text.y = element_text(
+      angle = 90,
+      hjust = 0.5,
+      size = 8
+    ),
+    axis.text.x = element_text(size = 8),
+    axis.title.y = element_text(size = rel(0.8)),
+    axis.title.x = element_text(size = rel(0.8)),
+    panel.grid.major = element_line(
+      color = gray(0.9),
+      linetype = &amp;quot;dashed&amp;quot;,
+      size = 0.1
+    ),
+    panel.background = element_rect(fill = &amp;quot;white&amp;quot;) +
+      annotation_scale(location = &amp;quot;br&amp;quot;, width_hint = 0.30)
+  )&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Com a função &lt;code&gt;geom_sf()&lt;/code&gt;, é possível criar mapas utilizando o pacote &lt;code&gt;ggplot2&lt;/code&gt; e objetos de classe Simple Feature (sf). Assim podemos usar as nossas habilidades de criar gráficos lindos no &lt;code&gt;ggplot2&lt;/code&gt;, e criar mapas também usando as funções que já conhecemos.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;class(saneamento) # Função class() apresenta a classe do objeto. &lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;sf&amp;quot;         &amp;quot;data.frame&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;O mapa abaixo apresenta os municípios que fazem parte da análise, segundo a UGRHI, e a localização destes municípios no Estado de São Paulo. Podemos usar mais de uma camada &lt;code&gt;geom_sf()&lt;/code&gt; no mesmo mapa, da mesma forma que fazemos com o &lt;code&gt;ggplot2&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;saneamento %&amp;gt;% # Base de dados usada
+  ggplot() + # Inicia o gráfico ggplot
+  geom_sf(data = apendice_c_geo,
+          # Camada do mapa da base completa (Estado SP)
+          alpha = .9,
+          color = NA) +
+  geom_sf(aes(fill = nome_ugrhi)) + # Camada do mapa da base saneamento
+  # Adiciona Título e Legendas
+  labs(fill = &amp;quot;UGRHI&amp;quot;,
+       title = &amp;quot;Municípios que fazem parte da análise, segundo a UGRHI&amp;quot;) +
+  # Adiciona o Norte Geográfico
+  annotation_north_arrow(
+    location = &amp;quot;br&amp;quot;,
+    which_north = &amp;quot;true&amp;quot;,
+    height = unit(1, &amp;quot;cm&amp;quot;),
+    width = unit(1, &amp;quot;cm&amp;quot;),
+    pad_x = unit(0.1, &amp;quot;in&amp;quot;),
+    pad_y = unit(0.1, &amp;quot;in&amp;quot;),
+    style = north_arrow_fancy_orienteering
+  ) +
+  # Adiciona o tema criado anteriormente
+  tema_mapa &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;http://beatrizmilz.com/post/2020-07-27-coleta-e-tratamento-de-esgoto_files/figure-html/mapa-area-estudo-1.png&#34; width=&#34;100%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;O mapa abaixo apresenta a porcentagem de atendimento de coleta de esgoto, por município:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;saneamento %&amp;gt;%
+  ggplot() +
+  geom_sf(aes(fill = atendimento_coleta_porc)) +
+  scale_fill_viridis_c(direction = -1, limits = c(0, 100)) + # Escala de cores
+  labs(fill = &amp;quot;Porcentagem de \natendimento de \ncoleta de esgoto&amp;quot;,
+       title = &amp;quot;Porcentagem de atendimento de coleta de esgoto, por município&amp;quot;,
+       subtitle = &amp;quot;Dados da CETESB, para o ano de 2018.&amp;quot;) +
+  annotation_north_arrow(
+    location = &amp;quot;br&amp;quot;,
+    which_north = &amp;quot;true&amp;quot;,
+    height = unit(1, &amp;quot;cm&amp;quot;),
+    width = unit(1, &amp;quot;cm&amp;quot;),
+    pad_x = unit(0.1, &amp;quot;in&amp;quot;),
+    pad_y = unit(0.1, &amp;quot;in&amp;quot;),
+    style = north_arrow_fancy_orienteering
+  ) +
+  tema_mapa &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;http://beatrizmilz.com/post/2020-07-27-coleta-e-tratamento-de-esgoto_files/figure-html/mapa-coleta-1.png&#34; width=&#34;100%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;O mapa abaixo apresenta a porcentagem de atendimento de tratamento de esgoto, considerando o total de esgoto coletado, por município:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;saneamento %&amp;gt;%
+  ggplot() +
+  geom_sf(aes(fill = porc_real_trat)) +
+  scale_fill_viridis_c(direction = -1, limits = c(0, 100)) +
+  labs(fill = &amp;quot;% de \natendimento de \ntratamento de esgoto &amp;quot;,
+       title = &amp;quot;Porcentagem de atendimento de tratamento de esgoto, por município&amp;quot;,
+       subtitle = &amp;quot;Calculado a partir de dados da CETESB, para o ano de 2018.&amp;quot;) +
+  annotation_north_arrow(
+    location = &amp;quot;br&amp;quot;,
+    which_north = &amp;quot;true&amp;quot;,
+    height = unit(1, &amp;quot;cm&amp;quot;),
+    width = unit(1, &amp;quot;cm&amp;quot;),
+    pad_x = unit(0.1, &amp;quot;in&amp;quot;),
+    pad_y = unit(0.1, &amp;quot;in&amp;quot;),
+    style = north_arrow_fancy_orienteering
+  ) +
+  tema_mapa &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;http://beatrizmilz.com/post/2020-07-27-coleta-e-tratamento-de-esgoto_files/figure-html/mapa-tratamento-1.png&#34; width=&#34;100%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;conclusão-do-post&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Conclusão do post&lt;/h2&gt;
+&lt;p&gt;Neste post, mostrei um caminho reprodutível e realizado utilizando o R:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Com o pacote &lt;code&gt;pdftables&lt;/code&gt;, é possível converter tabelas que estão em arquivos PDF para arquivos CSV.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Com o pacote &lt;code&gt;geobr&lt;/code&gt;, é possível obter os arquivos shapefile para os mapas.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Com as funções dos pacotes que fazem parte do &lt;code&gt;tidyverse&lt;/code&gt;, diversas etapas da análise de dados são possíveis: ler os dados no R, limpeza de dados, manipulação dos dados, cruzamento de bases de dados, visualização, e outros.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;recomendações-para-a-base-da-cetesb&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Recomendações para a base da CETESB&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Adicionar uma explicação sobre cada coluna da base disponibilizada.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Seria melhor disponibilizar também o arquivo &lt;code&gt;.CSV&lt;/code&gt;. Não disponibilizar PDFs digitalizados (Ex: relatório do ano de 2016).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Seria útil adicionar, para os próximos relatórios, a coluna de código IBGE do município. Isso facilitaria o cruzamento com outras bases de dados.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Verificar a grafia do nome dos municípios (está inconsistente com a lista de municípios da Assembléia Legislativa do Estado de São Paulo&lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt;): São Luiz do Paraitinga, Biritiba Mirim, Itaoca.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;informações-sobre-a-sessão-do-r-e-rstudio&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Informações sobre a sessão do R e RStudio&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;As informações abaixo são interessantes para registrar a versão do R utilizada, versões de pacotes, entre outros.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sessioninfo::session_info()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## - Session info ---------------------------------------------------------------
+##  setting  value                       
+##  version  R version 3.6.2 (2019-12-12)
+##  os       Windows 10 x64              
+##  system   x86_64, mingw32             
+##  ui       RTerm                       
+##  language (EN)                        
+##  collate  Portuguese_Brazil.1252      
+##  ctype    Portuguese_Brazil.1252      
+##  tz       America/Sao_Paulo           
+##  date     2020-07-27                  
+## 
+## - Packages -------------------------------------------------------------------
+##  package     * version date       lib source                         
+##  abjutils    * 0.2.4   2020-06-26 [1] Github (abjur/abjutils@cc3ec0c)
+##  assertthat    0.2.1   2019-03-21 [1] CRAN (R 3.6.2)                 
+##  backports     1.1.8   2020-06-17 [1] CRAN (R 3.6.2)                 
+##  blob          1.2.1   2020-01-20 [1] CRAN (R 3.6.3)                 
+##  blogdown      0.20    2020-06-23 [1] CRAN (R 3.6.3)                 
+##  bookdown      0.20    2020-06-23 [1] CRAN (R 3.6.3)                 
+##  broom         0.5.6   2020-04-20 [1] CRAN (R 3.6.3)                 
+##  cellranger    1.1.0   2016-07-27 [1] CRAN (R 3.6.2)                 
+##  class         7.3-15  2019-01-01 [2] CRAN (R 3.6.2)                 
+##  classInt      0.4-3   2020-04-07 [1] CRAN (R 3.6.2)                 
+##  cli           2.0.2   2020-02-28 [1] CRAN (R 3.6.3)                 
+##  colorspace    1.4-1   2019-03-18 [1] CRAN (R 3.6.1)                 
+##  crayon        1.3.4   2017-09-16 [1] CRAN (R 3.6.2)                 
+##  curl          4.3     2019-12-02 [1] CRAN (R 3.6.2)                 
+##  DBI           1.1.0   2019-12-15 [1] CRAN (R 3.6.2)                 
+##  dbplyr        1.4.4   2020-05-27 [1] CRAN (R 3.6.3)                 
+##  digest        0.6.25  2020-02-23 [1] CRAN (R 3.6.2)                 
+##  dplyr       * 1.0.0   2020-05-29 [1] CRAN (R 3.6.3)                 
+##  e1071         1.7-3   2019-11-26 [1] CRAN (R 3.6.2)                 
+##  ellipsis      0.3.1   2020-05-15 [1] CRAN (R 3.6.3)                 
+##  evaluate      0.14    2019-05-28 [1] CRAN (R 3.6.2)                 
+##  fansi         0.4.1   2020-01-08 [1] CRAN (R 3.6.2)                 
+##  farver        2.0.3   2020-01-16 [1] CRAN (R 3.6.2)                 
+##  forcats     * 0.5.0   2020-03-01 [1] CRAN (R 3.6.3)                 
+##  fs            1.4.2   2020-06-30 [1] CRAN (R 3.6.2)                 
+##  generics      0.0.2   2018-11-29 [1] CRAN (R 3.6.2)                 
+##  geobr       * 1.3     2020-03-29 [1] CRAN (R 3.6.3)                 
+##  ggplot2     * 3.3.2   2020-06-19 [1] CRAN (R 3.6.2)                 
+##  ggspatial   * 1.1.3   2020-06-09 [1] CRAN (R 3.6.3)                 
+##  glue          1.4.1   2020-05-13 [1] CRAN (R 3.6.3)                 
+##  gtable        0.3.0   2019-03-25 [1] CRAN (R 3.6.2)                 
+##  haven         2.3.1   2020-06-01 [1] CRAN (R 3.6.3)                 
+##  hms           0.5.3   2020-01-08 [1] CRAN (R 3.6.2)                 
+##  htmltools     0.5.0   2020-06-16 [1] CRAN (R 3.6.3)                 
+##  httr          1.4.1   2019-08-05 [1] CRAN (R 3.6.2)                 
+##  jsonlite      1.7.0   2020-06-25 [1] CRAN (R 3.6.3)                 
+##  KernSmooth    2.23-16 2019-10-15 [2] CRAN (R 3.6.2)                 
+##  knitr       * 1.29    2020-06-23 [1] CRAN (R 3.6.3)                 
+##  labeling      0.3     2014-08-23 [1] CRAN (R 3.6.0)                 
+##  lattice       0.20-38 2018-11-04 [2] CRAN (R 3.6.2)                 
+##  lifecycle     0.2.0   2020-03-06 [1] CRAN (R 3.6.3)                 
+##  lubridate     1.7.9   2020-06-08 [1] CRAN (R 3.6.2)                 
+##  magrittr    * 1.5     2014-11-22 [1] CRAN (R 3.6.2)                 
+##  modelr        0.1.8   2020-05-19 [1] CRAN (R 3.6.3)                 
+##  munsell       0.5.0   2018-06-12 [1] CRAN (R 3.6.2)                 
+##  nlme          3.1-142 2019-11-07 [2] CRAN (R 3.6.2)                 
+##  pdftables   * 0.1     2016-02-15 [1] CRAN (R 3.6.3)                 
+##  pillar        1.4.4   2020-05-05 [1] CRAN (R 3.6.3)                 
+##  pkgconfig     2.0.3   2019-09-22 [1] CRAN (R 3.6.2)                 
+##  purrr       * 0.3.4   2020-04-17 [1] CRAN (R 3.6.3)                 
+##  R6            2.4.1   2019-11-12 [1] CRAN (R 3.6.2)                 
+##  Rcpp          1.0.4.6 2020-04-09 [1] CRAN (R 3.6.3)                 
+##  readr       * 1.3.1   2018-12-21 [1] CRAN (R 3.6.2)                 
+##  readxl        1.3.1   2019-03-13 [1] CRAN (R 3.6.3)                 
+##  reprex        0.3.0   2019-05-16 [1] CRAN (R 3.6.2)                 
+##  rlang         0.4.6   2020-05-02 [1] CRAN (R 3.6.3)                 
+##  rmarkdown     2.3     2020-06-18 [1] CRAN (R 3.6.3)                 
+##  rstudioapi    0.11    2020-02-07 [1] CRAN (R 3.6.2)                 
+##  rvest         0.3.5   2019-11-08 [1] CRAN (R 3.6.2)                 
+##  scales        1.1.1   2020-05-11 [1] CRAN (R 3.6.3)                 
+##  sessioninfo   1.1.1   2018-11-05 [1] CRAN (R 3.6.2)                 
+##  sf          * 0.9-4   2020-06-13 [1] CRAN (R 3.6.3)                 
+##  stringi       1.4.6   2020-02-17 [1] CRAN (R 3.6.2)                 
+##  stringr     * 1.4.0   2019-02-10 [1] CRAN (R 3.6.2)                 
+##  tibble      * 3.0.1   2020-04-20 [1] CRAN (R 3.6.2)                 
+##  tidyr       * 1.1.0   2020-05-20 [1] CRAN (R 3.6.3)                 
+##  tidyselect    1.1.0   2020-05-11 [1] CRAN (R 3.6.3)                 
+##  tidyverse   * 1.3.0   2019-11-21 [1] CRAN (R 3.6.3)                 
+##  units         0.6-7   2020-06-13 [1] CRAN (R 3.6.3)                 
+##  utf8          1.1.4   2018-05-24 [1] CRAN (R 3.6.2)                 
+##  vctrs         0.3.1   2020-06-05 [1] CRAN (R 3.6.3)                 
+##  viridisLite   0.3.0   2018-02-01 [1] CRAN (R 3.6.2)                 
+##  withr         2.2.0   2020-04-20 [1] CRAN (R 3.6.3)                 
+##  xfun          0.15    2020-06-21 [1] CRAN (R 3.6.3)                 
+##  xml2          1.3.2   2020-04-23 [1] CRAN (R 3.6.3)                 
+##  yaml          2.2.1   2020-02-01 [1] CRAN (R 3.6.2)                 
+## 
+## [1] C:/Users/beatr/Documents/R/win-library/3.6
+## [2] C:/Program Files/R/R-3.6.2/library&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;O projeto foi realizado com R &lt;span class=&#34;citation&#34;&gt;(R Core Team &lt;a href=&#34;#ref-R-base&#34; role=&#34;doc-biblioref&#34;&gt;2019&lt;/a&gt;)&lt;/span&gt;, e os pacotes: &lt;code&gt;{abjutils}&lt;/code&gt; &lt;span class=&#34;citation&#34;&gt;(ABJ &lt;a href=&#34;#ref-R-abjutils&#34; role=&#34;doc-biblioref&#34;&gt;2019&lt;/a&gt;)&lt;/span&gt;, &lt;code&gt;{dplyr}&lt;/code&gt; &lt;span class=&#34;citation&#34;&gt;(Wickham, François, et al. &lt;a href=&#34;#ref-R-dplyr&#34; role=&#34;doc-biblioref&#34;&gt;2020&lt;/a&gt;)&lt;/span&gt;, &lt;code&gt;{geobr}&lt;/code&gt; &lt;span class=&#34;citation&#34;&gt;(Pereira and Goncalves &lt;a href=&#34;#ref-R-geobr&#34; role=&#34;doc-biblioref&#34;&gt;2020&lt;/a&gt;)&lt;/span&gt;, &lt;code&gt;{ggplot2}&lt;/code&gt; &lt;span class=&#34;citation&#34;&gt;(Wickham, Chang, et al. &lt;a href=&#34;#ref-R-ggplot2&#34; role=&#34;doc-biblioref&#34;&gt;2020&lt;/a&gt;; Wickham &lt;a href=&#34;#ref-ggplot22016&#34; role=&#34;doc-biblioref&#34;&gt;2016&lt;/a&gt;)&lt;/span&gt;, &lt;code&gt;{ggspatial}&lt;/code&gt; &lt;span class=&#34;citation&#34;&gt;(Dunnington &lt;a href=&#34;#ref-R-ggspatial&#34; role=&#34;doc-biblioref&#34;&gt;2020&lt;/a&gt;)&lt;/span&gt;, &lt;code&gt;{knitr}&lt;/code&gt; &lt;span class=&#34;citation&#34;&gt;(Xie &lt;a href=&#34;#ref-R-knitr&#34; role=&#34;doc-biblioref&#34;&gt;2020&lt;/a&gt;, &lt;a href=&#34;#ref-knitr2015&#34; role=&#34;doc-biblioref&#34;&gt;2015&lt;/a&gt;)&lt;/span&gt;, &lt;code&gt;{magrittr}&lt;/code&gt; &lt;span class=&#34;citation&#34;&gt;(Bache and Wickham &lt;a href=&#34;#ref-R-magrittr&#34; role=&#34;doc-biblioref&#34;&gt;2014&lt;/a&gt;)&lt;/span&gt;, &lt;code&gt;{pdftables}&lt;/code&gt; &lt;span class=&#34;citation&#34;&gt;(Persson &lt;a href=&#34;#ref-R-pdftables&#34; role=&#34;doc-biblioref&#34;&gt;2016&lt;/a&gt;)&lt;/span&gt;, &lt;code&gt;{readr}&lt;/code&gt; &lt;span class=&#34;citation&#34;&gt;(Wickham, Hester, and Francois &lt;a href=&#34;#ref-R-readr&#34; role=&#34;doc-biblioref&#34;&gt;2018&lt;/a&gt;)&lt;/span&gt;, &lt;code&gt;{rmarkdown}&lt;/code&gt; &lt;span class=&#34;citation&#34;&gt;(Allaire et al. &lt;a href=&#34;#ref-R-rmarkdown&#34; role=&#34;doc-biblioref&#34;&gt;2020&lt;/a&gt;; Xie, Allaire, and Grolemund &lt;a href=&#34;#ref-rmarkdown2018&#34; role=&#34;doc-biblioref&#34;&gt;2018&lt;/a&gt;)&lt;/span&gt;, &lt;code&gt;{sf}&lt;/code&gt; &lt;span class=&#34;citation&#34;&gt;(Pebesma &lt;a href=&#34;#ref-R-sf&#34; role=&#34;doc-biblioref&#34;&gt;2020&lt;/a&gt;, &lt;a href=&#34;#ref-sf2018&#34; role=&#34;doc-biblioref&#34;&gt;2018&lt;/a&gt;)&lt;/span&gt;, &lt;code&gt;{stringr}&lt;/code&gt; &lt;span class=&#34;citation&#34;&gt;(Wickham &lt;a href=&#34;#ref-R-stringr&#34; role=&#34;doc-biblioref&#34;&gt;2019&lt;/a&gt;)&lt;/span&gt;, &lt;code&gt;{tibble}&lt;/code&gt; &lt;span class=&#34;citation&#34;&gt;(Müller and Wickham &lt;a href=&#34;#ref-R-tibble&#34; role=&#34;doc-biblioref&#34;&gt;2020&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;muito-obrigada&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Muito obrigada!&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Ao Professor &lt;a href=&#34;https://jonnyphillips.github.io/Website/&#34;&gt;Jonathan Phillips&lt;/a&gt;, pelo oferecimento da disciplina &lt;a href=&#34;https://jonnyphillips.github.io/Ciencia_de_Dados/&#34;&gt;“FLS6397 - Introdução à Análise de Dados, Programação e Visualização para as Ciências Sociais”&lt;/a&gt;, por sua disponibilidade para tirar as dúvidas de todes, disponibilização de todo material da aula na internet de forma aberta e gratuita, e pelo esforço para que a disciplina fosse proveitosa mesmo considerando o contexto de pandemia.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A &lt;a href=&#34;https://bv.fapesp.br/pt/pesquisador/705683/vanessa-escolano-maso/&#34;&gt;Vanessa Escolano Maso&lt;/a&gt;, amiga, parceira na R-Ladies São Paulo e também na disciplina, pela companhia durante a disciplina e também por revisar e sugerir melhoras neste post.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;referências&#34; class=&#34;section level2 unnumbered&#34;&gt;
+&lt;h2&gt;Referências&lt;/h2&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references&#34;&gt;
+&lt;div id=&#34;ref-R-abjutils&#34;&gt;
+&lt;p&gt;ABJ. 2019. &lt;em&gt;Abjutils: Useful Tools for Jurimetrical Analysis Used by the Brazilian Jurimetrics Association&lt;/em&gt;. &lt;a href=&#34;https://github.com/abjur/abjutils&#34;&gt;https://github.com/abjur/abjutils&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-R-rmarkdown&#34;&gt;
+&lt;p&gt;Allaire, JJ, Yihui Xie, Jonathan McPherson, Javier Luraschi, Kevin Ushey, Aron Atkins, Hadley Wickham, Joe Cheng, Winston Chang, and Richard Iannone. 2020. &lt;em&gt;Rmarkdown: Dynamic Documents for R&lt;/em&gt;. &lt;a href=&#34;https://CRAN.R-project.org/package=rmarkdown&#34;&gt;https://CRAN.R-project.org/package=rmarkdown&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-R-magrittr&#34;&gt;
+&lt;p&gt;Bache, Stefan Milton, and Hadley Wickham. 2014. &lt;em&gt;Magrittr: A Forward-Pipe Operator for R&lt;/em&gt;. &lt;a href=&#34;https://CRAN.R-project.org/package=magrittr&#34;&gt;https://CRAN.R-project.org/package=magrittr&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-R-ggspatial&#34;&gt;
+&lt;p&gt;Dunnington, Dewey. 2020. &lt;em&gt;Ggspatial: Spatial Data Framework for Ggplot2&lt;/em&gt;. &lt;a href=&#34;https://CRAN.R-project.org/package=ggspatial&#34;&gt;https://CRAN.R-project.org/package=ggspatial&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-R-tibble&#34;&gt;
+&lt;p&gt;Müller, Kirill, and Hadley Wickham. 2020. &lt;em&gt;Tibble: Simple Data Frames&lt;/em&gt;. &lt;a href=&#34;https://CRAN.R-project.org/package=tibble&#34;&gt;https://CRAN.R-project.org/package=tibble&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-sf2018&#34;&gt;
+&lt;p&gt;Pebesma, Edzer. 2018. “Simple Features for R: Standardized Support for Spatial Vector Data.” &lt;em&gt;The R Journal&lt;/em&gt; 10 (1): 439–46. &lt;a href=&#34;https://doi.org/10.32614/RJ-2018-009&#34;&gt;https://doi.org/10.32614/RJ-2018-009&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-R-sf&#34;&gt;
+&lt;p&gt;———. 2020. &lt;em&gt;Sf: Simple Features for R&lt;/em&gt;. &lt;a href=&#34;https://CRAN.R-project.org/package=sf&#34;&gt;https://CRAN.R-project.org/package=sf&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-R-geobr&#34;&gt;
+&lt;p&gt;Pereira, Rafael H. M., and Caio Nogueira Goncalves. 2020. &lt;em&gt;Geobr: Loads Shapefiles of Official Spatial Data Sets of Brazil&lt;/em&gt;. &lt;a href=&#34;https://CRAN.R-project.org/package=geobr&#34;&gt;https://CRAN.R-project.org/package=geobr&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-R-pdftables&#34;&gt;
+&lt;p&gt;Persson, Eric. 2016. &lt;em&gt;Pdftables: Programmatic Conversion of Pdf Tables&lt;/em&gt;. &lt;a href=&#34;https://CRAN.R-project.org/package=pdftables&#34;&gt;https://CRAN.R-project.org/package=pdftables&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-R-base&#34;&gt;
+&lt;p&gt;R Core Team. 2019. &lt;em&gt;R: A Language and Environment for Statistical Computing&lt;/em&gt;. Vienna, Austria: R Foundation for Statistical Computing. &lt;a href=&#34;https://www.R-project.org/&#34;&gt;https://www.R-project.org/&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-ggplot22016&#34;&gt;
+&lt;p&gt;Wickham, Hadley. 2016. &lt;em&gt;Ggplot2: Elegant Graphics for Data Analysis&lt;/em&gt;. Springer-Verlag New York. &lt;a href=&#34;https://ggplot2.tidyverse.org&#34;&gt;https://ggplot2.tidyverse.org&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-R-stringr&#34;&gt;
+&lt;p&gt;———. 2019. &lt;em&gt;Stringr: Simple, Consistent Wrappers for Common String Operations&lt;/em&gt;. &lt;a href=&#34;https://CRAN.R-project.org/package=stringr&#34;&gt;https://CRAN.R-project.org/package=stringr&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-tidyverse2019&#34;&gt;
+&lt;p&gt;Wickham, Hadley, Mara Averick, Jennifer Bryan, Winston Chang, Lucy D’Agostino McGowan, Romain François, Garrett Grolemund, et al. 2019. “Welcome to the tidyverse.” &lt;em&gt;Journal of Open Source Software&lt;/em&gt; 4 (43): 1686. &lt;a href=&#34;https://doi.org/10.21105/joss.01686&#34;&gt;https://doi.org/10.21105/joss.01686&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-R-ggplot2&#34;&gt;
+&lt;p&gt;Wickham, Hadley, Winston Chang, Lionel Henry, Thomas Lin Pedersen, Kohske Takahashi, Claus Wilke, Kara Woo, Hiroaki Yutani, and Dewey Dunnington. 2020. &lt;em&gt;Ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics&lt;/em&gt;. &lt;a href=&#34;https://CRAN.R-project.org/package=ggplot2&#34;&gt;https://CRAN.R-project.org/package=ggplot2&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-R-dplyr&#34;&gt;
+&lt;p&gt;Wickham, Hadley, Romain François, Lionel Henry, and Kirill Müller. 2020. &lt;em&gt;Dplyr: A Grammar of Data Manipulation&lt;/em&gt;. &lt;a href=&#34;https://CRAN.R-project.org/package=dplyr&#34;&gt;https://CRAN.R-project.org/package=dplyr&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-R-readr&#34;&gt;
+&lt;p&gt;Wickham, Hadley, Jim Hester, and Romain Francois. 2018. &lt;em&gt;Readr: Read Rectangular Text Data&lt;/em&gt;. &lt;a href=&#34;https://CRAN.R-project.org/package=readr&#34;&gt;https://CRAN.R-project.org/package=readr&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-knitr2015&#34;&gt;
+&lt;p&gt;Xie, Yihui. 2015. &lt;em&gt;Dynamic Documents with R and Knitr&lt;/em&gt;. 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC. &lt;a href=&#34;https://yihui.org/knitr/&#34;&gt;https://yihui.org/knitr/&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-R-knitr&#34;&gt;
+&lt;p&gt;———. 2020. &lt;em&gt;Knitr: A General-Purpose Package for Dynamic Report Generation in R&lt;/em&gt;. &lt;a href=&#34;https://CRAN.R-project.org/package=knitr&#34;&gt;https://CRAN.R-project.org/package=knitr&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-rmarkdown2018&#34;&gt;
+&lt;p&gt;Xie, Yihui, J. J. Allaire, and Garrett Grolemund. 2018. &lt;em&gt;R Markdown: The Definitive Guide&lt;/em&gt;. Boca Raton, Florida: Chapman; Hall/CRC. &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown&#34;&gt;https://bookdown.org/yihui/rmarkdown&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://cetesb.sp.gov.br/&#34; class=&#34;uri&#34;&gt;https://cetesb.sp.gov.br/&lt;/a&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://support.rstudio.com/hc/en-us/articles/200532197-Character-Encoding&#34; class=&#34;uri&#34;&gt;https://support.rstudio.com/hc/en-us/articles/200532197-Character-Encoding&lt;/a&gt;&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://www.al.sp.gov.br/documentacao/municipios-paulistas/&#34; class=&#34;uri&#34;&gt;https://www.al.sp.gov.br/documentacao/municipios-paulistas/&lt;/a&gt;&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;Plano Diretor de Aproveitamento dos Recursos Hídricos para a Macrometrópole Paulista - &lt;a href=&#34;http://www.daee.sp.gov.br/&#34; class=&#34;uri&#34;&gt;http://www.daee.sp.gov.br/&lt;/a&gt;&lt;a href=&#34;#fnref4&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn5&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://www.al.sp.gov.br/documentacao/municipios-paulistas/&#34; class=&#34;uri&#34;&gt;https://www.al.sp.gov.br/documentacao/municipios-paulistas/&lt;/a&gt;&lt;a href=&#34;#fnref5&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

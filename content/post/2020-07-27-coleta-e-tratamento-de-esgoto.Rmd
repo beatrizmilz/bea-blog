@@ -7,8 +7,8 @@ summary: ""
 authors: [Beatriz Milz]
 tags: []
 categories: [R, Reprodutibilidade, Macrometrópole Paulista]
-date: 2020-07-27T20:55:49-03:00
-lastmod: 2020-07-27T20:55:49-03:00
+date: 2020-07-27
+lastmod: 2020-07-27
 featured: false
 draft: false
 bibliography: [pacotes-projeto-fflch.bib]
