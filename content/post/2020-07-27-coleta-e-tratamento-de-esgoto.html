@@ -65,7 +65,7 @@ library(sf)</code></pre>
 <p>Isso é útil pois:</p>
 <ol style="list-style-type: decimal">
 <li><p>Caso o pacote não esteja carregado com a função <code>library(pacote)</code>, ainda sim o R entenderá qual função você está se referindo, e executará o código.</p></li>
-<li><p>Caso você se refira à uma função apenas pelo nome (sem considerar o <code>::</code>), em uma situação onde você carregou pacotes diferentes que possuem funções com nome igual, a função do pacote carregado por último será utilizada. Isso pode causar a execução de uma função indesejada. Portanto, utilizar o <code>::</code> ajuda a garantir a utilizção da função desejada.</p></li>
+<li><p>Caso você se refira à uma função apenas pelo nome (sem considerar o <code>::</code>), em uma situação onde você carregou pacotes diferentes que possuem funções com nome igual, a função do pacote carregado por último será utilizada. Isso pode causar a execução de uma função indesejada. Portanto, utilizar o <code>::</code> ajuda a garantir a utilização da função desejada.</p></li>
 </ol>
 </div>
 </div>
@@ -315,6 +315,7 @@ apendice_c_geo %&gt;% nrow() # Confirmando se a nova base tem o número de munic
     pad_y = unit(0.1, &quot;in&quot;),
     style = north_arrow_fancy_orienteering
   ) +
+  ggspatial::annotation_scale() +
   # Adiciona o tema criado anteriormente
   tema_mapa </code></pre>
 <p><img src="/post/2020-07-27-coleta-e-tratamento-de-esgoto_files/figure-html/mapa-area-estudo-1.png" width="100%" style="display: block; margin: auto;" /></p>
@@ -335,6 +336,7 @@ apendice_c_geo %&gt;% nrow() # Confirmando se a nova base tem o número de munic
     pad_y = unit(0.1, &quot;in&quot;),
     style = north_arrow_fancy_orienteering
   ) +
+  ggspatial::annotation_scale() +
   tema_mapa </code></pre>
 <p><img src="/post/2020-07-27-coleta-e-tratamento-de-esgoto_files/figure-html/mapa-coleta-1.png" width="100%" style="display: block; margin: auto;" /></p>
 <p>O mapa abaixo apresenta a porcentagem de atendimento de tratamento de esgoto, considerando o total de esgoto coletado, por município:</p>
@@ -354,6 +356,7 @@ apendice_c_geo %&gt;% nrow() # Confirmando se a nova base tem o número de munic
     pad_y = unit(0.1, &quot;in&quot;),
     style = north_arrow_fancy_orienteering
   ) +
+  ggspatial::annotation_scale() +
   tema_mapa </code></pre>
 <p><img src="/post/2020-07-27-coleta-e-tratamento-de-esgoto_files/figure-html/mapa-tratamento-1.png" width="100%" style="display: block; margin: auto;" /></p>
 </div>
@@ -481,6 +484,7 @@ apendice_c_geo %&gt;% nrow() # Confirmando se a nova base tem o número de munic
 <ul>
 <li><p>Ao Professor <a href="https://jonnyphillips.github.io/Website/">Jonathan Phillips</a>, pelo oferecimento da disciplina <a href="https://jonnyphillips.github.io/Ciencia_de_Dados/">“FLS6397 - Introdução à Análise de Dados, Programação e Visualização para as Ciências Sociais”</a>, por sua disponibilidade para tirar as dúvidas de todes, disponibilização de todo material da aula na internet de forma aberta e gratuita, e pelo esforço para que a disciplina fosse proveitosa mesmo considerando o contexto de pandemia.</p></li>
 <li><p>A <a href="https://bv.fapesp.br/pt/pesquisador/705683/vanessa-escolano-maso/">Vanessa Escolano Maso</a>, amiga, parceira na R-Ladies São Paulo e também na disciplina, pela companhia durante a disciplina e também por revisar e sugerir melhoras neste post.</p></li>
+<li><p>Ao <a href="https://twitter.com/mauriciovancine">Maurício Vancine</a> pela sua sugestão via <a href="https://twitter.com/mauriciovancine/status/1287852208449638402?s=20">twitter</a> de utilizar a função <code>ggspatial::annotation_scale()</code> para adicionar uma barra de escala nos gráficos.</p></li>
 </ul>
 </div>
 <div id="referências" class="section level2 unnumbered">

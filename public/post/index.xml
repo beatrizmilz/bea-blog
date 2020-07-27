@@ -53,7 +53,7 @@ library(sf)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Isso é útil pois:&lt;/p&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
 &lt;li&gt;&lt;p&gt;Caso o pacote não esteja carregado com a função &lt;code&gt;library(pacote)&lt;/code&gt;, ainda sim o R entenderá qual função você está se referindo, e executará o código.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Caso você se refira à uma função apenas pelo nome (sem considerar o &lt;code&gt;::&lt;/code&gt;), em uma situação onde você carregou pacotes diferentes que possuem funções com nome igual, a função do pacote carregado por último será utilizada. Isso pode causar a execução de uma função indesejada. Portanto, utilizar o &lt;code&gt;::&lt;/code&gt; ajuda a garantir a utilizção da função desejada.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Caso você se refira à uma função apenas pelo nome (sem considerar o &lt;code&gt;::&lt;/code&gt;), em uma situação onde você carregou pacotes diferentes que possuem funções com nome igual, a função do pacote carregado por último será utilizada. Isso pode causar a execução de uma função indesejada. Portanto, utilizar o &lt;code&gt;::&lt;/code&gt; ajuda a garantir a utilização da função desejada.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -303,6 +303,7 @@ apendice_c_geo %&amp;gt;% nrow() # Confirmando se a nova base tem o número de m
     pad_y = unit(0.1, &amp;quot;in&amp;quot;),
     style = north_arrow_fancy_orienteering
   ) +
+  ggspatial::annotation_scale() +
   # Adiciona o tema criado anteriormente
   tema_mapa &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;http://beatrizmilz.com/post/2020-07-27-coleta-e-tratamento-de-esgoto_files/figure-html/mapa-area-estudo-1.png&#34; width=&#34;100%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
@@ -323,6 +324,7 @@ apendice_c_geo %&amp;gt;% nrow() # Confirmando se a nova base tem o número de m
     pad_y = unit(0.1, &amp;quot;in&amp;quot;),
     style = north_arrow_fancy_orienteering
   ) +
+  ggspatial::annotation_scale() +
   tema_mapa &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;http://beatrizmilz.com/post/2020-07-27-coleta-e-tratamento-de-esgoto_files/figure-html/mapa-coleta-1.png&#34; width=&#34;100%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;O mapa abaixo apresenta a porcentagem de atendimento de tratamento de esgoto, considerando o total de esgoto coletado, por município:&lt;/p&gt;
@@ -342,6 +344,7 @@ apendice_c_geo %&amp;gt;% nrow() # Confirmando se a nova base tem o número de m
     pad_y = unit(0.1, &amp;quot;in&amp;quot;),
     style = north_arrow_fancy_orienteering
   ) +
+  ggspatial::annotation_scale() +
   tema_mapa &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;http://beatrizmilz.com/post/2020-07-27-coleta-e-tratamento-de-esgoto_files/figure-html/mapa-tratamento-1.png&#34; width=&#34;100%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -469,6 +472,7 @@ apendice_c_geo %&amp;gt;% nrow() # Confirmando se a nova base tem o número de m
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Ao Professor &lt;a href=&#34;https://jonnyphillips.github.io/Website/&#34;&gt;Jonathan Phillips&lt;/a&gt;, pelo oferecimento da disciplina &lt;a href=&#34;https://jonnyphillips.github.io/Ciencia_de_Dados/&#34;&gt;“FLS6397 - Introdução à Análise de Dados, Programação e Visualização para as Ciências Sociais”&lt;/a&gt;, por sua disponibilidade para tirar as dúvidas de todes, disponibilização de todo material da aula na internet de forma aberta e gratuita, e pelo esforço para que a disciplina fosse proveitosa mesmo considerando o contexto de pandemia.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;A &lt;a href=&#34;https://bv.fapesp.br/pt/pesquisador/705683/vanessa-escolano-maso/&#34;&gt;Vanessa Escolano Maso&lt;/a&gt;, amiga, parceira na R-Ladies São Paulo e também na disciplina, pela companhia durante a disciplina e também por revisar e sugerir melhoras neste post.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ao &lt;a href=&#34;https://twitter.com/mauriciovancine&#34;&gt;Maurício Vancine&lt;/a&gt; pela sua sugestão via &lt;a href=&#34;https://twitter.com/mauriciovancine/status/1287852208449638402?s=20&#34;&gt;twitter&lt;/a&gt; de utilizar a função &lt;code&gt;ggspatial::annotation_scale()&lt;/code&gt; para adicionar uma barra de escala nos gráficos.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div id=&#34;referências&#34; class=&#34;section level2 unnumbered&#34;&gt;

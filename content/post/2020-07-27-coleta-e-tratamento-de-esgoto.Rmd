@@ -87,7 +87,7 @@ Isso é útil pois:
 
 1. Caso o pacote não esteja carregado com a função `library(pacote)`, ainda sim o R entenderá qual função você está se referindo, e executará o código.
 
-2. Caso você se refira à uma função apenas pelo nome (sem considerar o `::`), em uma situação onde você carregou pacotes diferentes que possuem funções com nome igual, a função do pacote carregado por último será utilizada. Isso pode causar a execução de uma função indesejada. Portanto, utilizar o  `::` ajuda a garantir a  utilizção da função desejada.
+2. Caso você se refira à uma função apenas pelo nome (sem considerar o `::`), em uma situação onde você carregou pacotes diferentes que possuem funções com nome igual, a função do pacote carregado por último será utilizada. Isso pode causar a execução de uma função indesejada. Portanto, utilizar o  `::` ajuda a garantir a  utilização da função desejada.
 
 </div>
 
@@ -407,6 +407,7 @@ saneamento %>% # Base de dados usada
     pad_y = unit(0.1, "in"),
     style = north_arrow_fancy_orienteering
   ) +
+  ggspatial::annotation_scale() +
   # Adiciona o tema criado anteriormente
   tema_mapa 
 
@@ -432,6 +433,7 @@ saneamento %>%
     pad_y = unit(0.1, "in"),
     style = north_arrow_fancy_orienteering
   ) +
+  ggspatial::annotation_scale() +
   tema_mapa 
 
 ```
@@ -455,6 +457,7 @@ saneamento %>%
     pad_y = unit(0.1, "in"),
     style = north_arrow_fancy_orienteering
   ) +
+  ggspatial::annotation_scale() +
   tema_mapa 
 ```
 
@@ -495,5 +498,8 @@ O projeto foi realizado com R [@R-base], e os pacotes: `{abjutils}` [@R-abjutils
 - Ao Professor [Jonathan Phillips](https://jonnyphillips.github.io/Website/), pelo oferecimento da disciplina ["FLS6397 - Introdução à Análise de Dados, Programação e Visualização para as Ciências Sociais"](https://jonnyphillips.github.io/Ciencia_de_Dados/), por sua disponibilidade para tirar as dúvidas de todes, disponibilização de todo material da aula na internet de forma aberta e gratuita, e pelo esforço para que a disciplina fosse proveitosa mesmo considerando o contexto de pandemia.
 
 - A [Vanessa Escolano Maso](https://bv.fapesp.br/pt/pesquisador/705683/vanessa-escolano-maso/), amiga, parceira na R-Ladies São Paulo e também na disciplina, pela companhia durante a disciplina e também por revisar e sugerir melhoras neste post.
+
+- Ao [Maurício Vancine](https://twitter.com/mauriciovancine) pela sua sugestão via [twitter](https://twitter.com/mauriciovancine/status/1287852208449638402?s=20) de utilizar a função `ggspatial::annotation_scale()` para adicionar uma barra de escala nos gráficos.  
+
 
 ## Referências
