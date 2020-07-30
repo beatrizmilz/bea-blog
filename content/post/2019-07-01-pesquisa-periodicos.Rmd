@@ -49,7 +49,7 @@ Os dados foram obtidos no website da [CAPES](https://sucupira.capes.gov.br/sucup
 
 ## Agradecimentos 
 
-Desenvolvido por Beatriz Milz (Bolsista FAPESP - Processo Nº 18/23771-6). 
+Desenvolvido por Beatriz Milz. 
 Pesquisadora no projeto FAPESP MacroAmb - Governança Ambiental da Macrometrópole Paulista face à variabilidade climática - Processo Nº	15/03804-9. 
 
  Agradeço imensamente a equipe da [Curso-R](https://www.curso-r.com/), ao [Julio Trecenti](https://github.com/jtrecenti) e ao [William Amorim](https://github.com/williamorim), que me ajudaram a solucionar o problema com o filtro dos dados!

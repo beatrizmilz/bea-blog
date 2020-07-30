@@ -382,7 +382,7 @@ apendice_c_geo %&amp;gt;% nrow() # Confirmando se a nova base tem o número de m
 ##  collate  Portuguese_Brazil.1252      
 ##  ctype    Portuguese_Brazil.1252      
 ##  tz       America/Sao_Paulo           
-##  date     2020-07-27                  
+##  date     2020-07-29                  
 ## 
 ## - Packages -------------------------------------------------------------------
 ##  package     * version date       lib source                         
@@ -848,7 +848,7 @@ Figure 1: Exemplo de uso - &lt;a href=&#39;https://beatriz-milz.shinyapps.io/pes
 &lt;p&gt;&lt;strong&gt;Espero que essa ferramenta seja útil aos meus colegas pesquisadores&lt;/strong&gt;, e está disponível &lt;a href=&#34;https://beatriz-milz.shinyapps.io/pesquisa_periodicos/&#34;&gt;neste link&lt;/a&gt;!&lt;/p&gt;
 &lt;div id=&#34;agradecimentos&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Agradecimentos&lt;/h2&gt;
-&lt;p&gt;Desenvolvido por Beatriz Milz (Bolsista FAPESP - Processo Nº 18/23771-6).
+&lt;p&gt;Desenvolvido por Beatriz Milz.
 Pesquisadora no projeto FAPESP MacroAmb - Governança Ambiental da Macrometrópole Paulista face à variabilidade climática - Processo Nº 15/03804-9.&lt;/p&gt;
 &lt;p&gt;Agradeço imensamente a equipe da &lt;a href=&#34;https://www.curso-r.com/&#34;&gt;Curso-R&lt;/a&gt;, ao &lt;a href=&#34;https://github.com/jtrecenti&#34;&gt;Julio Trecenti&lt;/a&gt; e ao &lt;a href=&#34;https://github.com/williamorim&#34;&gt;William Amorim&lt;/a&gt;, que me ajudaram a solucionar o problema com o filtro dos dados!&lt;/p&gt;
 &lt;p&gt;Agradeço a &lt;a href=&#34;https://github.com/carolcichoski&#34;&gt;Carol Chichoski&lt;/a&gt;, por ter revisado o texto! ❤️&lt;/p&gt;
