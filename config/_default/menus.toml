@@ -15,8 +15,8 @@
   weight = 20
 
 [[main]]
-  name = "Palestras/Talks"
-  url = "#talks-antigas"
+  name = "Palestras/Talks  <i class='fas fa-external-link-alt'></i>"
+  url = "https://beatrizmilz.github.io/slidesR/"
   weight = 25
 
 
@@ -24,5 +24,5 @@
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
  [[main]]
     name = "CV/Resumé <i class='fas fa-external-link-alt'></i> "
-    url = "https://beatrizmilz.github.io/resume/resume.pdf"
+    url = "https://beatrizmilz.github.io/resume/index.pdf"
     weight = 70
