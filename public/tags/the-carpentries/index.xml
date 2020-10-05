@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Carpentries | Beatriz Milz</title>
-    <link>http://beatrizmilz.com/tags/the-carpentries/</link>
-      <atom:link href="http://beatrizmilz.com/tags/the-carpentries/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/the-carpentries/</link>
+      <atom:link href="/tags/the-carpentries/index.xml" rel="self" type="application/rss+xml" />
     <description>The Carpentries</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 22 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>The Carpentries</title>
-      <link>http://beatrizmilz.com/tags/the-carpentries/</link>
+      <link>/tags/the-carpentries/</link>
     </image>
     
     <item>
       <title>The Carpentries: Como fazer o treinamento de instrutor(a)?</title>
-      <link>http://beatrizmilz.com/post/the-carpentries/</link>
+      <link>/post/the-carpentries/</link>
       <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://beatrizmilz.com/post/the-carpentries/</guid>
+      <guid>/post/the-carpentries/</guid>
       <description>
 
 

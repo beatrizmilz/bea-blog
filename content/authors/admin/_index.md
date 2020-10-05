@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: R-Lady e PyLady ❤. Co-organizadora R-Ladies São Paulo e satRday São Paulo. 
+bio: Co-organizadora R-Ladies São Paulo e satRday São Paulo. 
 education:
   courses: 
   - course: Doutoranda em Ciência Ambiental
@@ -53,7 +53,9 @@ user_groups:
   
 Meu nome é Beatriz, e meu pronome é **"ela"**. Atualmente sou doutoranda em Ciência Ambiental (PROCAM/IEE/USP) na Universidade de São Paulo. Sou pesquisadora no Projeto Temático FAPESP [MacroAmb - Governança ambiental da Macrometrópole Paulista face à variabilidade climática](https://bv.fapesp.br/pt/auxilios/97000/governanca-ambiental-da-macrometropole-paulista-face-a-variabilidade-climatica/). Faço parte voluntariamente da equipe da Secretaria Executiva da [Revista Ambiente & Sociedade](http://www.scielo.br/scielo.php?script=sci_serial&pid=1414-753X&lng=pt&nrm=iso), uma revista científica Brasileira que é referência em estudos interdisciplinares sobre ambiente e sociedade.
 
-Comecei a aprender `R` em agosto de 2018, e recentemente comecei a aprender `Python`. Sou co-organizadora da [R-Ladies São Paulo](https://www.meetup.com/R-Ladies-Sao-Paulo/), uma comunidade que tem como objetivo promover a diversidade de gênero na comunidade da linguagem `R`. Também participo da comunidade [PyLadies São Paulo](https://www.sympla.com.br/pyladiessp), que tem como objetivo unir mulheres em torno do mundo da programação, especialmente usando `Python`. Sou instrutora da [Carpentries](https://carpentries.org/instructors/), um projeto que tem como missão ensinar habilidades de ciência de dados para pessoas pesquisadoras. 
+Sou co-organizadora da [R-Ladies São Paulo](https://www.meetup.com/R-Ladies-Sao-Paulo/), uma comunidade que tem como objetivo promover a diversidade de gênero na comunidade da linguagem `R`. Também participo da comunidade [PyLadies São Paulo](https://www.sympla.com.br/pyladiessp), que tem como objetivo unir mulheres em torno do mundo da programação, especialmente usando `Python`. 
+
+Sou instrutora da [Carpentries](https://carpentries.org/instructors/), um projeto que tem como missão ensinar habilidades de ciência de dados para pessoas pesquisadoras. Também sou [instrutora de `tidyverse` certificada pela RStudio](https://education.rstudio.com/trainers/people/milz+beatriz/).
 
 Desde abril de 2020, faço parte do time de pessoas [Embaixadoras de Inovação Cívica](https://embaixadoras.ok.org.br/) da [Open Knowledge Brasil](https://br.okfn.org/).
   </div>
@@ -64,7 +66,9 @@ Desde abril de 2020, faço parte do time de pessoas [Embaixadoras de Inovação 
 
 My name is Beatriz, and my pronoum is **she/her**. I'm currently a doctorate student in Environmental Science (PROCAM/IEE/USP) at the University of São Paulo.  I'm a researcher at the FAPESP Thematic Project [MacroAmb - Environmental Governance of the Sao Paulo Macrometropolis in the context of climatic variability](https://bv.fapesp.br/en/auxilios/97000/environmental-governance-of-macrometropolis-paulista-in-face-of-climate-variability/).  I am voluntarily part of the Executive Secretariat team of the [Journal Ambiente & Sociedade](http://www.scielo.br/scielo.php?script=sci_serial&pid=1414-753X&lng=en&nrm=iso), a Brazilian scientific journal that is a reference in interdisciplinary studies on environment and society.
 
-I started learning `R` in August 2018, and recently I started learning `Python`. I am a co-organizer of [R-Ladies São Paulo](https://www.meetup.com/R-Ladies-Sao-Paulo/), a community that aims to promote gender diversity in the `R` community. I also participate in the [PyLadies São Paulo](https://www.sympla.com.br/pyladiessp) community, which aims to unite women around the programming world, especially using `Python`. I am an instructor at [Carpentries](https://carpentries.org/instructors/), a project whose mission is to teach data science skills to researchers.
+I am a co-organizer of [R-Ladies São Paulo](https://www.meetup.com/R-Ladies-Sao-Paulo/), a community that aims to promote gender diversity in the `R` community. I also participate in the [PyLadies São Paulo](https://www.sympla.com.br/pyladiessp) community, which aims to unite women around the programming world, especially using `Python`. 
+
+I am an instructor at [Carpentries](https://carpentries.org/instructors/), a project whose mission is to teach data science skills to researchers. I'm also a [`tidyverse` certified instructor by RStudio](https://education.rstudio.com/trainers/people/milz+beatriz/).
  
 Since April 2020, I'm part of the team of [Ambassadors for Civic Innovation](https://embaixadoras.ok.org.br/) of [Open Knowledge Brasil](https://br.okfn.org/).
 
@@ -76,7 +80,9 @@ Since April 2020, I'm part of the team of [Ambassadors for Civic Innovation](htt
 
 Mi nombre es Beatriz y mi pronombre es **ella**. Actualmente soy estudiante de doctorado en Ciencias Ambientales (PROCAM/IEE/ USP) en la Universidad de São Paulo. Soy investigadora en el Proyecto Temático FAPESP [MacroAmb - Gobernanza Ambiental de la Macrometrópole Paulista debido a la variabilidad climática](https://bv.fapesp.br/pt/auxilios/97000/governanca-ambiental-da-macrometropole-paulista-face-a-variabilidade-climatica/). Soy voluntariamente parte del equipo de la Secretaría Ejecutiva de [Revista Ambiente & Sociedade](http://www.scielo.br/revistas/asoc/iaboutj.htm), una revista científica brasileña que es una referencia en estudios interdisciplinarios sobre medio ambiente y sociedad.
 
-Empecé a aprender `R` en agosto de 2018, y recientemente comencé a aprender `Python`. Soy coorganizadora de [R-Ladies São Paulo](https://www.meetup.com/R-Ladies-Sao-Paulo/), una comunidad que tiene como objetivo promover la diversidad de género en la comunidad de programación `R`. También participo en la comunidad [PyLadies São Paulo](https://www.sympla.com.br/pyladiessp), cuyo objetivo es unir a las mujeres en todo el mundo de la programación, especialmente usando `Python`. Soy instructora en [Carpinterías](https://carpentries.org/instructors/), un proyecto cuya misión es enseñar habilidades de ciencia de datos para investigadores académicos.
+Soy coorganizadora de [R-Ladies São Paulo](https://www.meetup.com/R-Ladies-Sao-Paulo/), una comunidad que tiene como objetivo promover la diversidad de género en la comunidad de programación `R`. También participo en la comunidad [PyLadies São Paulo](https://www.sympla.com.br/pyladiessp), cuyo objetivo es unir a las mujeres en todo el mundo de la programación, especialmente usando `Python`.
+
+Soy instructora en [Carpentries](https://carpentries.org/instructors/), un proyecto cuya misión es enseñar habilidades de ciencia de datos para investigadores académicos. También soy una [instructora certificada `tidyverse` por RStudio] (https://education.rstudio.com/trainers/people/milz+beatriz/).
 
 Desde abril de 2020, formo parte del equipo de personas [Embajadoras para la Inovación Cívica](https://embaixadoras.ok.org.br/) de [Open Knowledge Brasil](https://br.okfn.org/).
 

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shiny | Beatriz Milz</title>
-    <link>http://beatrizmilz.com/tags/shiny/</link>
-      <atom:link href="http://beatrizmilz.com/tags/shiny/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/shiny/</link>
+      <atom:link href="/tags/shiny/index.xml" rel="self" type="application/rss+xml" />
     <description>Shiny</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 21 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Shiny</title>
-      <link>http://beatrizmilz.com/tags/shiny/</link>
+      <link>/tags/shiny/</link>
     </image>
     
     <item>
       <title>Desenvolvendo meu primeiro Shiny App</title>
-      <link>http://beatrizmilz.com/post/desenvolvendo-meu-primeiro-shiny-app/</link>
+      <link>/post/desenvolvendo-meu-primeiro-shiny-app/</link>
       <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>http://beatrizmilz.com/post/desenvolvendo-meu-primeiro-shiny-app/</guid>
+      <guid>/post/desenvolvendo-meu-primeiro-shiny-app/</guid>
       <description>
 
 
@@ -66,9 +66,9 @@ Figure 2: Exemplo de uso - &lt;a href=&#39;https://beatriz-milz.shinyapps.io/pes
     
     <item>
       <title>Ferramenta para Pesquisa de Periódicos</title>
-      <link>http://beatrizmilz.com/post/pesquisa-periodicos/</link>
+      <link>/post/pesquisa-periodicos/</link>
       <pubDate>Thu, 04 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://beatrizmilz.com/post/pesquisa-periodicos/</guid>
+      <guid>/post/pesquisa-periodicos/</guid>
       <description>
 
 

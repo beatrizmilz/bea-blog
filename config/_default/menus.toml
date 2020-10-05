@@ -10,12 +10,12 @@
   weight = 15
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Posts/blog"
+  url = "https://beamilz.netlify.app/"
   weight = 20
 
 [[main]]
-  name = "Palestras/Talks  <i class='fas fa-external-link-alt'></i>"
+  name = "Palestras/Talks "
   url = "https://beatrizmilz.github.io/slidesR/"
   weight = 25
 
@@ -23,6 +23,6 @@
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
  [[main]]
-    name = "CV/Resumé <i class='fas fa-external-link-alt'></i> "
-    url = "https://beatrizmilz.github.io/resume/index.pdf"
+    name = "CV/Resumé  "
+    url = "https://beatrizmilz.github.io/resume/index.html"
     weight = 70

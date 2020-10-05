@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>xaringan | Beatriz Milz</title>
-    <link>http://beatrizmilz.com/tags/xaringan/</link>
-      <atom:link href="http://beatrizmilz.com/tags/xaringan/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/xaringan/</link>
+      <atom:link href="/tags/xaringan/index.xml" rel="self" type="application/rss+xml" />
     <description>xaringan</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 24 Jun 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>xaringan</title>
-      <link>http://beatrizmilz.com/tags/xaringan/</link>
+      <link>/tags/xaringan/</link>
     </image>
     
     <item>
       <title>Compartilhando conteúdo utilizando R</title>
-      <link>http://beatrizmilz.com/post/compartilhando-conteudo/</link>
+      <link>/post/compartilhando-conteudo/</link>
       <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://beatrizmilz.com/post/compartilhando-conteudo/</guid>
+      <guid>/post/compartilhando-conteudo/</guid>
       <description>
 
 

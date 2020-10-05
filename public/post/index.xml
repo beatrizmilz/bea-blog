@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Beatriz Milz</title>
-    <link>http://beatrizmilz.com/post/</link>
-      <atom:link href="http://beatrizmilz.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Posts</title>
-      <link>http://beatrizmilz.com/post/</link>
+      <link>/post/</link>
     </image>
     
     <item>
       <title>Criando mapas com os pacotes tidyverse e geobr</title>
-      <link>http://beatrizmilz.com/post/2020-07-27-coleta-e-tratamento-de-esgoto/</link>
+      <link>/post/2020-07-27-coleta-e-tratamento-de-esgoto/</link>
       <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>http://beatrizmilz.com/post/2020-07-27-coleta-e-tratamento-de-esgoto/</guid>
+      <guid>/post/2020-07-27-coleta-e-tratamento-de-esgoto/</guid>
       <description>
 
 
@@ -306,7 +306,7 @@ apendice_c_geo %&amp;gt;% nrow() # Confirmando se a nova base tem o número de m
   ggspatial::annotation_scale() +
   # Adiciona o tema criado anteriormente
   tema_mapa &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://beatrizmilz.com/post/2020-07-27-coleta-e-tratamento-de-esgoto_files/figure-html/mapa-area-estudo-1.png&#34; width=&#34;100%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-07-27-coleta-e-tratamento-de-esgoto_files/figure-html/mapa-area-estudo-1.png&#34; width=&#34;100%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;O mapa abaixo apresenta a porcentagem de atendimento de coleta de esgoto, por município:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;saneamento %&amp;gt;%
   ggplot() +
@@ -326,7 +326,7 @@ apendice_c_geo %&amp;gt;% nrow() # Confirmando se a nova base tem o número de m
   ) +
   ggspatial::annotation_scale() +
   tema_mapa &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://beatrizmilz.com/post/2020-07-27-coleta-e-tratamento-de-esgoto_files/figure-html/mapa-coleta-1.png&#34; width=&#34;100%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-07-27-coleta-e-tratamento-de-esgoto_files/figure-html/mapa-coleta-1.png&#34; width=&#34;100%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;O mapa abaixo apresenta a porcentagem de atendimento de tratamento de esgoto, considerando o total de esgoto coletado, por município:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;saneamento %&amp;gt;%
   ggplot() +
@@ -346,7 +346,7 @@ apendice_c_geo %&amp;gt;% nrow() # Confirmando se a nova base tem o número de m
   ) +
   ggspatial::annotation_scale() +
   tema_mapa &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://beatrizmilz.com/post/2020-07-27-coleta-e-tratamento-de-esgoto_files/figure-html/mapa-tratamento-1.png&#34; width=&#34;100%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-07-27-coleta-e-tratamento-de-esgoto_files/figure-html/mapa-tratamento-1.png&#34; width=&#34;100%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;conclusão-do-post&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Conclusão do post&lt;/h2&gt;
@@ -549,9 +549,9 @@ apendice_c_geo %&amp;gt;% nrow() # Confirmando se a nova base tem o número de m
     
     <item>
       <title>The Carpentries: Como fazer o treinamento de instrutor(a)?</title>
-      <link>http://beatrizmilz.com/post/the-carpentries/</link>
+      <link>/post/the-carpentries/</link>
       <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://beatrizmilz.com/post/the-carpentries/</guid>
+      <guid>/post/the-carpentries/</guid>
       <description>
 
 
@@ -684,9 +684,9 @@ Figure 4: Print screen da página de instrutores(as) da Carpentries. Fonte: &lt;
     
     <item>
       <title>Um ano aprendendo R!</title>
-      <link>http://beatrizmilz.com/post/um-ano-aprendendo-r/</link>
+      <link>/post/um-ano-aprendendo-r/</link>
       <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>http://beatrizmilz.com/post/um-ano-aprendendo-r/</guid>
+      <guid>/post/um-ano-aprendendo-r/</guid>
       <description>
 
 
@@ -766,9 +766,9 @@ Sábado passado aconteceu o &lt;a href=&#34;https://twitter.com/hashtag/meetup?s
     
     <item>
       <title>Desenvolvendo meu primeiro Shiny App</title>
-      <link>http://beatrizmilz.com/post/desenvolvendo-meu-primeiro-shiny-app/</link>
+      <link>/post/desenvolvendo-meu-primeiro-shiny-app/</link>
       <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>http://beatrizmilz.com/post/desenvolvendo-meu-primeiro-shiny-app/</guid>
+      <guid>/post/desenvolvendo-meu-primeiro-shiny-app/</guid>
       <description>
 
 
@@ -818,9 +818,9 @@ Figure 2: Exemplo de uso - &lt;a href=&#39;https://beatriz-milz.shinyapps.io/pes
     
     <item>
       <title>Ferramenta para Pesquisa de Periódicos</title>
-      <link>http://beatrizmilz.com/post/pesquisa-periodicos/</link>
+      <link>/post/pesquisa-periodicos/</link>
       <pubDate>Thu, 04 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://beatrizmilz.com/post/pesquisa-periodicos/</guid>
+      <guid>/post/pesquisa-periodicos/</guid>
       <description>
 
 
@@ -856,9 +856,9 @@ Pesquisadora no projeto FAPESP MacroAmb - Governança Ambiental da Macrometrópo
     
     <item>
       <title>Compartilhando conteúdo utilizando R</title>
-      <link>http://beatrizmilz.com/post/compartilhando-conteudo/</link>
+      <link>/post/compartilhando-conteudo/</link>
       <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://beatrizmilz.com/post/compartilhando-conteudo/</guid>
+      <guid>/post/compartilhando-conteudo/</guid>
       <description>
 
 
@@ -905,9 +905,9 @@ Pesquisadora no projeto FAPESP MacroAmb - Governança Ambiental da Macrometrópo
     
     <item>
       <title>Meio ano de aprendizagem de R!</title>
-      <link>http://beatrizmilz.com/post/6-meses-de-r/</link>
+      <link>/post/6-meses-de-r/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://beatrizmilz.com/post/6-meses-de-r/</guid>
+      <guid>/post/6-meses-de-r/</guid>
       <description>
 
 

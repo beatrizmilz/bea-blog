@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R | Beatriz Milz</title>
-    <link>http://beatrizmilz.com/tags/r/</link>
-      <atom:link href="http://beatrizmilz.com/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/r/</link>
+      <atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 31 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>R</title>
-      <link>http://beatrizmilz.com/tags/r/</link>
+      <link>/tags/r/</link>
     </image>
     
     <item>
       <title>Um ano aprendendo R!</title>
-      <link>http://beatrizmilz.com/post/um-ano-aprendendo-r/</link>
+      <link>/post/um-ano-aprendendo-r/</link>
       <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>http://beatrizmilz.com/post/um-ano-aprendendo-r/</guid>
+      <guid>/post/um-ano-aprendendo-r/</guid>
       <description>
 
 
@@ -96,9 +96,9 @@ Sábado passado aconteceu o &lt;a href=&#34;https://twitter.com/hashtag/meetup?s
     
     <item>
       <title>Desenvolvendo meu primeiro Shiny App</title>
-      <link>http://beatrizmilz.com/post/desenvolvendo-meu-primeiro-shiny-app/</link>
+      <link>/post/desenvolvendo-meu-primeiro-shiny-app/</link>
       <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>http://beatrizmilz.com/post/desenvolvendo-meu-primeiro-shiny-app/</guid>
+      <guid>/post/desenvolvendo-meu-primeiro-shiny-app/</guid>
       <description>
 
 
@@ -148,9 +148,9 @@ Figure 2: Exemplo de uso - &lt;a href=&#39;https://beatriz-milz.shinyapps.io/pes
     
     <item>
       <title>Compartilhando conteúdo utilizando R</title>
-      <link>http://beatrizmilz.com/post/compartilhando-conteudo/</link>
+      <link>/post/compartilhando-conteudo/</link>
       <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://beatrizmilz.com/post/compartilhando-conteudo/</guid>
+      <guid>/post/compartilhando-conteudo/</guid>
       <description>
 
 
@@ -197,9 +197,9 @@ Figure 2: Exemplo de uso - &lt;a href=&#39;https://beatriz-milz.shinyapps.io/pes
     
     <item>
       <title>Meio ano de aprendizagem de R!</title>
-      <link>http://beatrizmilz.com/post/6-meses-de-r/</link>
+      <link>/post/6-meses-de-r/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://beatrizmilz.com/post/6-meses-de-r/</guid>
+      <guid>/post/6-meses-de-r/</guid>
       <description>
 
 
