@@ -173,8 +173,8 @@ figcaption.numbered {
 pre,
 code {
   font-family: Roboto mono, monospace;
-  color: #88398a;
-  background-color: #f1ecf5;
+  color: #1aa6b4;
+  background-color: #e3f8fa;
   font-weight: bold;
   padding: 2px 4px;
   font-size: 90%;
@@ -609,4 +609,9 @@ div.alert a {
   color: #cd0930;
   background-color: #fff5f7;
   border-color: #ff3860;
+}
+
+
+.section-heading p {
+	color: #474646;
 }

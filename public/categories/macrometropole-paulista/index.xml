@@ -382,7 +382,7 @@ apendice_c_geo %&amp;gt;% nrow() # Confirmando se a nova base tem o número de m
 ##  collate  Portuguese_Brazil.1252      
 ##  ctype    Portuguese_Brazil.1252      
 ##  tz       America/Sao_Paulo           
-##  date     2020-09-22                  
+##  date     2020-10-09                  
 ## 
 ## - Packages -------------------------------------------------------------------
 ##  package     * version date       lib source        
@@ -392,7 +392,7 @@ apendice_c_geo %&amp;gt;% nrow() # Confirmando se a nova base tem o número de m
 ##  blob          1.2.1   2020-01-20 [1] CRAN (R 4.0.2)
 ##  blogdown      0.20    2020-06-23 [1] CRAN (R 4.0.2)
 ##  bookdown      0.20    2020-06-23 [1] CRAN (R 4.0.2)
-##  broom         0.7.0   2020-07-09 [1] CRAN (R 4.0.2)
+##  broom         0.7.1   2020-10-02 [1] CRAN (R 4.0.2)
 ##  cellranger    1.1.0   2016-07-27 [1] CRAN (R 4.0.2)
 ##  class         7.3-17  2020-04-26 [1] CRAN (R 4.0.2)
 ##  classInt      0.4-3   2020-04-07 [1] CRAN (R 4.0.2)
@@ -412,7 +412,7 @@ apendice_c_geo %&amp;gt;% nrow() # Confirmando se a nova base tem o número de m
 ##  forcats     * 0.5.0   2020-03-01 [1] CRAN (R 4.0.2)
 ##  fs            1.5.0   2020-07-31 [1] CRAN (R 4.0.2)
 ##  generics      0.0.2   2018-11-29 [1] CRAN (R 4.0.2)
-##  geobr       * 1.3     2020-03-29 [1] CRAN (R 4.0.2)
+##  geobr       * 1.4     2020-10-04 [1] CRAN (R 4.0.2)
 ##  ggplot2     * 3.3.2   2020-06-19 [1] CRAN (R 4.0.2)
 ##  ggspatial   * 1.1.4   2020-07-12 [1] CRAN (R 4.0.2)
 ##  glue          1.4.2   2020-08-27 [1] CRAN (R 4.0.2)
@@ -423,7 +423,7 @@ apendice_c_geo %&amp;gt;% nrow() # Confirmando se a nova base tem o número de m
 ##  httr          1.4.2   2020-07-20 [1] CRAN (R 4.0.2)
 ##  jsonlite      1.7.1   2020-09-07 [1] CRAN (R 4.0.2)
 ##  KernSmooth    2.23-17 2020-04-26 [1] CRAN (R 4.0.2)
-##  knitr       * 1.29    2020-06-23 [1] CRAN (R 4.0.2)
+##  knitr       * 1.30    2020-09-22 [1] CRAN (R 4.0.2)
 ##  labeling      0.3     2014-08-23 [1] CRAN (R 4.0.0)
 ##  lifecycle     0.2.0   2020-03-06 [1] CRAN (R 4.0.2)
 ##  lubridate     1.7.9   2020-06-08 [1] CRAN (R 4.0.2)
@@ -436,11 +436,11 @@ apendice_c_geo %&amp;gt;% nrow() # Confirmando se a nova base tem o número de m
 ##  purrr       * 0.3.4   2020-04-17 [1] CRAN (R 4.0.2)
 ##  R6            2.4.1   2019-11-12 [1] CRAN (R 4.0.2)
 ##  Rcpp          1.0.5   2020-07-06 [1] CRAN (R 4.0.2)
-##  readr       * 1.3.1   2018-12-21 [1] CRAN (R 4.0.2)
+##  readr       * 1.4.0   2020-10-05 [1] CRAN (R 4.0.2)
 ##  readxl        1.3.1   2019-03-13 [1] CRAN (R 4.0.2)
 ##  reprex        0.3.0   2019-05-16 [1] CRAN (R 4.0.2)
-##  rlang         0.4.7   2020-07-09 [1] CRAN (R 4.0.2)
-##  rmarkdown     2.3     2020-06-18 [1] CRAN (R 4.0.2)
+##  rlang         0.4.8   2020-10-08 [1] CRAN (R 4.0.2)
+##  rmarkdown     2.4     2020-09-30 [1] CRAN (R 4.0.2)
 ##  rstudioapi    0.11    2020-02-07 [1] CRAN (R 4.0.2)
 ##  rvest         0.3.6   2020-07-25 [1] CRAN (R 4.0.2)
 ##  scales        1.1.1   2020-05-11 [1] CRAN (R 4.0.2)
@@ -456,8 +456,8 @@ apendice_c_geo %&amp;gt;% nrow() # Confirmando se a nova base tem o número de m
 ##  utf8          1.1.4   2018-05-24 [1] CRAN (R 4.0.2)
 ##  vctrs         0.3.4   2020-08-29 [1] CRAN (R 4.0.2)
 ##  viridisLite   0.3.0   2018-02-01 [1] CRAN (R 4.0.2)
-##  withr         2.2.0   2020-04-20 [1] CRAN (R 4.0.2)
-##  xfun          0.17    2020-09-09 [1] CRAN (R 4.0.2)
+##  withr         2.3.0   2020-09-22 [1] CRAN (R 4.0.2)
+##  xfun          0.18    2020-09-29 [1] CRAN (R 4.0.2)
 ##  xml2          1.3.2   2020-04-23 [1] CRAN (R 4.0.2)
 ##  yaml          2.2.1   2020-02-01 [1] CRAN (R 4.0.2)
 ## 

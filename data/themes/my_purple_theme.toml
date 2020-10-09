@@ -5,14 +5,14 @@ name = "Bea's purple theme"
 light = true
 
 # Primary
-primary = "#88398a"
+primary = "#1aa6b4"
 
 # Menu
-menu_primary = "#88398a"
+menu_primary = "#1aa6b4"
 menu_text = "#fff"
 menu_text_active = "rgb(125, 101, 125)"
 menu_title = "#fff"
 
 # Home sections
 home_section_odd = "#fff"
-home_section_even = "#f1ecf5"
+home_section_even = "#e3f8fa"
